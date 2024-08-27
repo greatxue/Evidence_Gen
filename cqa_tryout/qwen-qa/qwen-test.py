@@ -56,7 +56,7 @@ for item in dataset[split]:
                 prompt += "Based on the evidence and your own knowledge, answer directly the capitalized letter standing for the choice."
 
             response = ques_qwen(prompt)
-            qwen_ans = response['output']['choices'][0]['message']['content'][0]
+            qwen_ans = response['output']['choices'][0]['message']['content']
 
             if qwen_ans[:1].upper() == answer_key:
                 correct += 1
