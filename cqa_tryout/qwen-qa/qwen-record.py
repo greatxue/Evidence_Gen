@@ -5,7 +5,9 @@ import dashscope
 from datasets import load_dataset
 from extract import extract_evidence
 import time
+import json
 
+data = []
 
 dataset = load_dataset("tau/commonsense_qa")
 split = 'validation' 
@@ -50,19 +52,25 @@ for item in dataset[split]:
             prompt = f"Question: {question}\nOptions:\n"
             for idx, choice in enumerate(choices):
                 prompt += f"{chr(65 + idx)}. {choice}\n"
-                prompt += f"Here is some evidence which could be helpful to solve the problem:\n"
-                prompt += evidence_sections[total]
-                prompt += f'\n'
-                prompt += "Based on the evidence and your own knowledge, answer directly the capitalized letter standing for the choice."
+                #prompt += f"Here is some evidence which could be helpful to solve the problem:\n"
+                #prompt += evidence_sections[total]
+                #prompt += f'\n'
+                prompt += "Based on your own knowledge, answer directly the capitalized letter standing for the choice."
 
             response = ques_qwen(prompt)
             qwen_ans = response['output']['choices'][0]['message']['content']
 
-            if qwen_ans.upper() == answer_key:
-                correct += 1
-            total += 1
+            result = {
+                "total": total,  # total计数从1开始
+                #"prompt": prompt,
+                "qwen_answer_wo": qwen_ans,
+                #"reference_answer": answer_key
+            }
 
-            print(f"{total}-th Processing... {qwen_ans} vs {answer_key}.")
+            data.append(result)
+            print(f"{total} processing...")
+            
+            total += 1
             
         except Exception as e:
             print(f"Error on question {total + 1}: {e}")
@@ -73,7 +81,5 @@ for item in dataset[split]:
     if total >= MAX:
         break
 
-acc = correct / total
-print(f"Total questions: {total}")
-print(f"Correct answers: {correct}")
-print(f"Accuracy: {acc:.2%}")
+with open('results2.json', 'w') as json_file:
+    json.dump(data, json_file, indent=4)
