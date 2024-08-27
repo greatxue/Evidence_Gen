@@ -58,7 +58,7 @@ for item in dataset[split]:
             response = ques_qwen(prompt)
             qwen_ans = response['output']['choices'][0]['message']['content']
 
-            if qwen_ans[:1].upper() == answer_key:
+            if qwen_ans.upper() == answer_key:
                 correct += 1
             total += 1
 
