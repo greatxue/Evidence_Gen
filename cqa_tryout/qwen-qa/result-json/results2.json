@@ -1,802 +1,1002 @@
 [
     {
         "total": 0,
+        "prompt-wo": "Question: A revolving door is convenient for two direction travel, but it also serves as a security measure at a what?\nOptions:\nA. bank\nB. library\nC. department store\nD. mall\nE. new york\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "A. bank"
     },
     {
         "total": 1,
-        "qwen_answer_wo": "A. Complete job"
+        "prompt-wo": "Question: What do people aim to do at work?\nOptions:\nA. complete job\nB. learn from each other\nC. kill animals\nD. wear hats\nE. talk to each other\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "The answer is A. Complete job. People generally aim to complete their assigned tasks and duties at work as part of their job responsibilities. While learning from each other (option B), wearing hats (option D), and talking to each other (option E) may also occur in some work settings, the primary objective is to fulfill job-related functions. Killing animals (option C) is not an appropriate or acceptable activity in the context of work."
     },
     {
         "total": 2,
+        "prompt-wo": "Question: Where would you find magazines along side many other printed works?\nOptions:\nA. doctor\nB. bookstore\nC. market\nD. train station\nE. mortuary\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "B. bookstore"
     },
     {
         "total": 3,
+        "prompt-wo": "Question: Where are  you likely to find a hamburger?\nOptions:\nA. fast food restaurant\nB. pizza\nC. ground up dead cows\nD. mouth\nE. cow carcus\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "A. fast food restaurant"
     },
     {
         "total": 4,
+        "prompt-wo": "Question: James was looking for a good place to buy farmland.  Where might he look?\nOptions:\nA. midwest\nB. countryside\nC. estate\nD. farming areas\nE. illinois\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "D. farming areas"
     },
     {
         "total": 5,
+        "prompt-wo": "Question: What island country is ferret popular?\nOptions:\nA. own home\nB. north carolina\nC. great britain\nD. hutch\nE. outdoors\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "C. Great Britain"
     },
     {
         "total": 6,
+        "prompt-wo": "Question: In what Spanish speaking North American country can you get a great cup of coffee?\nOptions:\nA. mildred's coffee shop\nB. mexico\nC. diner\nD. kitchen\nE. canteen\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "B. Mexico"
     },
     {
         "total": 7,
-        "qwen_answer_wo": "When an enemy is approaching, animals typically engage in behaviors that help them either avoid danger or defend themselves. Based on the given options, the most relevant answer would be:\n\nD. Listen to each other\n\nMany animals use vocalizations or other forms of communication to warn others about an approaching threat, allowing them to coordinate their response and potentially escape or attack together."
+        "prompt-wo": "Question: What do animals do when an enemy is approaching?\nOptions:\nA. feel pleasure\nB. procreate\nC. pass water\nD. listen to each other\nE. sing\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "D. listen to each other"
     },
     {
         "total": 8,
-        "qwen_answer_wo": "A. Literacy"
+        "prompt-wo": "Question: Reading newspaper one of many ways to practice your what?\nOptions:\nA. literacy\nB. knowing how to read\nC. money\nD. buying\nE. money bank\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "A. Literacy."
     },
     {
         "total": 9,
-        "qwen_answer_wo": "E. making music"
+        "prompt-wo": "Question: What do people typically do while playing guitar?\nOptions:\nA. cry\nB. hear sounds\nC. singing\nD. arthritis\nE. making music\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "The most common and appropriate answer to what people typically do while playing guitar is:\n\nE. Making music"
     },
     {
         "total": 10,
+        "prompt-wo": "Question: What would vinyl be an odd thing to replace?\nOptions:\nA. pants\nB. record albums\nC. record store\nD. cheese\nE. wallpaper\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "B. Record albums"
     },
     {
         "total": 11,
+        "prompt-wo": "Question: If you want harmony, what is something you should try to do with the world?\nOptions:\nA. take time\nB. make noise\nC. make war\nD. make peace\nE. make haste\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "D. make peace"
     },
     {
         "total": 12,
-        "qwen_answer_wo": "A. Farm house"
+        "prompt-wo": "Question: Where does a heifer's master live?\nOptions:\nA. farm house\nB. barnyard\nC. stockyard\nD. slaughter house\nE. eat cake\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "A. farm house"
     },
     {
         "total": 13,
-        "qwen_answer_wo": "D. lots of attention\n\nAside from water and nourishment, dogs need regular exercise, which includes being walked (option E). They also require mental stimulation and social interaction, making \"lots of attention\" (option D) an important aspect of their well-being. Options A (bone), B (charm), and C (petted) are not essential needs for dogs in the same way that water and nourishment are."
+        "prompt-wo": "Question: Aside from water and nourishment what does your dog need?\nOptions:\nA. bone\nB. charm\nC. petted\nD. lots of attention\nE. walked\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "D. lots of attention\n\nAside from water and nourishment, dogs need regular exercise (option E, walked), mental stimulation (such as toys or training), and social interaction (option C, petted). Bones (option A) can be a part of their diet but are not essential for overall needs. Charm (option B) is not something that dogs require."
     },
     {
         "total": 14,
+        "prompt-wo": "Question: Janet was watching the film because she liked what?\nOptions:\nA. erection\nB. laughter\nC. being entertained\nD. fear\nE. bordem\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "C. being entertained"
     },
     {
         "total": 15,
+        "prompt-wo": "Question: What are you waiting alongside with when you're in a reception area?\nOptions:\nA. motel\nB. chair\nC. hospital\nD. people\nE. hotels\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "D. people"
     },
     {
         "total": 16,
-        "qwen_answer_wo": "D. Examine thing"
+        "prompt-wo": "Question: When drinking booze what can you do to stay busy?\nOptions:\nA. reach tentative agreement\nB. stay in bed\nC. stop bicycle\nD. examine thing\nE. suicide\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "D. Examine things\n\nWhen drinking alcohol, it's important to engage in activities that can help you stay focused and avoid risky behavior. Examining things (option D) can be a simple way to keep your mind occupied and prevent overconsumption or dangerous situations. The other options do not align with responsible behavior while under the influence. A. Reaching tentative agreements might happen in social situations but isn't a specific activity to stay busy, B. Staying in bed is not recommended as it could lead to sleepiness and potential hangovers, C. Stopping a bicycle is unrelated to drinking, and E. Suicide is an extreme and highly unadvisable option to consider."
     },
     {
         "total": 17,
+        "prompt-wo": "Question: A fencing thrust with a sharp sword towards a person would result in what?\nOptions:\nA. injury\nB. small cuts\nC. fever\nD. competition\nE. puncture wound\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "E. Puncture wound"
     },
     {
         "total": 18,
+        "prompt-wo": "Question: Unlike a spider and his many sight seers, people only have what?\nOptions:\nA. tongues\nB. names\nC. brains\nD. feelings\nE. two eyes\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "E. Two eyes"
     },
     {
         "total": 19,
-        "qwen_answer_wo": "D. office"
+        "prompt-wo": "Question: Where do adults use glue sticks?\nOptions:\nA. classroom\nB. desk drawer\nC. at school\nD. office\nE. kitchen drawer\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "D. Office"
     },
     {
         "total": 20,
-        "qwen_answer_wo": "D. carpet"
+        "prompt-wo": "Question: What could go on top of wood?\nOptions:\nA. lumberyard\nB. synagogue\nC. floor\nD. carpet\nE. hardware store\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "D. Carpet"
     },
     {
         "total": 21,
+        "prompt-wo": "Question: The artist was sitting quietly pondering, then suddenly he began to paint when what struck him?\nOptions:\nA. sadness\nB. anxiety\nC. inspiration\nD. discomfort\nE. insights\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "C. Inspiration"
     },
     {
         "total": 22,
-        "qwen_answer_wo": "B. durable\n\nThe term \"thin film\" typically refers to a very thin layer of material applied to a substrate, often with specific properties like optical transparency or electrical conductivity. While it might seem fragile due to its thinness, for its intended purpose, it is designed to withstand certain levels of stress and wear without breaking or being destroyed easily. Therefore, \"durable\" is the most appropriate choice to describe its functionality in this context."
+        "prompt-wo": "Question: Though the thin film seemed fragile, for it's intended purpose it was actually nearly what?\nOptions:\nA. indestructible\nB. durable\nC. undestroyable\nD. indestructible\nE. unbreakable\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "B. durable\n\nThe phrase \"for its intended purpose\" suggests that the thin film is designed to withstand certain conditions or use, despite its apparent fragility. Therefore, it is nearly \"durable,\" meaning it can withstand wear and tear without breaking or being easily destroyed for that specific function."
     },
     {
         "total": 23,
+        "prompt-wo": "Question: Where could you find a toilet that only friends can use?\nOptions:\nA. rest area\nB. school\nC. stadium\nD. apartment\nE. hospital\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "D. apartment"
     },
     {
         "total": 24,
-        "qwen_answer_wo": "C. dull"
+        "prompt-wo": "Question: What is someone who isn't clever, bright, or competent called?\nOptions:\nA. clumsy\nB. ineffectual\nC. dull\nD. clumsy\nE. stupid\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "The word that describes someone who isn't clever, bright, or competent would be C. dull."
     },
     {
         "total": 25,
-        "qwen_answer_wo": "The correct answer is D. offspring."
+        "prompt-wo": "Question: When wildlife reproduce we often refer to what comes out as what?\nOptions:\nA. raise children\nB. have children\nC. photo copy\nD. offspring\nE. accidently got pregnant somehow\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "D. Offspring"
     },
     {
         "total": 26,
+        "prompt-wo": "Question: The weasel was becoming a problem, it kept getting into the chicken eggs kept in the what?\nOptions:\nA. forrest\nB. barn\nC. public office\nD. out of doors\nE. freezer\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "B. barn"
     },
     {
         "total": 27,
-        "qwen_answer_wo": "C. understanding"
+        "prompt-wo": "Question: Blue read material outside of his comfort zone because he wanted to gain what?\nOptions:\nA. new perspective\nB. entertained\nC. understanding\nD. hunger\nE. tired eyes\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "A. new perspective"
     },
     {
         "total": 28,
+        "prompt-wo": "Question: After he got hired he hoped for success at his what?\nOptions:\nA. vocation\nB. new job\nC. michigan\nD. working hard\nE. manual\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "B. new job"
     },
     {
         "total": 29,
-        "qwen_answer_wo": "The correct answer is:\n\nB. Crime\n\nCommitting perjury is a serious crime because it involves lying under oath in a court of law or in any official proceeding, which is illegal and can lead to penalties such as fines, imprisonment, or other legal consequences."
+        "prompt-wo": "Question: Committing perjury is a serious what?\nOptions:\nA. indictment\nB. crime\nC. violence\nD. lie\nE. go to jail\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "B. Crime"
     },
     {
         "total": 30,
-        "qwen_answer_wo": "If you are prone to postpone work and want to finish on time, you would need to \"hasten\" or \"speed up\" your efforts. The appropriate capitalized letter for this choice is:\n\nB. Hasten"
+        "prompt-wo": "Question: If you are prone to postpone work what will you have to do in order to finish on time?\nOptions:\nA. eat\nB. hasten\nC. antedate\nD. bring forward\nE. advance\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "If you are prone to postponing work and want to finish on time, you would need to \"hasten\" or speed up your work to catch up and complete it within the scheduled timeframe. So the answer is B. hasten."
     },
     {
         "total": 31,
+        "prompt-wo": "Question: James wanted to find an old underground map from the 50s.  Where might he look for one?\nOptions:\nA. library\nB. subway station\nC. county engineer's office\nD. super market\nE. home\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "A. library"
     },
     {
         "total": 32,
+        "prompt-wo": "Question: Sean was in a rush to get home, but the light turned yellow and he was forced to do what?\nOptions:\nA. take time\nB. dawdle\nC. go slowly\nD. ocean\nE. slow down\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "E. Slow down"
     },
     {
         "total": 33,
+        "prompt-wo": "Question: Where would a person be doing when having to wait their turn?\nOptions:\nA. have patience\nB. get in line\nC. sing\nD. stand in line\nE. turn left\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "D. stand in line"
     },
     {
         "total": 34,
-        "qwen_answer_wo": "The most appropriate answer in this context is:\n\nE. Happiness\n\nHelping at the senior center often brings a sense of fulfillment and joy to those who do it, so \"happiness\" would be the correct capitalized letter representing the choice."
+        "prompt-wo": "Question: She was always helping at the senior center, it brought her what?\nOptions:\nA. satisfaction\nB. heart\nC. feel better\nD. pay\nE. happiness\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "A. Satisfaction"
     },
     {
         "total": 35,
+        "prompt-wo": "Question: The lock kept the steering wheel from moving, but the thief still took his chances and began to work on the what?\nOptions:\nA. keep cloesd\nB. train\nC. ignition switch\nD. drawer\nE. firearm\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "C. Ignition switch"
     },
     {
         "total": 36,
-        "qwen_answer_wo": "C. city"
+        "prompt-wo": "Question: Who is a police officer likely to work for?\nOptions:\nA. beat\nB. direct traffic\nC. city\nD. street\nE. president\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "C. City"
     },
     {
         "total": 37,
+        "prompt-wo": "Question: If you have leftover cake, where would you put it?\nOptions:\nA. quandry\nB. refrigerator\nC. oven\nD. night stand\nE. bakery\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "B. refrigerator"
     },
     {
         "total": 38,
-        "qwen_answer_wo": "The correct answer is:\n\nA. Whirlpool bath\n\nA whirlpool bath is designed for submerging a person in water and providing a relaxing and therapeutic experience. It's a safe and controlled option for this purpose. The other options (B, C, D, and E) are not suitable for submerging a person as they either serve no water, are too small, or are not intended for that purpose."
+        "prompt-wo": "Question: A human wants to submerge himself in water, what should he use?\nOptions:\nA. whirlpool bath\nB. coffee cup\nC. cup\nD. soft drink\nE. puddle\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "A. Whirlpool bath"
     },
     {
         "total": 39,
-        "qwen_answer_wo": "The most likely place for a doormat to be in front of, based on common usage, is:\n\nB. front door"
+        "prompt-wo": "Question: Where is a doormat likely to be in front of?\nOptions:\nA. facade\nB. front door\nC. doorway\nD. entrance porch\nE. hallway\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "B. Front Door"
     },
     {
         "total": 40,
-        "qwen_answer_wo": "B. tropical rainforest"
+        "prompt-wo": "Question: Bob the lizard lives in a warm place with lots of water.  Where does he probably live?\nOptions:\nA. rock\nB. tropical rainforest\nC. jazz club\nD. new mexico\nE. rocky places\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "B. Tropical rainforest"
     },
     {
         "total": 41,
+        "prompt-wo": "Question: August needed  money because he was afraid that he'd be kicked out of his house.  What did he need money to do?\nOptions:\nA. control people\nB. pay bills\nC. hurt people\nD. buy food\nE. get things\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "B. pay bills"
     },
     {
         "total": 42,
+        "prompt-wo": "Question: He needed more information to fix it, so he consulted the what?\nOptions:\nA. chickens\nB. google\nC. newspaper\nD. online\nE. manual\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "E. Manual"
     },
     {
         "total": 43,
-        "qwen_answer_wo": "E. table"
+        "prompt-wo": "Question: Where can you put a picture frame when it's not hung vertically?\nOptions:\nA. art show\nB. wall\nC. newspaper\nD. car\nE. table\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "E. Table"
     },
     {
         "total": 44,
+        "prompt-wo": "Question: James knew that he shouldn't have been buying beer for minors.  He didn't even get paid for it.  Why was this bad?\nOptions:\nA. lose money\nB. fun\nC. have no money\nD. broken law\nE. relaxation\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "D. broken law"
     },
     {
         "total": 45,
+        "prompt-wo": "Question: What is the result of applying for  job?\nOptions:\nA. anxiety and fear\nB. increased workload\nC. praise\nD. less sleep\nE. being employed\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "E. being employed"
     },
     {
         "total": 46,
-        "qwen_answer_wo": "The correct answer is:\n\nB. have money\n\nBefore someone can shop, they need to have money to pay for the items they want to purchase. While options A, C, D, and E all mention some aspect of shopping, having money is the fundamental prerequisite that comes before any of these actions."
+        "prompt-wo": "Question: What must someone do before they shop?\nOptions:\nA. get money\nB. have money\nC. bring cash\nD. go to market\nE. bring cash\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "B. have money"
     },
     {
         "total": 47,
+        "prompt-wo": "Question: Because John was first violin, he had to bring something important to work ever day. What did he need to bring to work?\nOptions:\nA. music store\nB. obesity\nC. symphony orchestra\nD. ochestra\nE. violin case\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "E. violin case"
     },
     {
         "total": 48,
+        "prompt-wo": "Question: What is a place that usually does not have an elevator and that sometimes has a telephone book?\nOptions:\nA. at hotel\nB. kitchen\nC. library\nD. telephone booth\nE. house\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "C. Library"
     },
     {
         "total": 49,
-        "qwen_answer_wo": "The most likely to be excited about a crab would be:\n\nC. Fishmongers\n\nFishmongers work with live crabs at the fish market and would be interested in acquiring them for sale or preparing them for customers. The other options are not typically excited about crabs in that context: \n\nA. Fish market is a location where crabs might be sold, but the people there are not personally excited.\nB. Pet shops may sell pet crabs, but they are not necessarily excited about them as they are a business.\nD. Intertidal zone refers to the area between high and low tides where crabs live, but it's not an entity that can be excited.\nE. Obesity has nothing to do with crabs; it's a health condition."
+        "prompt-wo": "Question: Who is likely to be excited about a crab?\nOptions:\nA. fish market\nB. pet shop\nC. fishmongers\nD. intertidal zone\nE. obesity\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "D. Intertidal Zone"
     },
     {
         "total": 50,
+        "prompt-wo": "Question: Where can a human find clothes that aren't pants?\nOptions:\nA. pants shop\nB. on planet earth\nC. dress shop\nD. school\nE. train wreck\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "C. dress shop"
     },
     {
         "total": 51,
-        "qwen_answer_wo": "The answer is B. slurred speech. When someone is getting drunk and their speech becomes difficult to understand, it's due to alcohol affecting their coordination and muscle control, leading to slurred speech. The other options are not directly related to speech difficulty caused by intoxication. A seizure and death (C) are more severe medical conditions, forgetfulness (D) can be a symptom of intoxication but doesn't specifically describe speech, and passing out (E) is a possible outcome but not the specific speech issue."
+        "prompt-wo": "Question: If I was getting drunk, and people couldn't understand me, what might I be having?\nOptions:\nA. a seizure\nB. slurred speech\nC. death\nD. forgetfulness\nE. pass out\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "B. Slurred speech"
     },
     {
         "total": 52,
-        "qwen_answer_wo": "When a person is beginning work, they are primarily building:\n\nB. Accomplishing\n\nThis refers to the process of starting a job and making progress towards completing tasks, meeting goals, or achieving objectives. The other options do not directly relate to the initial stage of work. Time (A) is a byproduct of work, momentum (D) can be built over time, working (C) is an action being taken, and tiredness (E) may result from sustained effort but is not the primary focus when starting a job."
+        "prompt-wo": "Question: When a person is beginning work, what are they building?\nOptions:\nA. time\nB. accomplishing\nC. working\nD. momentum\nE. tiredness\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "When a person is beginning work, they are primarily building:\n\nB. Accomplishing\n\nThis is because when someone starts working, their primary goal is to make progress, complete tasks, and achieve goals within their job responsibilities. The other options may be consequences or states that can result from working, but they are not what is being built at the start of work."
     },
     {
         "total": 53,
-        "qwen_answer_wo": "C. play tag"
+        "prompt-wo": "Question: A child wants to play, what would they likely want?\nOptions:\nA. fall down\nB. breathe\nC. play tag\nD. be dismembered by a chainsaw\nE. become adult\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "C. Play tag"
     },
     {
         "total": 54,
+        "prompt-wo": "Question: Talking to the same person about the same thing over and over again is something someone can what?\nOptions:\nA. social life\nB. friendship\nC. eye contact\nD. get tired of\nE. learn lessons from\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "D. get tired of"
     },
     {
         "total": 55,
+        "prompt-wo": "Question: The teacher doesn't tolerate noise during a test in their what?\nOptions:\nA. movie theatre\nB. bowling alley\nC. factory\nD. store\nE. classroom\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "E. Classroom"
     },
     {
         "total": 56,
+        "prompt-wo": "Question: The freeway had no traffic and few buildings, where is it?\nOptions:\nA. california\nB. countryside\nC. big town\nD. florida\nE. america\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "B. countryside"
     },
     {
         "total": 57,
+        "prompt-wo": "Question: Where would you go if you wanted to have fun with a few people?\nOptions:\nA. watching television\nB. good\nC. cinema\nD. friend's house\nE. fairgrounds\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "D. friend's house"
     },
     {
         "total": 58,
-        "qwen_answer_wo": "The correct answer to the question about a hot and arid place would be:\n\nB. lifeless\n\nAn arid environment, which is characterized by low precipitation and high temperatures, is typically associated with deserts and can be lifeless due to the harsh conditions that make it difficult for most plants and animals to survive."
+        "prompt-wo": "Question: If there is a place that is hot and arid, what could it be?\nOptions:\nA. bland\nB. lifeless\nC. sandy\nD. neutral\nE. freezing\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "The correct answer would be B. Lifeless, as hot and arid places are typically characterized by low humidity, extreme temperatures, and minimal vegetation, which can make them inhospitable for many forms of life. While \"sandy\" may be a characteristic of some arid regions, the other options (bland, neutral, and freezing) do not accurately describe the environmental conditions of a hot and arid place."
     },
     {
         "total": 59,
-        "qwen_answer_wo": "B. Read book\n\nReading a book is likely to satisfy someone's curiosity as it provides information, knowledge, and often explores different ideas and perspectives. It can cater to various interests and topics, allowing individuals to learn and engage with new content. The other options may also satisfy curiosity in certain contexts, but reading a book offers a more comprehensive and structured way of doing so."
+        "prompt-wo": "Question: What is likely to satisfy someone's curiosity?\nOptions:\nA. hear news\nB. read book\nC. see favorite show\nD. comedy show\nE. go somewhere\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "As an AI language model, I don't have personal preferences or knowledge, but I can provide an analysis of each option based on general human interests:\n\nA. Hear news - This can satisfy someone's curiosity about current events, global matters, or specific topics they follow.\nB. Read a book - Reading can satisfy intellectual curiosity and provide information on various subjects.\nC. See favorite show - If the person is interested in a particular TV show, watching it can fulfill their curiosity about the story or characters.\nD. Comedy show - This can be entertaining and\u6ee1\u8db3\u4e00\u4e9b\u4eba\u5bf9\u8f7b\u677e\u5e7d\u9ed8\u5185\u5bb9\u7684\u597d\u5947\u5fc3\u3002\nE. Go somewhere - Depending on the context, exploring a new place can satisfy curiosity about travel, culture, or experiences.\n\nThe choice that is most likely to satisfy someone's curiosity would depend on their individual interests and what they're seeking to learn or experience. If there's no specific context, options A, B, C, and D could all be suitable, but if the person is looking for a more general form of entertainment, D (comedy show) might be the most straightforward answer. If the person has a specific topic in mind, then A, B, or C would be more relevant. E (go somewhere) could also be appealing for those who enjoy new adventures or discoveries."
     },
     {
         "total": 60,
-        "qwen_answer_wo": "The correct answer is B. Michigan. Michigan is known for its distinctive shape, often referred to as a mitten, and it is a state in the United States where many bars and pubs can be found."
+        "prompt-wo": "Question: If you are in a bar in a glove shaped state where are you?\nOptions:\nA. in my pocket\nB. michigan\nC. new york city\nD. restaurant\nE. public house\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "B. Michigan"
     },
     {
         "total": 61,
+        "prompt-wo": "Question: Where would a computer user be using their own computer?\nOptions:\nA. hell\nB. school\nC. indoors\nD. internet cafe\nE. house\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "E. house"
     },
     {
         "total": 62,
-        "qwen_answer_wo": "C. saltwater"
+        "prompt-wo": "Question: Crabs live in what sort of environment?\nOptions:\nA. maritime\nB. bodies of water\nC. saltwater\nD. galapagos\nE. fish market\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "C. Saltwater"
     },
     {
         "total": 63,
+        "prompt-wo": "Question: Where can you find a snake in tall grass?\nOptions:\nA. tree\nB. in a jar\nC. pet shops\nD. feild\nE. tropical forest\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "D. field"
     },
     {
         "total": 64,
+        "prompt-wo": "Question: What is a place that has a bench nestled in trees?\nOptions:\nA. state park\nB. bus stop\nC. bus depot\nD. statue\nE. train station\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "A. State park"
     },
     {
         "total": 65,
+        "prompt-wo": "Question: Where is a human likely to go as a result of being hungry?\nOptions:\nA. eat in restaurant\nB. make bread\nC. have lunch\nD. cook dinner\nE. friends house\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "A. eat in restaurant"
     },
     {
         "total": 66,
-        "qwen_answer_wo": "D. confident"
+        "prompt-wo": "Question: He was beginning to regret taking the fight when he saw how what his opponent was?\nOptions:\nA. fun\nB. joy\nC. satisfaction\nD. confident\nE. pride\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "D. Confident"
     },
     {
         "total": 67,
+        "prompt-wo": "Question: Where would you find a single shower curtain being used?\nOptions:\nA. bathtub\nB. washing area\nC. hotel\nD. shower stall\nE. department store\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "D. shower stall"
     },
     {
         "total": 68,
-        "qwen_answer_wo": "B. boat\n\nA fire extinguisher is not always required on a boat, but it can be a good idea in certain situations, especially if the vessel is large or has living quarters. In smaller boats or those that spend most of their time in sheltered waters, a fire extinguisher may not be as essential. However, larger boats, yachts, or commercial vessels often have them as part of safety equipment."
+        "prompt-wo": "Question: Where is a good idea but not required to have a fire extinguisher?\nOptions:\nA. school bus\nB. boat\nC. house\nD. hospital\nE. school\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "E. School"
     },
     {
         "total": 69,
-        "qwen_answer_wo": "D. europe"
+        "prompt-wo": "Question: What continent has the most castles?\nOptions:\nA. fairy tale\nB. edinburgh\nC. germany\nD. europe\nE. antarctica\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "D. Europe"
     },
     {
         "total": 70,
+        "prompt-wo": "Question: If you have to read a book that is very dry and long you may become what?\nOptions:\nA. have time\nB. boring\nC. learn new\nD. enjoyable\nE. bored\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "E. bored"
     },
     {
         "total": 71,
+        "prompt-wo": "Question: Sally used a clipboard to hold her papers while she read off names at the beginning of the day.  Where might she work?\nOptions:\nA. desk\nB. windows 95\nC. office supply store\nD. see work\nE. school\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "E. school"
     },
     {
         "total": 72,
+        "prompt-wo": "Question: The kids didn't clean up after they had done what?\nOptions:\nA. learn things\nB. play games\nC. disneyland\nD. play with toys\nE. talking\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "D. play with toys"
     },
     {
         "total": 73,
+        "prompt-wo": "Question: Despite the name a pawn can be quite versatile, all the parts are important in a what?\nOptions:\nA. chess game\nB. scheme\nC. chess set\nD. checkers\nE. north carolina\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "A. chess game"
     },
     {
         "total": 74,
-        "qwen_answer_wo": "E. Round\n\nIf a basketball has a hole in it but still maintains its general shape, it would not be considered \"round\" anymore because a round object has a consistent, circular shape with no holes. The hole would disrupt that shape. The other options can be evaluated as follows:\n\nA. Punctured: True - A hole in a basketball would mean it's punctured.\nB. Popular in America: Not relevant to the shape; popularity is not determined by the presence of a hole.\nC. Full of air: If it still holds air, it would be inflated, but that doesn't affect its shape being round.\nD. Gone: This implies the basketball would no longer exist, which is not necessarily true if it retains its shape.\n\nSo, the capitalized letter standing for the choice that wouldn't be true about the basketball with a hole but maintaining its shape is E. Round."
+        "prompt-wo": "Question: What would not be true about a basketball if it had a hole in it but it did not lose its general shape?\nOptions:\nA. punctured\nB. popular in america\nC. full of air\nD. gone\nE. round\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "E. Round"
     },
     {
         "total": 75,
+        "prompt-wo": "Question: If you are awaking multiple times throughout the night because a lot is on your mind, what is a likely cause?\nOptions:\nA. irritability\nB. depression\nC. getting out of bed\nD. happiness\nE. discomfort\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "E. discomfort"
     },
     {
         "total": 76,
-        "qwen_answer_wo": "B. sky"
+        "prompt-wo": "Question: Where does a wild bird usually live?\nOptions:\nA. cage\nB. sky\nC. countryside\nD. desert\nE. windowsill\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "B. Sky"
     },
     {
         "total": 77,
+        "prompt-wo": "Question: Where would you expect to find white mice?\nOptions:\nA. bell cat\nB. bush\nC. attic\nD. countryside\nE. laboratory\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "E. laboratory"
     },
     {
         "total": 78,
-        "qwen_answer_wo": "The answer is B. choice."
+        "prompt-wo": "Question: John felt that his actions were fate.   Harry said that he could have always made a different what?\nOptions:\nA. free will\nB. choice\nC. will\nD. alcohol\nE. freedom\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "B. choice"
     },
     {
         "total": 79,
+        "prompt-wo": "Question: What could committing murder prevent someone from doing?\nOptions:\nA. go to jail\nB. cry\nC. find god\nD. guilty conscience\nE. problems\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "D. guilty conscience"
     },
     {
         "total": 80,
+        "prompt-wo": "Question: George didn't have a car, but he still had his two feet.   His socks were smelly and his soles were blistered, but that didn't matter.  He could still do what?\nOptions:\nA. michigan\nB. walk\nC. stay still\nD. stink\nE. hands\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "B. walk"
     },
     {
         "total": 81,
-        "qwen_answer_wo": "The correct answer is:\n\nD. Construction site\n\nA crane uses many steel cables when working at a construction site to lift and move heavy materials like steel beams, concrete blocks, and other building components. The cables are often attached to the crane's hoist or winch, which helps in lifting and positioning these items."
+        "prompt-wo": "Question: A crane uses many a steel cable when working a what?\nOptions:\nA. abaft\nB. ship\nC. winch\nD. construction site\nE. building\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "The correct answer is D. Construction site. A crane often uses multiple steel cables to lift and move heavy loads at a construction site, such as building materials or machinery."
     },
     {
         "total": 82,
-        "qwen_answer_wo": "E. Supply food"
+        "prompt-wo": "Question: What is the main purpose of farmers?\nOptions:\nA. raise cattle\nB. grow corn\nC. farm land\nD. drive tractors\nE. supply food\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "The main purpose of farmers, as stated in the given options, is to E. supply food. Farmers cultivate land and raise crops and livestock to produce food for human consumption, as well as other agricultural products like fiber, fuel, and raw materials for various industries. While they may engage in activities like raising cattle (option A), growing corn (option B), or operating tractors (option D), these are secondary functions that support the primary goal of providing food."
     },
     {
         "total": 83,
-        "qwen_answer_wo": "A. piggy bank"
+        "prompt-wo": "Question: Where can I put this penny to save for later?\nOptions:\nA. piggy bank\nB. wallet\nC. toy\nD. ground\nE. pocket\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "A. Piggy bank"
     },
     {
         "total": 84,
+        "prompt-wo": "Question: Where would you put uncooked crab meat?\nOptions:\nA. wharf\nB. red lobster\nC. tidepools\nD. boss's office\nE. stew pot\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "E. stew pot"
     },
     {
         "total": 85,
+        "prompt-wo": "Question: The man had a fear of illness, so he never visited friends who were a what?\nOptions:\nA. sick person\nB. hospital\nC. elderly person\nD. graveyard\nE. doctor's office\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "A. sick person"
     },
     {
         "total": 86,
+        "prompt-wo": "Question: Where would you put pans if you want to bring them with you?\nOptions:\nA. cooking\nB. cook food\nC. kitchen\nD. backpack\nE. drawer\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "D. Backpack"
     },
     {
         "total": 87,
-        "qwen_answer_wo": "B. knowing"
+        "prompt-wo": "Question: If you're remembering something, it's because of your what of it to begin with?\nOptions:\nA. knowledge\nB. knowing\nC. forgetful\nD. pleasure\nE. depression\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "B. Knowing"
     },
     {
         "total": 88,
-        "qwen_answer_wo": "E. African continent"
+        "prompt-wo": "Question: Which large land mass is home to the most monkeys?\nOptions:\nA. amazon basin\nB. friend's house\nC. lift number 3\nD. research laboratory\nE. african continent\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "E. African Continent"
     },
     {
         "total": 89,
+        "prompt-wo": "Question: Friday was James's 5th Anniversary.  They planned on going to bed early so that they could spend a long time doing what?\nOptions:\nA. rest\nB. insomnia\nC. making love\nD. sleeping in\nE. texting\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "C. making love"
     },
     {
         "total": 90,
+        "prompt-wo": "Question: The teens were trying to hide that they get drink, but when they walked in the door their what gave it away?\nOptions:\nA. health\nB. fall down\nC. stagger\nD. get arrested\nE. vomit\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "C. stagger"
     },
     {
         "total": 91,
-        "qwen_answer_wo": "C. stairwell"
+        "prompt-wo": "Question: You'll find a landing at the top of what?\nOptions:\nA. ocean\nB. apartment building\nC. stairwell\nD. airport\nE. room\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "D. Airport"
     },
     {
         "total": 92,
+        "prompt-wo": "Question: Anybody could be hired in the kitchen, what was needed of them?\nOptions:\nA. forget\nB. oil squeaky hinge\nC. question authority\nD. wash dishes\nE. oik squeaky hinge\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "D. Wash dishes"
     },
     {
         "total": 93,
+        "prompt-wo": "Question: Where can you find a number of wind instruments together in public?\nOptions:\nA. music store\nB. create music\nC. zoo\nD. music room\nE. symphony\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "E. Symphony"
     },
     {
         "total": 94,
-        "qwen_answer_wo": "E. Toronto\n\nMounties are typically associated with the Royal Canadian Mounted Police (RCMP), and they are most commonly found in cities like Toronto, which is the capital city of the province of Ontario and the largest city in Canada. The other options mentioned are also major cities, but they are not the primary location for a mountie station."
+        "prompt-wo": "Question: A mountie got off at a subway stop.  What city might he be in?\nOptions:\nA. urban area\nB. metropolis\nC. chicago\nD. new york city\nE. toronto\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "E. Toronto"
     },
     {
         "total": 95,
-        "qwen_answer_wo": "When you illustrate a point, you want someone to understand the message you're trying to convey. Therefore, the appropriate response would be:\n\nD. understood"
+        "prompt-wo": "Question: What do you want someone to do when you illustrate point?\nOptions:\nA. did not understand\nB. accepting\nC. make clear\nD. understood\nE. understanding\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "The answer is D. understood. When you illustrate a point, you want the person to comprehend or grasp the idea you are trying to communicate. Therefore, the desired outcome is that they understand the point you are making."
     },
     {
         "total": 96,
-        "qwen_answer_wo": "The most likely reason for Billy to set aside a block of time for having fun after work is:\n\nC. Pleasure\n\nThis option directly indicates that the purpose of the time is for enjoyment and leisure. The other options either refer to emotions (happiness, stress relief, which could be a byproduct but not the primary goal), a location (ocean, which is unrelated to having fun after work), or a potential outcome (laughing, which is also more about the activity than the intention)."
+        "prompt-wo": "Question: Billy set aside a block of time for having fun after work. Why might he do this?\nOptions:\nA. happiness\nB. stress relief\nC. pleasure\nD. ocean\nE. may laugh\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "B. stress relief"
     },
     {
         "total": 97,
+        "prompt-wo": "Question: The man in the white suit was very lazy.  He did nothing useful.  Meanwhile, the ban in the blue had put in effort and was very what?\nOptions:\nA. restless\nB. active\nC. lazybutt\nD. productive\nE. hard work\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "D. productive"
     },
     {
         "total": 98,
+        "prompt-wo": "Question: What would you be unable to do if you have too much greed?\nOptions:\nA. keep things\nB. make friends\nC. play poker\nD. conquer opponent\nE. lie\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "B. make friends"
     },
     {
         "total": 99,
+        "prompt-wo": "Question: It was a long trip from the farm, so he stayed in a hotel when he arrived at the what?\nOptions:\nA. bed away from home\nB. wwii bunker\nC. resort\nD. las vegas\nE. city\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "E. City"
     },
     {
         "total": 100,
-        "qwen_answer_wo": "D. In charge"
+        "prompt-wo": "Question: I did not need a servant.  I was not a what?\nOptions:\nA. freedom\nB. rich person\nC. hired help\nD. in charge\nE. busy\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "D. in charge"
     },
     {
         "total": 101,
-        "qwen_answer_wo": "The most appropriate option for getting from one side of a canal to another, especially in the context of canals where water transportation is common, would be:\n\nE. barges to travel on\n\nThis is because canals are often used for transportation and accessing islands or areas that are not easily reached by land, and barges are large boats designed to carry goods and people on water. In cities like Amsterdam (B) and Venice (C), which are famous for their canals, this method is commonly used, but the specific answer would be \"E\" as it applies to any canal scenario where waterborne transport is available. In Michigan (A), while there might be canals, the answer doesn't specify a method; and \"Bridge\" (D) could work in some cases but not always since canals may not have bridges at every point."
+        "prompt-wo": "Question: How would you get from one side of a canal to another?\nOptions:\nA. michigan\nB. amsterdam\nC. venice\nD. bridge\nE. barges to travel on\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "E. Barges to travel on"
     },
     {
         "total": 102,
-        "qwen_answer_wo": "D. Open mind\n\nWhen learning about the world and different cultures with the goal of eliminating preconceived notions, an open mind is crucial. An open mind allows you to accept and consider new information without prior judgments or biases, which is essential for gaining a deeper understanding and appreciating cultural diversity."
+        "prompt-wo": "Question: When learning about the world and different cultures, what is important if you are committed to eliminating preconceived notions\nOptions:\nA. newness\nB. loss of innocence\nC. enlightenment\nD. open mind\nE. smartness\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "D. Open mind"
     },
     {
         "total": 103,
-        "qwen_answer_wo": "E. multitask\n\nThe capability of computers to manage workflow and perform multiple tasks simultaneously, especially when compared to earlier systems that were often single-purpose and had limited processing power, was a significant breakthrough. This made computers more efficient and versatile in coordinating and automating various tasks in offices and industries, leading to improved productivity and efficiency."
+        "prompt-wo": "Question: An underrated thing about computers is how they manage workflow, at one time it was a big deal when they could first do what?\nOptions:\nA. share files\nB. do arithmetic\nC. turn on\nD. cost money\nE. multitask\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "E. Multitask"
     },
     {
         "total": 104,
-        "qwen_answer_wo": "The act of obstructing justice can be used as a justification for police brutality, which can lead to a range of consequences for individuals involved. However, the option that best fits the context of the question is:\n\nD. Getting hurt\n\nPolice brutality often results in physical harm or injuries to the person being arrested or mistreated, either through excessive force or violent actions by the officers. This can cause physical pain and trauma to the individual. While options like A (committing perjury), B (prosecution), C (attack), and E (rioting) may be related to the aftermath of police brutality, \"getting hurt\" directly addresses the immediate impact on the person being oppressed."
+        "prompt-wo": "Question: Obstructing justice is sometimes an excuse used for police brutality which causes what in people?\nOptions:\nA. committing perjury\nB. prosecution\nC. attack\nD. getting hurt\nE. riot\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "E. Riot"
     },
     {
         "total": 105,
-        "qwen_answer_wo": "The answer is D. torn. When clothes become caught on a sharp object while washing, they can be ripped or torn."
+        "prompt-wo": "Question: While washing clothes they became what when caught on the sharp object?\nOptions:\nA. damaged\nB. wet clothes\nC. wear out\nD. torn\nE. have fun\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "D. torn"
     },
     {
         "total": 106,
+        "prompt-wo": "Question: Seafood restaurants are used to draw tourists where?\nOptions:\nA. maine\nB. shoe shop\nC. city\nD. boston\nE. coastal cities\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "E. Coastal cities"
     },
     {
         "total": 107,
+        "prompt-wo": "Question: James's nice asked him about her grandfather. She was interested in learning about what?\nOptions:\nA. family tree\nB. family reunion\nC. babysitting\nD. brother's house\nE. heirlooms\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "A. family tree"
     },
     {
         "total": 108,
-        "qwen_answer_wo": "C. night sky"
+        "prompt-wo": "Question: James looked up and saw the start twinkling in the black yonder.  He marveled the sheer number of them and the size of what?\nOptions:\nA. universe\nB. orbit\nC. night sky\nD. outer space\nE. his wallet\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "The answer is C. night sky."
     },
     {
         "total": 109,
-        "qwen_answer_wo": "The answer that would encourage someone to continue playing tennis is:\n\nE. Victory\n\nVictory provides a sense of accomplishment and satisfaction, which can motivate individuals to keep playing and improving their skills. It gives them a goal to strive for and a reason to enjoy the game. The other options (tiredness, tennis elbow, exercise, hunger) are typically reasons to avoid or stop playing tennis if they become an issue."
+        "prompt-wo": "Question: What would encourage someone to continue playing tennis?\nOptions:\nA. becoming tired\nB. tennis elbow\nC. exercise\nD. hunger\nE. victory\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "The choice that would encourage someone to continue playing tennis is:\n\nC. Exercise\n\nTennis involves physical exercise and sportsmanship, which can provide a sense of enjoyment, personal improvement, and the satisfaction of a healthy lifestyle. While victory (E) may be motivating, it's the overall process of playing and improving in tennis that keeps people engaged. Tiredness (A), tennis elbow (B), and hunger (D) are typically negative aspects that might discourage continued play, but exercise is the primary driver to keep someone going."
     },
     {
         "total": 110,
+        "prompt-wo": "Question: James found the sound relaxing.   It was so relaxing he almost did what despite his efforts?\nOptions:\nA. deep breathing\nB. worried\nC. fall asleep\nD. invigorating\nE. feeling good\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "C. fall asleep"
     },
     {
         "total": 111,
-        "qwen_answer_wo": "C. small neighborhood"
+        "prompt-wo": "Question: What regions of a town would you have found a dime store?\nOptions:\nA. commercial building\nB. old movie\nC. small neighborhood\nD. past\nE. mall\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "C. Small neighborhood"
     },
     {
         "total": 112,
+        "prompt-wo": "Question: Where might an unused chess set be stored?\nOptions:\nA. toy store\nB. michigan\nC. living room\nD. attic\nE. cupboard\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "E. cupboard"
     },
     {
         "total": 113,
+        "prompt-wo": "Question: james told his son to settle down and be careful.  There were many frogs mating in the area, and James didn't want his son to do what to them?\nOptions:\nA. wander\nB. migrate\nC. scare\nD. disturb\nE. agitate\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "D. disturb"
     },
     {
         "total": 114,
-        "qwen_answer_wo": "B. house"
+        "prompt-wo": "Question: A man wants air conditioning while we watches the game on Saturday, where will it likely be installed?\nOptions:\nA. car\nB. house\nC. offices\nD. park\nE. movie theatre\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "B. House"
     },
     {
         "total": 115,
-        "qwen_answer_wo": "The correct answer is:\n\nB. Orchestra\n\nA balalaika is a traditional Russian stringed instrument that is commonly played in orchestras, folk ensembles, and various musical contexts. Therefore, the capitalized letter representing the choice where a balalaika might be playing is \"Orchestra.\""
+        "prompt-wo": "Question: What could be playing a balailaika?\nOptions:\nA. movie dr\nB. orchestra\nC. music store\nD. cat\nE. symphony\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "B. Orchestra"
     },
     {
         "total": 116,
-        "qwen_answer_wo": "E. sailboat"
+        "prompt-wo": "Question: Sailors drive many different types of boats, what type of boat involves their namesake.\nOptions:\nA. coming home\nB. row boat\nC. board ship\nD. inflatable raft\nE. sail boat\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "E. Sailboat"
     },
     {
         "total": 117,
-        "qwen_answer_wo": "The best option for avoiding the rain would be:\n\nB. Tunnel\n\nTunnels are typically enclosed structures with roofs, which can provide shelter from rain."
+        "prompt-wo": "Question: Where could a person avoid the rain?\nOptions:\nA. bus stop\nB. tunnel\nC. synagogue\nD. fairy tale\nE. street corner\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "B. tunnel"
     },
     {
         "total": 118,
-        "qwen_answer_wo": "E. lots of space"
+        "prompt-wo": "Question: Why would a person like to have a large house?\nOptions:\nA. have choice\nB. mentally challenged\nC. own house\nD. obesity\nE. lots of space\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "The capitalized letter standing for the choice that best fits the question is:\n\nE. lots of space\n\nHaving a large house often provides people with more space to live, accommodate their belongings, and possibly have separate rooms or areas for different activities. It can also offer comfort and a sense of luxury. Therefore, the reason someone might like a large house is because they value having \"lots of space.\""
     },
     {
         "total": 119,
+        "prompt-wo": "Question: Where will a cheap book be found?\nOptions:\nA. bookstore\nB. classroom\nC. discount store\nD. school room\nE. bedside table\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "C. discount store"
     },
     {
         "total": 120,
-        "qwen_answer_wo": "The correct answer is B. sporting event."
+        "prompt-wo": "Question: John and James are idiots. They bought two tickets to the Falcons vs the Jets even though neither wanted to see the what?\nOptions:\nA. internet cafe\nB. sporting event\nC. pressing wrong buttons\nD. obesity\nE. hockey game\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "The correct answer is E. hockey game. Since the context mentions \"Falcons\" and \"Jets,\" which are likely references to football teams, it is unlikely that they bought tickets to a hockey game. The Falcons and Jets are both NFL teams, not NHL teams."
     },
     {
         "total": 121,
-        "qwen_answer_wo": "If James notices that his penis has grown larger after some medical procedure, such as a cosmetic surgery, his reaction would likely be more related to the outcome of the surgery rather than the surgeon themselves. Therefore, the most appropriate choice in this context would be:\n\nC. effusive\n\nThis indicates that James would be grateful and appreciative towards his plastic surgeon for the positive change. However, it's important to note that people's reactions can vary, and without knowing James personally, this is an assumption based on common human behavior in similar situations."
+        "prompt-wo": "Question: James noticed that his penis was bigger. .  How might he act toward his plastic surgeon?\nOptions:\nA. accidental\nB. detestable\nC. effusive\nD. enabled\nE. apathetic\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "Based on the context of the situation, where James notices a change in the size of his penis and is considering seeking medical attention from a plastic surgeon, the most appropriate response would be:\n\nC. effusive\n\nIf James is satisfied with the change and believes it's a positive outcome, he might feel grateful or effusive towards the surgeon for their expertise and potential solution to his concern. However, it's important to note that everyone's reaction can vary, and without further information about James' personality and feelings, this is the most fitting choice from the given options."
     },
     {
         "total": 122,
+        "prompt-wo": "Question: Who do professors work with?\nOptions:\nA. methods of facts\nB. teach courses\nC. wear wrinkled tweed jackets\nD. school students\nE. state facts\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "D. school students"
     },
     {
         "total": 123,
+        "prompt-wo": "Question: Colorful anemone look somewhat like what object you find on window sills?\nOptions:\nA. intertidal zone\nB. coral sea\nC. under water\nD. flower bed\nE. florida keys\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "D. Flower bed"
     },
     {
         "total": 124,
-        "qwen_answer_wo": "A. Outer space"
+        "prompt-wo": "Question: From where do aliens arrive?\nOptions:\nA. outer space\nB. weekly world news\nC. roswell\nD. universe\nE. mars\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "A. outer space"
     },
     {
         "total": 125,
-        "qwen_answer_wo": "The hikers stopped to have a drink, simply put, they:\n\nB. were thirsty\n\nThis is the most straightforward and accurate option based on the context provided, which indicates that the hikers needed a drink to quench their thirst."
+        "prompt-wo": "Question: The hikers stopped to have a drink, simply put they what?\nOptions:\nA. had a party\nB. were thirsty\nC. refreshment\nD. getting drunk\nE. celebrating\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "B. were thirsty"
     },
     {
         "total": 126,
+        "prompt-wo": "Question: When you get up in the morning before you begin work you should do what?\nOptions:\nA. apply for job\nB. sleep\nC. concentrate\nD. shower\nE. just do\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "D. shower"
     },
     {
         "total": 127,
+        "prompt-wo": "Question: The kitten had nothing to dig it's claws into, so when it tried to stop it slid across what?\nOptions:\nA. living room\nB. floor\nC. warm place\nD. carpet\nE. farmhouse\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "B. floor"
     },
     {
         "total": 128,
-        "qwen_answer_wo": "E. Have to hold"
+        "prompt-wo": "Question: If a person is trying to keep something in their hand what should they do?\nOptions:\nA. complete collection\nB. own house\nC. procrastinate\nD. explode\nE. have to hold\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "E. Have to hold."
     },
     {
         "total": 129,
-        "qwen_answer_wo": "D. City or town"
+        "prompt-wo": "Question: Where could you find hundreds of thousands of home?\nOptions:\nA. field\nB. neighborhood\nC. star can\nD. city or town\nE. apartment building\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "D. city or town"
     },
     {
         "total": 130,
+        "prompt-wo": "Question: Playing baseball is a lot like any other sport, there is always a risk of what?\nOptions:\nA. sore muscles\nB. errors\nC. happiness\nD. injury\nE. fun\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "D. injury"
     },
     {
         "total": 131,
-        "qwen_answer_wo": "C. television"
+        "prompt-wo": "Question: If I want to watch a movie without leaving my home what might I use?\nOptions:\nA. drive in movie\nB. drive in movie\nC. television\nD. video store\nE. show\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "C. Television"
     },
     {
         "total": 132,
-        "qwen_answer_wo": "C. Witness\n\nWhen someone is scheduled to \"take the stand\" in a legal context, they are typically going to \"testify.\" However, the phrasing in the question uses \"victim,\" which might suggest a less formal setting. In that case, \"witness\" would be the most appropriate choice, as it refers to a person who provides information or sees something that can be helpful in a court or investigation. Testify is the formal term used in legal proceedings."
+        "prompt-wo": "Question: The victim was to take stand today, they were going to do what?\nOptions:\nA. testify\nB. runaway\nC. witness\nD. tell truth\nE. go home\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "A. Testify"
     },
     {
         "total": 133,
-        "qwen_answer_wo": "D. satisfaction"
+        "prompt-wo": "Question: What does a successful dog grooming session likely to make a owner feel?\nOptions:\nA. cleanliness\nB. mistakes\nC. growth\nD. satisfaction\nE. late\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "D. Satisfaction"
     },
     {
         "total": 134,
+        "prompt-wo": "Question: The runner was in third place, but he pushed harder and thought he might be able to reach second.  What was beginning to do?\nOptions:\nA. near finish line\nB. finish\nC. get tired\nD. gain ground\nE. trip over\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "D. gain ground"
     },
     {
         "total": 135,
+        "prompt-wo": "Question: The tourist entered Mammoth cave, what state were they in?\nOptions:\nA. west virginia\nB. kentucky\nC. rocky hills\nD. scotland\nE. canyon\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "A. West Virginia"
     },
     {
         "total": 136,
+        "prompt-wo": "Question: What does someone typically feel when applying for a job?\nOptions:\nA. horror\nB. anxiety and fear\nC. rejection\nD. increased workload\nE. being employed\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "B. Anxiety and fear"
     },
     {
         "total": 137,
+        "prompt-wo": "Question: He was on trial for obstructing justice, during which he made a questionable comment and was also found guilty of what?\nOptions:\nA. prosecution\nB. getting hurt\nC. sweat\nD. steam\nE. committing perjury\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "E. committing perjury"
     },
     {
         "total": 138,
-        "qwen_answer_wo": "E. make happy"
+        "prompt-wo": "Question: What kind of feelings does buying presents for others create?\nOptions:\nA. tears\nB. please\nC. like\nD. thank\nE. make happy\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "The feeling that buying presents for others typically creates is:\n\nE. make happy"
     },
     {
         "total": 139,
+        "prompt-wo": "Question: What green area is a marmot likely to be found in?\nOptions:\nA. countryside\nB. great plains\nC. encyclopedia\nD. jungle\nE. north america\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "A. countryside"
     },
     {
         "total": 140,
-        "qwen_answer_wo": "The answer is D. Resistance. When the current is high and Jan suspects that the wires might be the issue, it's likely that the wires have too much resistance, which would cause a higher than normal electrical load and draw more power."
+        "prompt-wo": "Question: Jan tested the current, and noticed that it was high.  He thought that the wires might have too much what?\nOptions:\nA. later\nB. updated\nC. still\nD. resistance\nE. now\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "D. resistance"
     },
     {
         "total": 141,
+        "prompt-wo": "Question: What does a kindergarten teacher do before nap time?\nOptions:\nA. lower expectations\nB. encourage\nC. fear\nD. time test\nE. tell story\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "E. tell story"
     },
     {
         "total": 142,
-        "qwen_answer_wo": "C. known person\n\nEven though Sam was a stranger, Mark treated him like a known person, likely meaning that Mark approached him in a friendly or familiar manner, as if they had already met or had some kind of connection."
+        "prompt-wo": "Question: Sam was a stranger.  Even so, Mark treated him like what?\nOptions:\nA. friend\nB. family\nC. known person\nD. park\nE. outsider\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "A. friend"
     },
     {
         "total": 143,
-        "qwen_answer_wo": "A. closed room"
+        "prompt-wo": "Question: Bob's only light source was a small bulb.  There were four walls, if there was a door he couldn't see it.  What was Bob in?\nOptions:\nA. closed room\nB. sky\nC. dard\nD. his grave\nE. house\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "A. Closed Room"
     },
     {
         "total": 144,
-        "qwen_answer_wo": "Based on James's analogy of criminal justice as a computer program that needs to work right, it can be inferred that he would prefer systems that are efficient, reliable, and automated. Therefore, the ideas that James might not like are those that suggest a breakdown or inefficiency in the process. \n\nFrom the options provided:\n\nA. Manual - This would imply a manual process, which is less efficient and less likely to work consistently compared to a computer program.\nB. Process information - This seems to align with the idea of a program processing information, so this is likely something James would like.\nC. Power down - This suggests stopping the system, which would be counter to having it work correctly.\nD. Control model - While a control model is necessary for managing a system, it doesn't necessarily indicate anything negative about the program working correctly.\nE. Reason exists - This implies the existence of logical reasoning, which is important for a functional justice system.\n\nThe option that James might not like based on his analogy is C. Power down, as it implies a failure in the system's operation."
+        "prompt-wo": "Question: James thought of criminal justice like a computer program.  It need to work right.   What ideas might James not like?\nOptions:\nA. manual\nB. process information\nC. power down\nD. control model\nE. reason exists\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "C. Power down"
     },
     {
         "total": 145,
-        "qwen_answer_wo": "The correct answer is E. Automated teller.\n\nWhen a card slot is lit up and someone is interacting with a device that allows them to access their funds or perform transactions, it's most likely an automated teller (ATM). An ATM is a machine that enables users to withdraw cash, check their account balance, deposit money, or perform other banking operations using a debit or credit card."
+        "prompt-wo": "Question: With the card slot lit up he knew how to get started finding his balance with what?\nOptions:\nA. slot machine\nB. ticket machine\nC. bank machine\nD. telephone\nE. automated teller\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "E. Automated teller"
     },
     {
         "total": 146,
-        "qwen_answer_wo": "C. practice"
+        "prompt-wo": "Question: To play sports professionally you must do what very often?\nOptions:\nA. wash your clothes\nB. get in shape\nC. practice\nD. take off uniform\nE. stretch\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "C. Practice"
     },
     {
         "total": 147,
-        "qwen_answer_wo": "The answer is C. exercise. \n\nExercise is a general term that encompasses various activities people engage in to release energy and improve their physical or mental well-being. It can include working through physical labor or engaging in sports, but the capitalized form specifically refers to the process of exercising. The other options may be related to aspects of exercise, but \"exercise\" itself is the preferred choice for this question."
+        "prompt-wo": "Question: Some people prefer releasing energy through work while others prefer to release it through what?\nOptions:\nA. motion\nB. stretch\nC. exercise\nD. movement\nE. muscles\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "The capitalized letter standing for the choice that refers to the preference some people have for releasing energy not through work is:\n\nD. Movement"
     },
     {
         "total": 148,
-        "qwen_answer_wo": "The most appropriate answer for what a person going for a jog is likely to be wearing would be:\n\nC. Comfortable clothes\n\nJogging typically involves physical activity and requires comfortable clothing that allows for freedom of movement and breathability. Options A, B, D, and E are not related to clothing or fitness attire."
+        "prompt-wo": "Question: What will a person going for a jog likely be wearing?\nOptions:\nA. grope\nB. acknowledgment\nC. comfortable clothes\nD. ipod\nE. passionate kisses\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "C. Comfortable clothes"
     },
     {
         "total": 149,
-        "qwen_answer_wo": "The child pretended he was reading a newspaper but couldn't actually do it without:\n\nE. knowing how to read"
+        "prompt-wo": "Question: The child pretended he was reading newspaper, he couldn't actually do it without what?\nOptions:\nA. patience\nB. falling down\nC. literacy\nD. buying\nE. knowing how to read\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "E. knowing how to read"
     },
     {
         "total": 150,
+        "prompt-wo": "Question: Jenny enjoyed helping people.  It brought her a great deal of what?\nOptions:\nA. satisfaction\nB. complications\nC. train\nD. feel good about yourself\nE. enjoyment\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "A. satisfaction"
     },
     {
         "total": 151,
+        "prompt-wo": "Question: What might someone believe in if they are cleaning clothes?\nOptions:\nA. feminism\nB. sanitation\nC. ruined\nD. wrinkles\nE. buttons to fall off\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "B. Sanitation"
     },
     {
         "total": 152,
+        "prompt-wo": "Question: Where would you find a basement that can be accessed with an elevator?\nOptions:\nA. eat cake\nB. closet\nC. church\nD. office building\nE. own house\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "D. Office building"
     },
     {
         "total": 153,
+        "prompt-wo": "Question: In order to learn to program from another person you can do what?\nOptions:\nA. learn how to\nB. have a friend\nC. knowledge\nD. take class\nE. have computer\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "D. take class"
     },
     {
         "total": 154,
-        "qwen_answer_wo": "E. Human body"
+        "prompt-wo": "Question: He was at the gym trying to build muscle, what is it called that he is trying to build muscle on?\nOptions:\nA. body of animal\nB. arm\nC. bodybuilder\nD. body of dog\nE. human body\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "E. Human Body"
     },
     {
         "total": 155,
+        "prompt-wo": "Question: What part of plants is pretty?\nOptions:\nA. dirt\nB. no neurons in\nC. millions of cells\nD. flowers on\nE. roots\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "D. Flowers on"
     },
     {
         "total": 156,
-        "qwen_answer_wo": "The man is going fishing instead of work, which suggests that he is likely seeking a break from his daily responsibilities and looking for leisure or enjoyment. Based on this, the most appropriate answer would be:\n\nB. Relaxation\n\nHe might be looking to unwind, enjoy the outdoors, and possibly catch some fish as a side activity, but the primary focus is on taking a break and finding relaxation."
+        "prompt-wo": "Question: The man was going fishing instead of work, what is he seeking?\nOptions:\nA. food\nB. relaxation\nC. killing\nD. missing morning cartoons\nE. boredom\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "B. Relaxation"
     },
     {
         "total": 157,
-        "qwen_answer_wo": "The answer would be B. Rock. Unsmooth pits in rocks can occur naturally during the formation process or through weathering and erosion."
+        "prompt-wo": "Question: What could you get an unsmooth pit from?\nOptions:\nA. backyard\nB. rock\nC. mine\nD. cherry\nE. peach\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "B. Rock"
     },
     {
         "total": 158,
+        "prompt-wo": "Question: The man tried to reply to the woman, but he had difficulty keeping track of conversations that he didn't do what to?\nOptions:\nA. initiate\nB. ignore\nC. question\nD. answer\nE. ask\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "A. Initiate"
     },
     {
         "total": 159,
-        "qwen_answer_wo": "E. Forget\n\nThe phrase \"couldn't find anybody who recalled the event\" suggests that the people in question have a poor memory or are unable to recall the specific event being referred to. Therefore, the most appropriate option is that they are \"forgetful.\" The other options do not directly relate to the inability to remember an event."
+        "prompt-wo": "Question: I couldn't find anybody who recalled the event, what were they adroit at doing?\nOptions:\nA. question authority\nB. act fool\nC. wash dishes\nD. act innocent\nE. forget\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "E. Forget"
     },
     {
         "total": 160,
+        "prompt-wo": "Question: Where would you find a large dining room containing a fancy chandelier?\nOptions:\nA. mansion\nB. every house\nC. own home\nD. table\nE. restaurant\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "A. Mansion"
     },
     {
         "total": 161,
+        "prompt-wo": "Question: The extremely large cargo plane could only land at a specialized runway, these were only located at a what?\nOptions:\nA. back yard\nB. bowling alley\nC. city\nD. military base\nE. fashion show\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "D. military base"
     },
     {
         "total": 162,
-        "qwen_answer_wo": "C. bowling alley\n\nCarpet in a bowling alley is more likely to be smelly due to heavy foot traffic, shoes, and potential spills, which can cause a strong odor. This type of environment would discourage league play."
+        "prompt-wo": "Question: The carpet was smelly and discouraged the league from playing there, where was this smelly carpet installed?\nOptions:\nA. bedroom\nB. movie theater\nC. bowling alley\nD. church\nE. office\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "C. bowling alley"
     },
     {
         "total": 163,
-        "qwen_answer_wo": "E. New York City\n\nTo be let into a brownstone, one would typically need to request entry through the correct door or contact the resident, as brownstones are a type of row house commonly found in certain neighborhoods, particularly in New York City. So, \"New York City\" is the relevant answer here."
+        "prompt-wo": "Question: How can someone be let into a brownstone?\nOptions:\nA. brooklyn\nB. ring\nC. subdivision\nD. bricks\nE. new york city\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "The answer is E. New York City. A brownstone is a type of townhouse that is typically associated with residential areas, particularly in cities like New York City. People can be let into a brownstone by contacting the owner or the building's resident association and following the appropriate entry procedures, which may involve showing identification or using a key."
     },
     {
         "total": 164,
+        "prompt-wo": "Question: Where would someone purchase an upright piano?\nOptions:\nA. music class\nB. college\nC. music store\nD. music room\nE. music band\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "C. music store"
     },
     {
         "total": 165,
+        "prompt-wo": "Question: Where would you keep an ottoman near your front door?\nOptions:\nA. living room\nB. parlor\nC. furniture store\nD. basement\nE. kitchen\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "A. living room"
     },
     {
         "total": 166,
-        "qwen_answer_wo": "The answer is E. spinal injuries. Diving into a backyard pool can lead to serious spinal injuries if proper safety precautions are not taken."
+        "prompt-wo": "Question: Diving into backyard pools can be very dangerous and can lead to serious head and what?\nOptions:\nA. going somewhere\nB. splats\nC. cancer\nD. getting wet\nE. spinal injuries\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "E. Spinal injuries"
     },
     {
         "total": 167,
-        "qwen_answer_wo": "D. pet store"
+        "prompt-wo": "Question: Where would one find a snake in a cage?\nOptions:\nA. tropical forest\nB. oregon\nC. woods\nD. pet store\nE. louisiana\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "D. Pet store"
     },
     {
         "total": 168,
+        "prompt-wo": "Question: Where are people likely to become impatient?\nOptions:\nA. end of line\nB. buildings\nC. apartment\nD. neighbor's house\nE. address\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "A. End of line"
     },
     {
         "total": 169,
-        "qwen_answer_wo": "The correct answer is:\n\nC. completing\n\nWhen you fail to finish something, you have not completed it."
+        "prompt-wo": "Question: When you fail to finish something, you failed at doing what to it\nOptions:\nA. winning\nB. passing\nC. completing\nD. do well\nE. succeeding\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "C. Completing"
     },
     {
         "total": 170,
-        "qwen_answer_wo": "C. function\n\nJohn didn't care about style, and he believed that form was less important than function. This indicates that he prioritized utility and practicality over aesthetic appearance."
+        "prompt-wo": "Question: John didn't care about style.  He felt that form was less important than what?\nOptions:\nA. shapeless\nB. quality\nC. function\nD. change shape\nE. chaos\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "C. function"
     },
     {
         "total": 171,
+        "prompt-wo": "Question: When you get together with friends to watch film, you might do plenty of this?\nOptions:\nA. see what happens\nB. enjoy stories\nC. pass time\nD. have fun\nE. interesting\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "D. have fun"
     },
     {
         "total": 172,
-        "qwen_answer_wo": "The answer is D. boutique.\n\nA boutique is a type of shop that typically specializes in high-end, unique, or designer items, and it is uncommon to find a supermarket among boutiques. Supermarkets are generally large stores that offer a wide variety of groceries and household products, which are more commonly found in shopping centers or strip malls (option C) rather than boutiques (option D). Options A, B, and E are not relevant to the type of shops that would have a supermarket."
+        "prompt-wo": "Question: A supermarket is uncommon in what type of collection of shops?\nOptions:\nA. strip mall\nB. city or town\nC. shoppingcentre\nD. boutique\nE. vermont\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "The answer is D. boutique.\n\nA boutique is a type of small shop that typically specializes in unique, high-end, or designer goods, and it is uncommon to find a supermarket among boutiques. Supermarkets are generally larger stores that offer a wide variety of products at everyday prices, which is not the primary focus of a boutique. The other options (strip mall, city/town, shopping center) typically have multiple types of shops, including supermarkets."
     },
     {
         "total": 173,
+        "prompt-wo": "Question: Bill puts meat on the scale, where does Bill work?\nOptions:\nA. music store\nB. assay office\nC. tidal wave\nD. butcher shop\nE. bathroom\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "D. Butcher shop"
     },
     {
         "total": 174,
-        "qwen_answer_wo": "For serving food at a party, you would need:\n\nC. Bowl\n\nBowl is commonly used to serve and contain various types of food like salads, stews, or finger foods. spoons (E.) are also essential for serving and eating the food. However, a kitchen (D.) is where you prepare the food, not something you need to serve it directly. A zoo (A.), as an option, doesn't relate to serving food at all."
+        "prompt-wo": "Question: I'm having some food at my party, what will I need to serve it?\nOptions:\nA. zoo\nB. pan\nC. bowl\nD. kitchen\nE. spoon\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "For serving food at a party, you would need:\n\nC. Bowl\n\nA bowl is commonly used to hold and serve various types of food like salads, snacks, or soups. You might also use plates for larger portions or cups for beverages. A spoon (E) is essential for serving and eating the food, but it's not a choice in this list. A kitchen (D) is where you would prepare the food, but it's not something you need to serve; a zoo (A) is unrelated to serving food."
     },
     {
         "total": 175,
-        "qwen_answer_wo": "E. stand still\n\nBefore racers start to run, they must stand still at the starting line. This is a standard procedure to ensure that everyone is in position and ready when the race begins."
+        "prompt-wo": "Question: Before racers start to run they must do what at the starting line?\nOptions:\nA. learn to walk\nB. walking\nC. walk slowly\nD. breathe\nE. stand still\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "E. stand still"
     },
     {
         "total": 176,
+        "prompt-wo": "Question: What does an actor do when they are bored of their roles?\nOptions:\nA. mask\nB. branch out\nC. wear costume\nD. pretend\nE. sing songs\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "B. Branch out"
     },
     {
         "total": 177,
+        "prompt-wo": "Question: What is a person called who doesn't have immortality?\nOptions:\nA. mortal\nB. dying\nC. death\nD. dead\nE. mortal\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "A. Mortal"
     },
     {
         "total": 178,
+        "prompt-wo": "Question: Why would you be watching tv instead of doing something else?\nOptions:\nA. headache\nB. laughter\nC. laziness\nD. erections\nE. wasting time\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "C. Laziness"
     },
     {
         "total": 179,
-        "qwen_answer_wo": "If chewing food is difficult for you, a possible reason could be:\n\nA. broken jaw"
+        "prompt-wo": "Question: If chewing food is difficult for you, what is a possible reason?\nOptions:\nA. broken jaw\nB. sore mouth\nC. eating\nD. good digestion\nE. avoiding choking\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "If chewing food is difficult for you, a possible reason could be:\n\nA. Broken jaw\n\nA broken jaw can significantly impair your ability to chew properly due to the limited mobility and pain associated with the injury."
     },
     {
         "total": 180,
+        "prompt-wo": "Question: He had to wear a tuxedo while playing the keyboard instrument, so did the other hundred members of the what?\nOptions:\nA. music store\nB. band\nC. medium\nD. orchestra\nE. piano store\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "D. Orchestra"
     },
     {
         "total": 181,
+        "prompt-wo": "Question: Where do you find the most amount of leafs?\nOptions:\nA. floral arrangement\nB. ground\nC. forrest\nD. field\nE. compost pile\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "C. Forest"
     },
     {
         "total": 182,
+        "prompt-wo": "Question: Where can children play with animals?\nOptions:\nA. meadow\nB. play room\nC. surface of earth\nD. zoos\nE. fairgrounds\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "D. Zoos"
     },
     {
         "total": 183,
+        "prompt-wo": "Question: What kind of tale might feature a talking weasel?\nOptions:\nA. mulberry bush\nB. animated film\nC. chicken coop\nD. history book\nE. children's story\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "E. Children's story"
     },
     {
         "total": 184,
-        "qwen_answer_wo": "The bald eagle is given the status:\n\nC. Protection\n\nThe bald eagle is listed as a species under the United States' Endangered Species Act and is protected by federal law in the United States."
+        "prompt-wo": "Question: What kind of status is the bald eagle given?\nOptions:\nA. outside\nB. world\nC. protection\nD. colorado\nE. america\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "C. Protection"
     },
     {
         "total": 185,
-        "qwen_answer_wo": "C. feel more energetic\n\nMost people take a quick rest during the day, especially a short break or nap, primarily because it can help them feel more energetic. This is due to the body's natural need for rest and recovery, particularly after periods of mental or physical activity. A brief nap can help reduce fatigue and increase alertness, allowing individuals to return to their tasks with renewed energy."
+        "prompt-wo": "Question: Why do most people take a quick rest during the day?\nOptions:\nA. need to\nB. hungry\nC. feel more energetic\nD. weak\nE. regenerate\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "C. feel more energetic"
     },
     {
         "total": 186,
-        "qwen_answer_wo": "B. falling down"
+        "prompt-wo": "Question: What could suddenly stop someone when he or she is running?\nOptions:\nA. mushroom\nB. falling down\nC. sweating\nD. exhaustion\nE. getting tired\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "The choice that could suddenly stop someone when he or she is running is:\n\nB. Falling down\n\nThis is because if someone trips or loses their balance and falls, it can cause them to stop running immediately. The other options listed do not typically halt movement in the midst of running. A mushroom (option A) is not a physical entity that could stop someone, sweating (option C) and getting tired (option E) are gradual processes, and exhaustion might eventually lead to stopping, but not suddenly."
     },
     {
         "total": 187,
-        "qwen_answer_wo": "The most likely place to find a monkey in the wild is:\n\nE. Thailand\n\nMonkeys are native to many parts of Southeast Asia, including Thailand, where they can be found in various habitats such as forests, grasslands, and even some urban areas. However, it's important to note that finding a monkey in the wild depends on the specific species and its natural range."
+        "prompt-wo": "Question: Where would you find a monkey in the wild?\nOptions:\nA. zoo\nB. barrel\nC. research laboratory\nD. captivity\nE. thailand\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "E. Thailand"
     },
     {
         "total": 188,
-        "qwen_answer_wo": "A. Tropical jungle"
+        "prompt-wo": "Question: Where could a sloth live?\nOptions:\nA. tropical jungle\nB. manual\nC. work\nD. transit\nE. countryside\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "A. tropical jungle"
     },
     {
         "total": 189,
-        "qwen_answer_wo": "A. Club\n\nThe gentleman is likely to have a golf club, as that is the equipment typically associated with playing golf."
+        "prompt-wo": "Question: A gentleman is carrying equipment for golf, what is he likely to have?\nOptions:\nA. club\nB. assembly hall\nC. meditation center\nD. meeting\nE. church\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "A. Club"
     },
     {
         "total": 190,
-        "qwen_answer_wo": "A. lawn"
+        "prompt-wo": "Question: If you have a home with a courtyard, what's one thing you probably don't have to care for any longer?\nOptions:\nA. lawn\nB. kids\nC. asshole\nD. spain\nE. office complex\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "A. Lawn"
     },
     {
         "total": 191,
+        "prompt-wo": "Question: The computer was difficult for he to understand at the store, so what did she sign up for to learn more?\nOptions:\nA. classroom\nB. facebook\nC. school\nD. apartment\nE. demonstration\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "C. School"
     },
     {
         "total": 192,
-        "qwen_answer_wo": "E.\n\nIf you take the risk buying a used car, you still hope it can last several years. This is because a used car's primary purpose is to provide reliable transportation over an extended period, and its longevity is a key factor in making an informed purchase. The other options either refer to performance (A, C) or appearance (D), which may or may not be desirable but are not the primary hope for a used car. Option B, \"start running,\" implies the car doesn't need to be new to function, which is also true, but the phrasing \"hope it can\" is more about the car lasting rather than immediately starting."
+        "prompt-wo": "Question: If you take the risk buying a used car, you still hope it can what?\nOptions:\nA. go fast\nB. start running\nC. going too fast\nD. look good\nE. last several years\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "E. last several years"
     },
     {
         "total": 193,
-        "qwen_answer_wo": "C. reading\n\nDan was sitting quietly with a book in his hand, which suggests that he was engaged in reading the book."
+        "prompt-wo": "Question: Dan was ditting quietly on the couch with a book in his hand.  Laurie thought that he was just focused on what he was doing, but he actually did what?\nOptions:\nA. eat\nB. think\nC. reading\nD. meditate\nE. fall asleep\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "Based on the given context, it seems that Dan was engaged in an activity that involved both being quiet and having a book in his hand, which implies that he was likely reading. Therefore, the correct answer is:\n\nC. reading"
     },
     {
         "total": 194,
-        "qwen_answer_wo": "The primary purpose of cars is C. move people."
+        "prompt-wo": "Question: What is the primary purpose of cars?\nOptions:\nA. cost money\nB. slow down\nC. move people\nD. turn right\nE. get girls\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "The primary purpose of cars, as per their typical function and design, is to C. move people."
     },
     {
         "total": 195,
+        "prompt-wo": "Question: Alabama is full of different people, but they are all citizens of what?\nOptions:\nA. united states\nB. deep south\nC. floribama\nD. gulf states\nE. florabama\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "A. United States"
     },
     {
         "total": 196,
+        "prompt-wo": "Question: They were hoping their campaign would create a rise in awareness of the problem and hopefully do what to its effect?\nOptions:\nA. set\nB. fall\nC. park\nD. descend\nE. reduce\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
         "qwen_answer_wo": "E. Reduce"
     },
     {
         "total": 197,
-        "qwen_answer_wo": "D. Land"
+        "prompt-wo": "Question: What do airplanes do as they are arriving at the gate?\nOptions:\nA. slow down\nB. crash\nC. speed up\nD. land\nE. carry people\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "D. land"
     },
     {
         "total": 198,
-        "qwen_answer_wo": "The likely outcome if a person with mental illness stops their treatment is:\n\nE. cause suffering\n\nStopping treatment for mental illness can lead to a recurrence of symptoms, which can cause distress and negatively impact the individual's daily life. While some individuals may experience a temporary improvement when they initially stop, it's crucial to continue with proper treatment to manage their condition effectively."
+        "prompt-wo": "Question: If a person with mental illness stops treatment what will likely happen?\nOptions:\nA. managed\nB. dancing\nC. recur\nD. effectively treated\nE. cause suffering\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "The likely answer is:\n\nE. cause suffering\n\nWhen a person with a mental illness stops their treatment, it is generally not managed or effectively treated. The symptoms of the illness may recur, and they may experience a decline in their ability to function and cope with daily life, leading to increased suffering. Dancing is not related to the outcome of stopping treatment."
     },
     {
         "total": 199,
-        "qwen_answer_wo": "The answer is E. Attack.\n\nThe TV show you're referring to sounds like it might be \"Animal Attack,\" which is a show that typically features different animals engaging in aggressive or predatory behavior for entertainment purposes. So the correct capitalized letter is \"Attack.\""
+        "prompt-wo": "Question: The gimmicky low brow TV show was about animals when they what?\nOptions:\nA. sick\nB. mammals\nC. males\nD. bite\nE. attack\nBased on your own knowledge, answer directly the capitalized letter standing for the choice.",
+        "qwen_answer_wo": "E. Attack"
     }
 ]

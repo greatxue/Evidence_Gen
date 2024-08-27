@@ -50,10 +50,10 @@ for item in dataset[split]:
             prompt = f"Question: {question}\nOptions:\n"
             for idx, choice in enumerate(choices):
                 prompt += f"{chr(65 + idx)}. {choice}\n"
-                prompt += f"Here is some evidence which could be helpful to solve the problem:\n"
-                prompt += evidence_sections[total]
-                prompt += f'\n'
-                prompt += "Based on the evidence and your own knowledge, answer directly the capitalized letter standing for the choice."
+            prompt += f"Here is some evidence which could be helpful to solve the problem:\n"
+            prompt += evidence_sections[total]
+            prompt += f'\n'
+            prompt += "Based on the evidence and your own knowledge, answer directly the capitalized letter standing for the choice."
 
             response = ques_qwen(prompt)
             qwen_ans = response['output']['choices'][0]['message']['content']
