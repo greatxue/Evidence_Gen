@@ -1,7 +1,7 @@
 import json
 
-file1 = '/data3/greatxue/llm_uncer/results.json'
-file2 = '/data3/greatxue/llm_uncer/results2.json'
+file1 = '/data3/greatxue/results.json'
+file2 = '/data3/greatxue/results2.json'
 
 with open(file1, 'r') as f1, open(file2, 'r') as f2:
     data1 = json.load(f1)
