@@ -1,7 +1,7 @@
 import json
 
-file1 = '/data3/greatxue/results.json'
-file2 = '/data3/greatxue/results2.json'
+file1 = '/data3/greatxue/llm_uncer/cqa_tryout/qwen-qa/json_result/prev/ex_resultOK.json'
+file2 = '/data3/greatxue/llm_uncer/cqa_tryout/qwen-qa/json_result/prev/result_no_mark.json'
 
 with open(file1, 'r') as f1, open(file2, 'r') as f2:
     data1 = json.load(f1)
@@ -22,7 +22,7 @@ for item in data2:
 
 merged_list = list(merged_data.values())
 
-with open('full_result.json', 'w') as f:
+with open('RESULT_reallyOK.json', 'w') as f:
     json.dump(merged_list, f, indent=4)
 
 print("===============Saved===============")

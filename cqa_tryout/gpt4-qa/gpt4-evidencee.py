@@ -1,6 +1,6 @@
 from utils.openai import client
 from datasets import load_dataset
-from extract import extract_evidence
+from evidence.extract import extract_evidence
 import time
 
 dataset = load_dataset("tau/commonsense_qa")

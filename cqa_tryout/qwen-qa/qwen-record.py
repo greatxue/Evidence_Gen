@@ -48,24 +48,27 @@ for item in dataset[split]:
             question = item['question']
             choices = item['choices']['text'] 
             answer_key = item['answerKey']
-
+            
+            prompt = evidence_sections[total]
+            prompt += f'\n'
+        
             prompt = f"Question: {question}\nOptions:\n"
             for idx, choice in enumerate(choices):
                 prompt += f"{chr(65 + idx)}. {choice}\n"
-            prompt += f"Here is some evidence which could be helpful to solve the problem:\n"
-            prompt += evidence_sections[total]
-            prompt += f'\n'
-            #prompt += "Based on your own knowledge, show your thinking process and finally answer the capitalized letter standing for the choice."
-            prompt += "Based on the evidence and your own knowledge, show your thinking process and finally answer the capitalized letter standing for the choice."
+
+            prompt += f"Based on the evidence and your own knowledge, show your thinking process.\n"
+            prompt += f"Finally answer the question with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice."
 
             response = ques_qwen(prompt)
             qwen_ans = response['output']['choices'][0]['message']['content']
 
             result = {
-                "total": total,  # total计数从1开始
+                "total": total, 
                 "prompt": prompt,
                 "qwen_answer": qwen_ans,
-                "reference_answer": answer_key
+                "reference_answer": answer_key,
+                "mark": "",
+                "mark_wo": ""
             }
 
             data.append(result)
