@@ -18,6 +18,6 @@ def ask_gpt2(question, max_length=100):
     answer = tokenizer.decode(outputs[0], skip_special_tokens=True)
     return answer
 
-question = f"I fucked Xinyi everyday legally, hence she is my"
+question = f"I got married with Helen, hence she is my"
 answer = ask_gpt2(question)
 print(f"Ans from GPT-2:\n", answer)

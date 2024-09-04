@@ -3,11 +3,11 @@ os.environ['DASHSCOPE_API_KEY'] = 'sk-da1b1321d9d344a6ae18e27fac23c6ae'
 from http import HTTPStatus
 import dashscope
 from datasets import load_dataset
-from extract import extract_evidence
+#from extract import extract_evidence
 import time
 
 
-dataset = load_dataset("tau/commonsense_qa")
+dataset = load_dataset("allenai/openbookqa")
 split = 'validation' 
 
 total = 0
@@ -15,11 +15,13 @@ correct = 0
 MAX = 200
 DELAY = 1
 
+'''
 file_path = '/data3/greatxue/llm_uncer/cqa_tryout/gpt4-qa/gpt_evidence.txt'
 evidence_sections = extract_evidence(file_path)
 print("Evidence extracted.")
 print(evidence_sections[0])
 time.sleep(4)
+'''
 
 def ques_qwen(ques_str):
     messages = [
@@ -43,19 +45,20 @@ for item in dataset[split]:
         continue
     else:
         try:
-            question = item['question']
+            question = item['question_stem']
             choices = item['choices']['text'] 
             answer_key = item['answerKey']
 
             
-            prompt = f"Here is some evidence which could be helpful to solve some problem:\n"
-            prompt += evidence_sections[total]
-            prompt += f'\n'
-            prompt += "Based on the evidence and your own knowledge, answer directly the problem below with capitalized letter standing for the choice."
+            #prompt = f"Here is some evidence which could be helpful to solve some problem:\n"
+            #prompt += evidence_sections[total]
+            #prompt += f'\n'
+            
 
             prompt = f"Question: {question}\nOptions:\n"
             for idx, choice in enumerate(choices):
                 prompt += f"{chr(65 + idx)}. {choice}\n"
+            prompt += "Please answer the question with the format 'The final answer is: X', where X is the UNIQUE capitalized letter standing for the choice."
 
             response = ques_qwen(prompt)
             qwen_ans = response['output']['choices'][0]['message']['content']

@@ -1,0 +1,455 @@
+/data3/zhengwenhao/.conda/envs/llm_uncer/bin/python /data3/greatxue/llm_uncer/cqa_tryout/gpt4-qa/gpt4-evidencer-bookqa.py
+1-th Processing... A vs A.
+...Evidence written.
+2-th Processing... D vs D.
+...Evidence written.
+Error on question 3: Error code: 429 - {'error': {'code': '429', 'message': 'Requests to the ChatCompletions_Create Operation under Azure OpenAI API version 2024-02-01 have exceeded token rate limit of your current OpenAI S0 pricing tier. Please retry after 1 second. Please go here: https://aka.ms/oai/quotaincrease if you would like to further increase the default rate limit.'}}
+3-th Processing... D vs D.
+...Evidence written.
+4-th Processing... D vs D.
+...Evidence written.
+5-th Processing... D vs D.
+...Evidence written.
+6-th Processing... A vs A.
+...Evidence written.
+7-th Processing... B vs B.
+...Evidence written.
+8-th Processing... D vs D.
+...Evidence written.
+9-th Processing... B vs B.
+...Evidence written.
+10-th Processing... B vs B.
+...Evidence written.
+11-th Processing... C vs C.
+...Evidence written.
+12-th Processing... C vs C.
+...Evidence written.
+13-th Processing... D vs D.
+...Evidence written.
+14-th Processing... A vs A.
+...Evidence written.
+15-th Processing... C vs C.
+...Evidence written.
+16-th Processing... A vs A.
+...Evidence written.
+17-th Processing... B vs B.
+...Evidence written.
+18-th Processing... D vs A.
+...Evidence written.
+19-th Processing... D vs D.
+...Evidence written.
+20-th Processing... C vs C.
+...Evidence written.
+21-th Processing... D vs D.
+...Evidence written.
+22-th Processing... B vs B.
+...Evidence written.
+23-th Processing... B vs B.
+...Evidence written.
+24-th Processing... D vs D.
+...Evidence written.
+Error on question 25: Error code: 429 - {'error': {'code': '429', 'message': 'Requests to the ChatCompletions_Create Operation under Azure OpenAI API version 2024-02-01 have exceeded token rate limit of your current OpenAI S0 pricing tier. Please retry after 1 second. Please go here: https://aka.ms/oai/quotaincrease if you would like to further increase the default rate limit.'}}
+25-th Processing... C vs C.
+...Evidence written.
+26-th Processing... C vs C.
+...Evidence written.
+27-th Processing... D vs D.
+...Evidence written.
+28-th Processing... A vs A.
+...Evidence written.
+29-th Processing... A vs A.
+...Evidence written.
+30-th Processing... A vs A.
+...Evidence written.
+31-th Processing... D vs D.
+Error on question 32: Error code: 429 - {'error': {'code': '429', 'message': 'Requests to the ChatCompletions_Create Operation under Azure OpenAI API version 2024-02-01 have exceeded token rate limit of your current OpenAI S0 pricing tier. Please retry after 1 second. Please go here: https://aka.ms/oai/quotaincrease if you would like to further increase the default rate limit.'}}
+32-th Processing... B vs B.
+...Evidence written.
+33-th Processing... B vs B.
+...Evidence written.
+34-th Processing... A vs A.
+...Evidence written.
+35-th Processing... A vs A.
+...Evidence written.
+36-th Processing... A vs A.
+...Evidence written.
+37-th Processing... D vs D.
+...Evidence written.
+38-th Processing... C vs C.
+...Evidence written.
+39-th Processing... C vs B.
+...Evidence written.
+40-th Processing... A vs A.
+Error on question 41: Error code: 429 - {'error': {'code': '429', 'message': 'Requests to the ChatCompletions_Create Operation under Azure OpenAI API version 2024-02-01 have exceeded token rate limit of your current OpenAI S0 pricing tier. Please retry after 1 second. Please go here: https://aka.ms/oai/quotaincrease if you would like to further increase the default rate limit.'}}
+41-th Processing... B vs B.
+...Evidence written.
+42-th Processing... C vs C.
+...Evidence written.
+43-th Processing... A vs A.
+...Evidence written.
+44-th Processing... A vs A.
+...Evidence written.
+45-th Processing... C vs B.
+...Evidence written.
+46-th Processing... B vs B.
+...Evidence written.
+47-th Processing... B vs B.
+...Evidence written.
+48-th Processing... C vs C.
+...Evidence written.
+49-th Processing... A vs A.
+...Evidence written.
+50-th Processing... D vs D.
+...Evidence written.
+51-th Processing... B vs B.
+...Evidence written.
+52-th Processing... B vs B.
+...Evidence written.
+53-th Processing... B vs B.
+Error on question 54: Error code: 429 - {'error': {'code': '429', 'message': 'Requests to the ChatCompletions_Create Operation under Azure OpenAI API version 2024-02-01 have exceeded token rate limit of your current OpenAI S0 pricing tier. Please retry after 1 second. Please go here: https://aka.ms/oai/quotaincrease if you would like to further increase the default rate limit.'}}
+54-th Processing... D vs D.
+Error on question 55: Error code: 429 - {'error': {'code': '429', 'message': 'Requests to the ChatCompletions_Create Operation under Azure OpenAI API version 2024-02-01 have exceeded token rate limit of your current OpenAI S0 pricing tier. Please retry after 1 second. Please go here: https://aka.ms/oai/quotaincrease if you would like to further increase the default rate limit.'}}
+55-th Processing... D vs D.
+...Evidence written.
+56-th Processing... A vs A.
+...Evidence written.
+57-th Processing... D vs D.
+...Evidence written.
+58-th Processing... D vs D.
+...Evidence written.
+59-th Processing... C vs C.
+...Evidence written.
+60-th Processing... C vs C.
+...Evidence written.
+61-th Processing... B vs B.
+Error on question 62: Error code: 429 - {'error': {'code': '429', 'message': 'Requests to the ChatCompletions_Create Operation under Azure OpenAI API version 2024-02-01 have exceeded token rate limit of your current OpenAI S0 pricing tier. Please retry after 1 second. Please go here: https://aka.ms/oai/quotaincrease if you would like to further increase the default rate limit.'}}
+62-th Processing... B vs B.
+...Evidence written.
+Error on question 63: Error code: 429 - {'error': {'code': '429', 'message': 'Requests to the ChatCompletions_Create Operation under Azure OpenAI API version 2024-02-01 have exceeded token rate limit of your current OpenAI S0 pricing tier. Please retry after 1 second. Please go here: https://aka.ms/oai/quotaincrease if you would like to further increase the default rate limit.'}}
+63-th Processing... C vs C.
+Error on question 64: Error code: 429 - {'error': {'code': '429', 'message': 'Requests to the ChatCompletions_Create Operation under Azure OpenAI API version 2024-02-01 have exceeded token rate limit of your current OpenAI S0 pricing tier. Please retry after 2 seconds. Please go here: https://aka.ms/oai/quotaincrease if you would like to further increase the default rate limit.'}}
+64-th Processing... B vs B.
+...Evidence written.
+65-th Processing... B vs B.
+...Evidence written.
+66-th Processing... B vs B.
+...Evidence written.
+67-th Processing... A vs A.
+...Evidence written.
+68-th Processing... A vs A.
+...Evidence written.
+69-th Processing... D vs D.
+...Evidence written.
+70-th Processing... C vs C.
+Error on question 71: Error code: 429 - {'error': {'code': '429', 'message': 'Requests to the ChatCompletions_Create Operation under Azure OpenAI API version 2024-02-01 have exceeded token rate limit of your current OpenAI S0 pricing tier. Please retry after 1 second. Please go here: https://aka.ms/oai/quotaincrease if you would like to further increase the default rate limit.'}}
+Error on question 71: Error code: 429 - {'error': {'code': '429', 'message': 'Requests to the ChatCompletions_Create Operation under Azure OpenAI API version 2024-02-01 have exceeded token rate limit of your current OpenAI S0 pricing tier. Please retry after 2 seconds. Please go here: https://aka.ms/oai/quotaincrease if you would like to further increase the default rate limit.'}}
+71-th Processing... C vs C.
+...Evidence written.
+72-th Processing... B vs B.
+...Evidence written.
+73-th Processing... C vs A.
+...Evidence written.
+74-th Processing... B vs B.
+...Evidence written.
+75-th Processing... D vs A.
+...Evidence written.
+76-th Processing... D vs D.
+...Evidence written.
+77-th Processing... B vs B.
+...Evidence written.
+78-th Processing... C vs C.
+...Evidence written.
+Error on question 79: Error code: 429 - {'error': {'code': '429', 'message': 'Requests to the ChatCompletions_Create Operation under Azure OpenAI API version 2024-02-01 have exceeded token rate limit of your current OpenAI S0 pricing tier. Please retry after 1 second. Please go here: https://aka.ms/oai/quotaincrease if you would like to further increase the default rate limit.'}}
+79-th Processing... B vs B.
+...Evidence written.
+80-th Processing... A vs A.
+Error on question 81: Error code: 429 - {'error': {'code': '429', 'message': 'Requests to the ChatCompletions_Create Operation under Azure OpenAI API version 2024-02-01 have exceeded token rate limit of your current OpenAI S0 pricing tier. Please retry after 1 second. Please go here: https://aka.ms/oai/quotaincrease if you would like to further increase the default rate limit.'}}
+81-th Processing... B vs B.
+...Evidence written.
+82-th Processing... C vs C.
+...Evidence written.
+83-th Processing... B vs B.
+...Evidence written.
+84-th Processing... A vs A.
+...Evidence written.
+85-th Processing... B vs B.
+...Evidence written.
+86-th Processing... A vs A.
+...Evidence written.
+Error on question 87: Error code: 429 - {'error': {'code': '429', 'message': 'Requests to the ChatCompletions_Create Operation under Azure OpenAI API version 2024-02-01 have exceeded token rate limit of your current OpenAI S0 pricing tier. Please retry after 1 second. Please go here: https://aka.ms/oai/quotaincrease if you would like to further increase the default rate limit.'}}
+87-th Processing... B vs B.
+...Evidence written.
+88-th Processing... B vs B.
+...Evidence written.
+89-th Processing... A vs A.
+...Evidence written.
+90-th Processing... C vs C.
+...Evidence written.
+91-th Processing... B vs B.
+Error on question 92: Error code: 429 - {'error': {'code': '429', 'message': 'Requests to the ChatCompletions_Create Operation under Azure OpenAI API version 2024-02-01 have exceeded token rate limit of your current OpenAI S0 pricing tier. Please retry after 1 second. Please go here: https://aka.ms/oai/quotaincrease if you would like to further increase the default rate limit.'}}
+92-th Processing... A vs A.
+...Evidence written.
+93-th Processing... C vs C.
+...Evidence written.
+94-th Processing... B vs B.
+...Evidence written.
+95-th Processing... C vs C.
+...Evidence written.
+96-th Processing... D vs D.
+...Evidence written.
+97-th Processing... C vs B.
+...Evidence written.
+98-th Processing... C vs C.
+Error on question 99: Error code: 429 - {'error': {'code': '429', 'message': 'Requests to the ChatCompletions_Create Operation under Azure OpenAI API version 2024-02-01 have exceeded token rate limit of your current OpenAI S0 pricing tier. Please retry after 1 second. Please go here: https://aka.ms/oai/quotaincrease if you would like to further increase the default rate limit.'}}
+99-th Processing... B vs B.
+...Evidence written.
+100-th Processing... A vs A.
+...Evidence written.
+101-th Processing... B vs B.
+...Evidence written.
+102-th Processing... C vs B.
+...Evidence written.
+103-th Processing... B vs B.
+...Evidence written.
+104-th Processing... B vs B.
+...Evidence written.
+105-th Processing... B vs B.
+...Evidence written.
+Error on question 106: Error code: 429 - {'error': {'code': '429', 'message': 'Requests to the ChatCompletions_Create Operation under Azure OpenAI API version 2024-02-01 have exceeded token rate limit of your current OpenAI S0 pricing tier. Please retry after 2 seconds. Please go here: https://aka.ms/oai/quotaincrease if you would like to further increase the default rate limit.'}}
+106-th Processing... B vs B.
+...Evidence written.
+107-th Processing... C vs A.
+...Evidence written.
+108-th Processing... C vs C.
+...Evidence written.
+109-th Processing... A vs A.
+...Evidence written.
+110-th Processing... B vs B.
+...Evidence written.
+111-th Processing... B vs B.
+...Evidence written.
+112-th Processing... A vs A.
+...Evidence written.
+113-th Processing... B vs B.
+...Evidence written.
+114-th Processing... B vs B.
+...Evidence written.
+115-th Processing... B vs B.
+...Evidence written.
+116-th Processing... D vs D.
+...Evidence written.
+117-th Processing... C vs C.
+...Evidence written.
+118-th Processing... A vs A.
+Error on question 119: Error code: 429 - {'error': {'code': '429', 'message': 'Requests to the ChatCompletions_Create Operation under Azure OpenAI API version 2024-02-01 have exceeded token rate limit of your current OpenAI S0 pricing tier. Please retry after 1 second. Please go here: https://aka.ms/oai/quotaincrease if you would like to further increase the default rate limit.'}}
+119-th Processing... B vs B.
+...Evidence written.
+120-th Processing... B vs B.
+...Evidence written.
+121-th Processing... C vs C.
+...Evidence written.
+122-th Processing... A vs A.
+Error on question 123: Error code: 429 - {'error': {'code': '429', 'message': 'Requests to the ChatCompletions_Create Operation under Azure OpenAI API version 2024-02-01 have exceeded token rate limit of your current OpenAI S0 pricing tier. Please retry after 1 second. Please go here: https://aka.ms/oai/quotaincrease if you would like to further increase the default rate limit.'}}
+123-th Processing... C vs C.
+...Evidence written.
+124-th Processing... A vs A.
+...Evidence written.
+125-th Processing... A vs A.
+...Evidence written.
+126-th Processing... B vs B.
+...Evidence written.
+127-th Processing... B vs B.
+...Evidence written.
+128-th Processing... D vs D.
+...Evidence written.
+129-th Processing... D vs D.
+...Evidence written.
+130-th Processing... A vs A.
+...Evidence written.
+131-th Processing... A vs A.
+...Evidence written.
+132-th Processing... B vs B.
+...Evidence written.
+133-th Processing... C vs C.
+...Evidence written.
+134-th Processing... A vs A.
+...Evidence written.
+135-th Processing... B vs C.
+...Evidence written.
+136-th Processing... B vs B.
+...Evidence written.
+137-th Processing... A vs A.
+...Evidence written.
+138-th Processing... D vs D.
+...Evidence written.
+139-th Processing... B vs B.
+...Evidence written.
+140-th Processing... C vs C.
+...Evidence written.
+141-th Processing... A vs A.
+...Evidence written.
+142-th Processing... D vs D.
+...Evidence written.
+Error on question 143: Error code: 429 - {'error': {'code': '429', 'message': 'Requests to the ChatCompletions_Create Operation under Azure OpenAI API version 2024-02-01 have exceeded token rate limit of your current OpenAI S0 pricing tier. Please retry after 1 second. Please go here: https://aka.ms/oai/quotaincrease if you would like to further increase the default rate limit.'}}
+143-th Processing... D vs D.
+Error on question 144: Error code: 429 - {'error': {'code': '429', 'message': 'Requests to the ChatCompletions_Create Operation under Azure OpenAI API version 2024-02-01 have exceeded token rate limit of your current OpenAI S0 pricing tier. Please retry after 1 second. Please go here: https://aka.ms/oai/quotaincrease if you would like to further increase the default rate limit.'}}
+144-th Processing... D vs D.
+...Evidence written.
+145-th Processing... D vs D.
+...Evidence written.
+146-th Processing... A vs A.
+...Evidence written.
+147-th Processing... C vs C.
+...Evidence written.
+148-th Processing... C vs C.
+...Evidence written.
+149-th Processing... B vs B.
+...Evidence written.
+150-th Processing... D vs D.
+...Evidence written.
+151-th Processing... D vs D.
+...Evidence written.
+152-th Processing... A vs A.
+...Evidence written.
+153-th Processing... B vs B.
+...Evidence written.
+154-th Processing... C vs C.
+...Evidence written.
+155-th Processing... A vs A.
+...Evidence written.
+156-th Processing... C vs C.
+...Evidence written.
+157-th Processing... C vs B.
+...Evidence written.
+158-th Processing... N vs A.
+...Evidence written.
+159-th Processing... A vs A.
+...Evidence written.
+160-th Processing... B vs B.
+...Evidence written.
+161-th Processing... C vs C.
+...Evidence written.
+162-th Processing... C vs C.
+...Evidence written.
+163-th Processing... B vs B.
+...Evidence written.
+164-th Processing... B vs B.
+...Evidence written.
+Error on question 165: Error code: 429 - {'error': {'code': '429', 'message': 'Requests to the ChatCompletions_Create Operation under Azure OpenAI API version 2024-02-01 have exceeded token rate limit of your current OpenAI S0 pricing tier. Please retry after 1 second. Please go here: https://aka.ms/oai/quotaincrease if you would like to further increase the default rate limit.'}}
+165-th Processing... C vs C.
+...Evidence written.
+166-th Processing... B vs B.
+...Evidence written.
+167-th Processing... A vs A.
+...Evidence written.
+168-th Processing... C vs C.
+...Evidence written.
+169-th Processing... D vs D.
+Error on question 170: Error code: 429 - {'error': {'code': '429', 'message': 'Requests to the ChatCompletions_Create Operation under Azure OpenAI API version 2024-02-01 have exceeded token rate limit of your current OpenAI S0 pricing tier. Please retry after 1 second. Please go here: https://aka.ms/oai/quotaincrease if you would like to further increase the default rate limit.'}}
+170-th Processing... A vs A.
+...Evidence written.
+171-th Processing... A vs A.
+...Evidence written.
+172-th Processing... B vs B.
+...Evidence written.
+173-th Processing... A vs A.
+...Evidence written.
+174-th Processing... D vs D.
+...Evidence written.
+175-th Processing... C vs C.
+...Evidence written.
+176-th Processing... B vs B.
+...Evidence written.
+177-th Processing... D vs D.
+...Evidence written.
+178-th Processing... B vs B.
+...Evidence written.
+179-th Processing... B vs B.
+...Evidence written.
+Error on question 180: Error code: 429 - {'error': {'code': '429', 'message': 'Requests to the ChatCompletions_Create Operation under Azure OpenAI API version 2024-02-01 have exceeded token rate limit of your current OpenAI S0 pricing tier. Please retry after 1 second. Please go here: https://aka.ms/oai/quotaincrease if you would like to further increase the default rate limit.'}}
+180-th Processing... A vs A.
+...Evidence written.
+181-th Processing... C vs D.
+...Evidence written.
+182-th Processing... B vs A.
+...Evidence written.
+Error on question 183: Error code: 429 - {'error': {'code': '429', 'message': 'Requests to the ChatCompletions_Create Operation under Azure OpenAI API version 2024-02-01 have exceeded token rate limit of your current OpenAI S0 pricing tier. Please retry after 2 seconds. Please go here: https://aka.ms/oai/quotaincrease if you would like to further increase the default rate limit.'}}
+183-th Processing... B vs B.
+...Evidence written.
+184-th Processing... D vs D.
+...Evidence written.
+185-th Processing... C vs C.
+...Evidence written.
+186-th Processing... C vs C.
+...Evidence written.
+Error on question 187: Error code: 429 - {'error': {'code': '429', 'message': 'Requests to the ChatCompletions_Create Operation under Azure OpenAI API version 2024-02-01 have exceeded token rate limit of your current OpenAI S0 pricing tier. Please retry after 1 second. Please go here: https://aka.ms/oai/quotaincrease if you would like to further increase the default rate limit.'}}
+187-th Processing... D vs D.
+...Evidence written.
+188-th Processing... D vs D.
+...Evidence written.
+189-th Processing... C vs C.
+...Evidence written.
+190-th Processing... A vs A.
+...Evidence written.
+191-th Processing... D vs D.
+...Evidence written.
+192-th Processing... B vs B.
+...Evidence written.
+193-th Processing... D vs D.
+...Evidence written.
+194-th Processing... D vs D.
+...Evidence written.
+195-th Processing... A vs A.
+...Evidence written.
+196-th Processing... B vs B.
+...Evidence written.
+197-th Processing... A vs A.
+...Evidence written.
+198-th Processing... A vs A.
+Error on question 199: Error code: 429 - {'error': {'code': '429', 'message': 'Requests to the ChatCompletions_Create Operation under Azure OpenAI API version 2024-02-01 have exceeded token rate limit of your current OpenAI S0 pricing tier. Please retry after 1 second. Please go here: https://aka.ms/oai/quotaincrease if you would like to further increase the default rate limit.'}}
+199-th Processing... D vs D.
+...Evidence written.
+200-th Processing... C vs C.
+...Evidence written.
+Total questions: 200
+Correct answers: 187
+Accuracy: 93.50%
+
+
+
+=====================================
+
+31-th Processing... A vs A.
+...Evidence written.
+40-th Processing... C vs C.
+...Evidence written.
+53-th Processing... B vs B.
+...Evidence written.
+54-th Processing... B vs B.
+...Evidence written.
+61-th Processing... C vs C.
+...Evidence written.
+63-th Processing... B vs B.
+...Evidence written.
+70-th Processing... A vs A.
+...Evidence written.
+80-th Processing... D vs D.
+...Evidence written.
+91-th Processing... A vs A.
+...Evidence written.
+98-th Processing... A vs A.
+...Evidence written.
+118-th Processing... B vs B.
+...Evidence written.
+122-th Processing... B vs B.
+...Evidence written.
+143-th Processing... B vs B.
+...Evidence written.
+Error on question 169: Error code: 429 - {'error': {'code': '429', 'message': 'Requests to the ChatCompletions_Create Operation under Azure OpenAI API version 2024-02-01 have exceeded token rate limit of your current OpenAI S0 pricing tier. Please retry after 1 second. Please go here: https://aka.ms/oai/quotaincrease if you would like to further increase the default rate limit.'}}
+169-th Processing... C vs C.
+...Evidence written.
+198-th Processing... D vs D.
+...Evidence written.
+Total questions: 499
+Correct answers: 15
+Accuracy: 3.01%
