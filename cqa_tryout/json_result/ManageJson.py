@@ -12,12 +12,12 @@ class jsonManager:
         with open(self.input, 'r', encoding='utf-8') as file:
             data = json.load(file)
 
-        # Iterate over each item and replace 'prompt' with 'prompt_wo'
         for item in data:
-            if 'prompt' in item:
-                item['prompt_wo'] = item.pop('prompt')  # Replace 'prompt' with 'prompt_wo'
+            if 'qwen_answer' in item:
+                item['model_answer'] = item.pop('qwen_answer')  
+            if 'qwen_answer_wo' in item:
+                item['model_answer_wo'] = item.pop('qwen_answer_wo')  
 
-        # Save the modified data to the output file
         with open(self.output, 'w', encoding='utf-8') as file:
             json.dump(data, file, indent=4, ensure_ascii=False)
 
@@ -165,8 +165,8 @@ class jsonManager:
             json.dump(data, file, indent=4, ensure_ascii=False)  
 
 #####################################################################################################
-in1 = '/data3/greatxue/llm_uncer/results++++.json'
+in1 = '/data3/greatxue/llm_uncer/cqa_tryout/json_result/results-bookqa-gpt/gpt4-bookqa.json'
 in2 = '/data3/greatxue/llm_uncer/cqa_tryout/json_result/results-bookqa-gpt/results-bookqa-gpt.json'
 ou = '/data3/greatxue/llm_uncer/dd.json'
 manager = jsonManager(in1, ou, in2)
-manager.merge_json()
+manager.replace_item_json()
