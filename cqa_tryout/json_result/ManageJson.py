@@ -12,16 +12,16 @@ class jsonManager:
         with open(self.input, 'r', encoding='utf-8') as file:
             data = json.load(file)
 
-        # Iterate over each item and replace 'qwen_answer_wo' with 'qwen_answer'
+        # Iterate over each item and replace 'prompt' with 'prompt_wo'
         for item in data:
-            if 'qwen_answer_wo' in item:
-                item['qwen_answer'] = item.pop('qwen_answer_wo')
+            if 'prompt' in item:
+                item['prompt_wo'] = item.pop('prompt')  # Replace 'prompt' with 'prompt_wo'
 
         # Save the modified data to the output file
         with open(self.output, 'w', encoding='utf-8') as file:
             json.dump(data, file, indent=4, ensure_ascii=False)
 
-        print(f"Replaced 'qwen_answer_wo' with 'qwen_answer' and saved to {self.output}")
+        print(f"Replaced 'prompt' with 'prompt_wo' and saved to {self.output}")
 
     def extract_json(self):
         '''Extracts part of json items and save them into a new one.
@@ -165,8 +165,8 @@ class jsonManager:
             json.dump(data, file, indent=4, ensure_ascii=False)  
 
 #####################################################################################################
-in1 = '/data3/greatxue/llm_uncer/cqa_tryout/json_result/results-bookqa-gpt/results-bookqa-gpt.json'
-in2 = '/data3/greatxue/results_wo.json'
-ou = '/data3/greatxue/results5.json'
+in1 = '/data3/greatxue/llm_uncer/results++++.json'
+in2 = '/data3/greatxue/llm_uncer/cqa_tryout/json_result/results-bookqa-gpt/results-bookqa-gpt.json'
+ou = '/data3/greatxue/llm_uncer/dd.json'
 manager = jsonManager(in1, ou, in2)
-manager.list_json()
+manager.merge_json()
