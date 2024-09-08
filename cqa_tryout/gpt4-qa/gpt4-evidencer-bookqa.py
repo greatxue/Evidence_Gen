@@ -13,7 +13,8 @@ evifile = "gpt_evidence.txt"
 
 with open(evifile, "w") as f:
     for item in dataset[split]:
-        if total + 1 not in [31, 40, 53, 54, 61, 63, 70, 80, 91, 98, 118, 122, 143, 169, 198]: # for further purpose
+        if False:
+        #if total + 1 not in [31, 40, 53, 54, 61, 63, 70, 80, 91, 98, 118, 122, 143, 169, 198]: # for further purpose
             total += 1
             continue
         else:

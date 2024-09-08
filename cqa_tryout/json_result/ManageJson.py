@@ -8,6 +8,21 @@ class jsonManager:
         self.input2 = input_file2
         self.output = output_file
         
+    def replace_item_json(self):
+        with open(self.input, 'r', encoding='utf-8') as file:
+            data = json.load(file)
+
+        # Iterate over each item and replace 'qwen_answer_wo' with 'qwen_answer'
+        for item in data:
+            if 'qwen_answer_wo' in item:
+                item['qwen_answer'] = item.pop('qwen_answer_wo')
+
+        # Save the modified data to the output file
+        with open(self.output, 'w', encoding='utf-8') as file:
+            json.dump(data, file, indent=4, ensure_ascii=False)
+
+        print(f"Replaced 'qwen_answer_wo' with 'qwen_answer' and saved to {self.output}")
+
     def extract_json(self):
         '''Extracts part of json items and save them into a new one.
         '''
@@ -137,20 +152,21 @@ class jsonManager:
             print(f"Reference Answer: '{reference_answer}'")
 
         for item in data:
-            qwen_answer_text = item.get("qwen_answer_wo", "")
+            qwen_answer_text = item.get("qwen_answer", "")
             match = re.search(r"final answer is:\s*([A-Za-z])", qwen_answer_text)
             final_answer = match.group(1) if match else ""
 
             if final_answer.strip().lower() == item.get("reference_answer", "").strip().lower():
-                item["mark_wo"] = 1
+                item["mark"] = 1
             else:
-                item["mark_wo"] = 0
+                item["mark"] = 0
 
         with open(self.output, 'w', encoding='utf-8') as file:
-            json.dump(data, file, indent=4, ensure_ascii=False)       
+            json.dump(data, file, indent=4, ensure_ascii=False)  
 
-in1 = '/data3/greatxue/llm_uncer/cqa_tryout/qwen-qa/json_result/results-bookqa/final_result.json'
-in2 = '/data3/greatxue/llm_uncer/cqa_tryout/qwen-qa/json_result/r5.json'
-ou = '/data3/greatxue/llm_uncer/cqa_tryout/qwen-qa/json_result/blank.json'
+#####################################################################################################
+in1 = '/data3/greatxue/llm_uncer/cqa_tryout/json_result/results-bookqa-gpt/results-bookqa-gpt.json'
+in2 = '/data3/greatxue/results_wo.json'
+ou = '/data3/greatxue/results5.json'
 manager = jsonManager(in1, ou, in2)
 manager.list_json()

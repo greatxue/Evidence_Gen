@@ -1,9 +1,7 @@
-import os
-os.environ['DASHSCOPE_API_KEY'] = 'sk-da1b1321d9d344a6ae18e27fac23c6ae'
-from http import HTTPStatus
-import dashscope
+import openai
+from utils.openai import client
 from datasets import load_dataset
-from extract import extract_evidence
+from evidence.extract import extract_evidence
 import time
 import json
 
@@ -23,21 +21,18 @@ print(evidence_sections[0])
 print('===================================================')
 time.sleep(4)
 
-def ques_qwen(ques_str):
-    messages = [
-        {'role': 'user', 'content': ques_str}]
-    response = dashscope.Generation.call(
-        'qwen1.5-7b-chat',
-        messages=messages,
-        result_format='message',  # set the result is message format.
+def ques_gpt(ques_str):
+    response = client.chat.completions.create(
+        model="gpt-4o",
+        messages=[
+            {"role": "system", "content": "You are a student answering multiple choice exercises."},
+            {"role": "user", "content": prompt}
+        ],
     )
-    if response.status_code == HTTPStatus.OK:
+    if response.choices[0]:
         return response
     else:
-        print('Request id: %s, Status code: %s, error code: %s, error message: %s' % (
-            response.request_id, response.status_code,
-            response.code, response.message
-        ))
+        print('No valid GPT-response generated.')
 
 for item in dataset[split]:
     if False: # for further purpose
@@ -48,30 +43,31 @@ for item in dataset[split]:
             question = item['question_stem']
             choices = item['choices']['text'] 
             answer_key = item['answerKey']
-            
-            prompt = f"Evidence: \n"
-            prompt += evidence_sections[total]
-            prompt += f'\n'
+
+            #prompt = f"Evidence: \n"
+            #prompt += evidence_sections[total]
+            #prompt += f'\n'
         
-            prompt += f"Question: {question}\nOptions:\n"
+            prompt = f"Question: {question}\nOptions:\n"
             for idx, choice in enumerate(choices):
                 prompt += f"{chr(65 + idx)}. {choice}\n"
 
-            prompt += f"Think about the question with your knowledge first. If you feel hard about the problem, refer to the evidence for help.\n"
+            #prompt += f"Based on the evidence and your own knowlege, think about the question.\n"
+            prompt += f"Based on your own knowlege, think about the question.\n"
             prompt += f"Then answer the question in the final line, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice."
             print(prompt)
 
-            response = ques_qwen(prompt)
-            qwen_ans = response['output']['choices'][0]['message']['content']
-            print(qwen_ans)
+            response = ques_gpt(prompt)
+            gpt_ans = response.choices[0].message.content.strip()
+            print(gpt_ans)
 
             result = {
                 "total": total, 
-                "prompt": prompt,
-                "qwen_answer_wo": qwen_ans,
-                "reference_answer": answer_key,
-                "mark": "",
-                "mark_wo": ""
+                #"prompt": prompt,
+                "qwen_answer_wo": gpt_ans,
+                #"reference_answer": answer_key,
+                #"mark": "",
+                #"mark_wo": ""
             }
 
             data.append(result)
@@ -79,15 +75,12 @@ for item in dataset[split]:
             print(f"========================================================================")
             
             total += 1
-            
         except Exception as e:
             print(f"Error on question {total + 1}: {e}")
             continue  
-        
-        time.sleep(1)
 
     if total >= MAX:
         break
 
-with open('results.json', 'w') as json_file:
+with open('results_wo.json', 'w') as json_file:
     json.dump(data, json_file, indent=4)

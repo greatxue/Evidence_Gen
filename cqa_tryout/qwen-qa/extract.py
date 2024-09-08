@@ -9,7 +9,7 @@ def extract_evidence(file_path):
     for line in lines:
         if "Evidence" in line:
             inside_evidence = True
-            current_evidence = []
+            current_evidence = [line[10:]]
         elif "Question" in line:
             if inside_evidence and current_evidence:
                 evidence_list.append("".join(current_evidence).strip())
