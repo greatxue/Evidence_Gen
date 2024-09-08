@@ -20,4 +20,5 @@
 
 ### Adjustment Sep. 8
 
-+ Task: Back to GPT-4o
++ **Task:** Back to GPT-4o
++ **Task:** Employ previous dataset
