@@ -17,3 +17,7 @@
 
 + **Task:** Adjust the dataset
 + **Dataset:** https://huggingface.co/datasets/allenai/openbookqa
+
+### Adjustment Sep. 8
+
++ Task: Back to GPT-4o
