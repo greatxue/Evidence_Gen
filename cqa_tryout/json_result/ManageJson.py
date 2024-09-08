@@ -15,8 +15,7 @@ class jsonManager:
         for item in data:
             if 'qwen_answer' in item:
                 item['model_answer'] = item.pop('qwen_answer')  
-            if 'qwen_answer_wo' in item:
-                item['model_answer_wo'] = item.pop('qwen_answer_wo')  
+
 
         with open(self.output, 'w', encoding='utf-8') as file:
             json.dump(data, file, indent=4, ensure_ascii=False)
@@ -152,21 +151,21 @@ class jsonManager:
             print(f"Reference Answer: '{reference_answer}'")
 
         for item in data:
-            qwen_answer_text = item.get("qwen_answer", "")
+            qwen_answer_text = item.get("model_answer_wo", "")
             match = re.search(r"final answer is:\s*([A-Za-z])", qwen_answer_text)
             final_answer = match.group(1) if match else ""
 
             if final_answer.strip().lower() == item.get("reference_answer", "").strip().lower():
-                item["mark"] = 1
+                item["mark_wo"] = 1
             else:
-                item["mark"] = 0
+                item["mark_wo"] = 0
 
         with open(self.output, 'w', encoding='utf-8') as file:
             json.dump(data, file, indent=4, ensure_ascii=False)  
 
 #####################################################################################################
-in1 = '/data3/greatxue/llm_uncer/cqa_tryout/json_result/results-bookqa-gpt/gpt4-bookqa.json'
-in2 = '/data3/greatxue/llm_uncer/cqa_tryout/json_result/results-bookqa-gpt/results-bookqa-gpt.json'
-ou = '/data3/greatxue/llm_uncer/dd.json'
+in1 =  '/data3/greatxue/llm_uncer/cqa_tryout/json_result/results-qa-gpt4/gpt4-result-qa.json'
+in2 = '/data3/greatxue/results+++.json'
+ou =  '/data3/greatxue/llm_uncer/cqa_tryout/json_result/results-qa-gpt4/gpt4-result-commonqa.json'
 manager = jsonManager(in1, ou, in2)
 manager.replace_item_json()

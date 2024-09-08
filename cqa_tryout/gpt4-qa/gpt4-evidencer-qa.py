@@ -2,23 +2,25 @@ from utils.openai import client
 from datasets import load_dataset
 import time
 
+# Load the OpenBookQA dataset
 dataset = load_dataset("tau/commonsense_qa")
 split = 'validation' 
 
 total = 0
 correct = 0
 MAX = 200
-evifile = "gpt_evidence.txt"
+evifile = "gpt_evidence__.txt"
 
 with open(evifile, "w") as f:
     for item in dataset[split]:
-        if False: # for further purpose
-            total +=1
+        #if False:
+        if total + 1 not in [47]: # for further purpose
+            total += 1
             continue
         else:
             try:
                 question = item['question']
-                choices = item['choices']['text'] 
+                choices = item['choices']['text']
                 answer_key = item['answerKey']
 
                 prompt = f"Question: {question}\nOptions:\n"
@@ -41,7 +43,7 @@ with open(evifile, "w") as f:
                 total += 1
 
                 print(f"{total}-th Processing... {gpt_answer[:1]} vs {answer_key}.")
-                
+
                 evidence_prompt = f"Generate evidence to help a confusing student to answer this question\n"
                 evidence_prompt += "Do not mention the correct answer directly in your evidence directly, or you are actually telling them the answer."
                 evidence_prompt += f"Question: {question}\nOptions:\n"
@@ -56,6 +58,7 @@ with open(evifile, "w") as f:
                 )
 
                 evidence = evidence_response.choices[0].message.content.strip()
+                time.sleep(2)
 
                 f.write(f"Question {total}:\n")
                 f.write(f"{question}\n")

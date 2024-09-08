@@ -1,4 +1,3 @@
-import openai
 from utils.openai import client
 from datasets import load_dataset
 from evidence.extract import extract_evidence
@@ -7,14 +6,14 @@ import json
 
 data = []
 
-dataset = load_dataset("allenai/openbookqa")
+dataset = load_dataset("tau/commonsense_qa")
 split = 'validation' 
 
 total = 0
 correct = 0
 MAX = 200
 
-file_path = '/data3/greatxue/llm_uncer/cqa_tryout/gpt4-qa/evidence/evi_bookqa.txt'
+file_path =  '/data3/greatxue/llm_uncer/cqa_tryout/gpt4-qa/evidence/evi_commonqa.txt'
 evidence_sections = extract_evidence(file_path)
 print(f"Evidence extracted.\n====================Test Sample====================")
 print(evidence_sections[0])
@@ -40,7 +39,7 @@ for item in dataset[split]:
         continue
     else:
         try:
-            question = item['question_stem']
+            question = item['question']
             choices = item['choices']['text'] 
             answer_key = item['answerKey']
 
@@ -57,14 +56,14 @@ for item in dataset[split]:
             prompt += f"Then answer the question in the final line, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice."
             print(prompt)
 
-            #response = ques_gpt(prompt)
-            #gpt_ans = response.choices[0].message.content.strip()
-            #print(gpt_ans)
+            response = ques_gpt(prompt)
+            gpt_ans = response.choices[0].message.content.strip()
+            print(gpt_ans)
 
             result = {
                 "total": total, 
-                "prompt": prompt,
-                #"qwen_answer_wo": gpt_ans,
+                "prompt_wo": prompt,
+                "model_answer_wo": gpt_ans,
                 #"reference_answer": answer_key,
                 #"mark": "",
                 #"mark_wo": ""
@@ -82,5 +81,5 @@ for item in dataset[split]:
     if total >= MAX:
         break
 
-with open('results++.json', 'w') as json_file:
+with open('results+++.json', 'w') as json_file:
     json.dump(data, json_file, indent=4)
