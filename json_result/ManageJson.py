@@ -14,8 +14,12 @@ class jsonManager:
             data = json.load(file)
 
         for item in data:
-            if 'qwen_answer' in item:
-                item['model_answer'] = item.pop('qwen_answer')  
+            if 'prompt_c' in item:
+                item['prompt_few'] = item.pop('prompt_c')  
+            if 'model_answer_c' in item:
+                item['model_answer_few'] = item.pop('model_answer_c')  
+            if 'mark_c' in item:
+                item['mark_few'] = item.pop('mark_c')  
 
 
         with open(self.output, 'w', encoding='utf-8') as file:
@@ -203,6 +207,36 @@ class jsonManager:
 
         if data:
             first_item = data[0]
+            qwen_answer_text = first_item.get("model_answer_c", "")
+            match = re.search(r"final answer is:\s*([A-Za-z])", qwen_answer_text)
+            final_answer = match.group(1) if match else ""
+
+            reference_answer = first_item.get("reference_answer", "").strip()
+            
+            print("First item:")
+            print(f"Final Answer: '{final_answer}'")
+            print(f"Reference Answer: '{reference_answer}'")
+
+        for item in data:
+            qwen_answer_text = item.get("model_answer_few", "")
+            match = re.search(r"final answer is:\s*([A-Za-z])", qwen_answer_text)
+            final_answer = match.group(1) if match else ""
+
+            item["ans_few"] = final_answer.strip().upper()
+            if final_answer.strip().lower() == item.get("reference_answer", "").strip().lower():
+                item["mark_few"] = 1
+            else:
+                item["mark_few"] = 0
+
+        with open(self.output, 'w', encoding='utf-8') as file:
+            json.dump(data, file, indent=4, ensure_ascii=False)  
+    
+    def extract_json_ans(self):
+        with open(self.input, 'r', encoding='utf-8') as file:
+            data = json.load(file)
+
+        if data:
+            first_item = data[0]
             qwen_answer_text = first_item.get("model_answer_cot", "")
             match = re.search(r"final answer is:\s*([A-Za-z])", qwen_answer_text)
             final_answer = match.group(1) if match else ""
@@ -214,27 +248,79 @@ class jsonManager:
             print(f"Reference Answer: '{reference_answer}'")
 
         for item in data:
-            qwen_answer_text = item.get("model_answer_cot", "")
+            qwen_answer_text = item.get("model_answer_wo", "")
             match = re.search(r"final answer is:\s*([A-Za-z])", qwen_answer_text)
             final_answer = match.group(1) if match else ""
 
-            if final_answer.strip().lower() == item.get("reference_answer", "").strip().lower():
-                item["mark_cot"] = 1
-            else:
-                item["mark_cot"] = 0
+            item["ans_wo"] = final_answer.strip().upper()
 
         with open(self.output, 'w', encoding='utf-8') as file:
             json.dump(data, file, indent=4, ensure_ascii=False)  
 
+    def len_json(self):
+        with open(self.input, 'r', encoding='utf-8') as file:
+            data = json.load(file)
+
+        for item in data:
+            item["len_few"] = len(item["model_answer_few"])
+
+        with open(self.output, 'w', encoding='utf-8') as file:
+            json.dump(data, file, indent=4, ensure_ascii=False)  
+
+    def reorder_keys(self, item):
+        '''Reorders the keys in a dictionary based on the specified field order.'''
+        key_order = [
+            "total", "prompt", "prompt_c", "prompt_cot", "prompt_few",
+            "model_answer", "model_answer_c", "model_answer_cot", "model_answer_few",
+            "mark", "mark_c", "mark_cot", "mark_few",
+            "ans", "ans_c", "ans_cot", "ans_few",
+            "len", "len_c", "len_cot", "len_few"
+        ]
+        # Return a new dictionary with keys ordered according to key_order
+        return {k: item.get(k) for k in key_order if k in item}
+
+    def merge_json_sort(self):
+        '''Merges 2 JSON files into one and reorders the fields.'''
+        with open(self.input, 'r') as f1, open(self.input2, 'r') as f2:
+            data1 = json.load(f1)
+            data2 = json.load(f2)
+
+        merged_data = {}
+
+        # Merge the data from the first file
+        for item in data1:
+            key = item['total']
+            merged_data[key] = item
+
+        # Merge the data from the second file, updating existing entries or adding new ones
+        for item in data2:
+            key = item['total']
+            if key in merged_data:
+                merged_data[key].update(item)
+            else:
+                merged_data[key] = item
+
+        # Reorder the keys in the merged data according to the desired order
+        merged_list = [self.reorder_keys(item) for item in merged_data.values()]
+
+        # Save the reordered merged data to the output file
+        with open(self.output, 'w') as f:
+            json.dump(merged_list, f, indent=4)
+
+        print(f"Merged and reordered fields saved to {self.output}")
+
 #####################################################################################################
 
-in1 = '/data3/greatxue/results_openbook.json'
-in2 = '/data3/greatxue/llm_uncer/json_result/results-qa-gpt4/gpt4-result-commonqa.json'
-ou =  '/data3/greatxue/result1.json'
+in1 = '/data3/greatxue/llm_uncer/json_result/results-bookqa-gpt4/gpt4-bookqa-all--.json'
+in2 = '/data3/greatxue/llm_uncer/json_result/results-bookqa-gpt4/gpt4-bookqa-all.json'
+ou =  '/data3/greatxue/llm_uncer/json_result/results-bookqa-gpt4/gpt4-bookqa-all_.json'
 manager = jsonManager(in1, ou, in2)
-manager.generate_json_result()
-time.sleep(5)
+manager.len_json()
+#time.sleep(1)
+#manager.remove_json()
 
+
+'''
 in1 = '/data3/greatxue/result1.json'
 in2 = '/data3/greatxue/llm_uncer/json_result/results-qa-gpt4/gpt4-result-commonqa.json'
 ou =  '/data3/greatxue/result2.json'
@@ -254,3 +340,4 @@ in2 = '/data3/greatxue/llm_uncer/json_result/results-qa-gpt4/gpt4-result-commonq
 ou =  '/data3/greatxue/result4.json'
 manager = jsonManager(in1, ou, in2)
 manager.eval_json_result_all()
+'''

@@ -7,7 +7,25 @@ import json
 data = []
 
 dataset = load_dataset("allenai/openbookqa")
-split = 'validation' 
+split = 'validation'
+
+train_set = dataset['train']
+few_shot_examples = []
+few_shot_count = 10 
+
+for i in range(few_shot_count):
+    question = train_set[i]['question_stem']
+    choices = train_set[i]['choices']['text']
+    answer_key = train_set[i]['answerKey']
+
+    few_shot_example = f"Question: {question}\nOptions:\n"
+    for idx, choice in enumerate(choices):
+        few_shot_example += f"{chr(65 + idx)}. {choice}\n"
+    few_shot_example += f"The final answer is: {answer_key}.\n\n"
+
+    few_shot_examples.append(few_shot_example)
+
+few_shot_prompt = "".join(few_shot_examples)
 
 total = 0
 correct = 0
@@ -25,7 +43,7 @@ def ques_gpt(ques_str):
         model="gpt-4o",
         messages=[
             {"role": "system", "content": "You are a student answering multiple choice exercises."},
-            {"role": "user", "content": prompt}
+            {"role": "user", "content": ques_str}
         ],
     )
     if response.choices[0]:
@@ -40,48 +58,44 @@ for item in dataset[split]:
     else:
         try:
             question = item['question_stem']
-            choices = item['choices']['text'] 
+            choices = item['choices']['text']
             answer_key = item['answerKey']
 
-            #prompt = f"Evidence: \n"
-            #prompt += evidence_sections[total]
-            #prompt += f'\n'
-        
-            prompt = f"Question: {question}\nOptions:\n"
+            prompt = f"Here are some examples to show you the answer of similar questions."
+            prompt += few_shot_prompt  
+            
+            prompt += "Here is the problem you need to answer."
+            prompt += f"Question: {question}\nOptions:\n"
             for idx, choice in enumerate(choices):
                 prompt += f"{chr(65 + idx)}. {choice}\n"
+            
 
-            #prompt += f"Based on the evidence and your own knowlege, think about the question.\n"
-            prompt += f"Based on your own knowledge, think about the question step by step.\n"
-            prompt += f"Then answer the question in the final line, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice."
+            prompt += f"Based on your own knowledge and the given examples, think about the question.\n"
+            prompt += f"Answer the question in the final line, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice."
             print(prompt)
 
-            #response = ques_gpt(prompt)
-            #gpt_ans = response.choices[0].message.content.strip()
-            #print(gpt_ans)
+            response = ques_gpt(prompt)
+            gpt_ans = response.choices[0].message.content.strip()
+            print(gpt_ans)
 
             result = {
-                "total": total, 
-                #"prompt_c": prompt,
-                #"model_answer_c": gpt_ans,
-                "reference_answer": answer_key,
-                #"mark": "",
-                #"mark_wo": ""
-                #"mark_cot": ""
-                #"mark_c":""
+                "total": total,
+                "prompt_few": prompt,
+                "model_answer_few": gpt_ans,
+                "mark_few": ""
             }
 
             data.append(result)
             print(f"=============================={total} processing==============================")
             print(f"========================================================================")
-            
+
             total += 1
         except Exception as e:
             print(f"Error on question {total + 1}: {e}")
-            continue  
+            continue
 
     if total >= MAX:
         break
 
-with open('results_openbook.json', 'w') as json_file:
+with open('resul.json', 'w') as json_file:
     json.dump(data, json_file, indent=4)
