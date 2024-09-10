@@ -21,7 +21,7 @@ for i in range(few_shot_count):
     few_shot_example = f"Question: {question}\nOptions:\n"
     for idx, choice in enumerate(choices):
         few_shot_example += f"{chr(65 + idx)}. {choice}\n"
-    few_shot_example += f"The final answer is: {answer_key}.\n\n"
+    few_shot_example += f"As a student, you should answer: 'The final answer is: {answer_key}.'\n\n"
 
     few_shot_examples.append(few_shot_example)
 

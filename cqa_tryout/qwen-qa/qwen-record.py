@@ -49,15 +49,16 @@ for item in dataset[split]:
             choices = item['choices']['text'] 
             answer_key = item['answerKey']
             
-            prompt = f"Evidence: \n"
-            prompt += evidence_sections[total]
-            prompt += f'\n'
+            #prompt = f"Evidence: \n"
+            #prompt += evidence_sections[total]
+            #prompt += f'\n'
         
-            prompt += f"Question: {question}\nOptions:\n"
+            prompt = f"Question: {question}\nOptions:\n"
             for idx, choice in enumerate(choices):
                 prompt += f"{chr(65 + idx)}. {choice}\n"
 
-            prompt += f"Think about the question with your knowledge first. If you feel hard about the problem, refer to the evidence for help.\n"
+            #prompt += f"Based on the evidence and your own knowlege, think about the question.\n"
+            prompt += f"Based on your own knowledge, think about the question step by step.\n"
             prompt += f"Then answer the question in the final line, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice."
             print(prompt)
 
@@ -67,11 +68,11 @@ for item in dataset[split]:
 
             result = {
                 "total": total, 
-                "prompt": prompt,
+                "prompt_wo": prompt,
                 "qwen_answer_wo": qwen_ans,
-                "reference_answer": answer_key,
-                "mark": "",
-                "mark_wo": ""
+                #"reference_answer": answer_key,
+                #"mark": "",
+                #"mark_wo": ""
             }
 
             data.append(result)
@@ -89,5 +90,5 @@ for item in dataset[split]:
     if total >= MAX:
         break
 
-with open('results.json', 'w') as json_file:
+with open('results2.json', 'w') as json_file:
     json.dump(data, json_file, indent=4)

@@ -1,0 +1,5 @@
+Combination counts:
+mark=1, mark_wo=0: 57
+mark=1, mark_wo=1: 85
+mark=0, mark_wo=0: 41
+mark=0, mark_wo=1: 17

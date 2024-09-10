@@ -193,8 +193,8 @@ class jsonManager:
             data = json.load(file)
 
         for item in data:
-            if 'reference_answer' in item:
-                del item['reference_answer']
+            del item["reference_answer"]
+
 
         with open(self.output, 'w', encoding='utf-8') as file:
             json.dump(data, file, indent=4, ensure_ascii=False)
@@ -218,15 +218,15 @@ class jsonManager:
             print(f"Reference Answer: '{reference_answer}'")
 
         for item in data:
-            qwen_answer_text = item.get("model_answer_few", "")
+            qwen_answer_text = item.get("qwen_answer_wo", "")
             match = re.search(r"final answer is:\s*([A-Za-z])", qwen_answer_text)
             final_answer = match.group(1) if match else ""
 
-            item["ans_few"] = final_answer.strip().upper()
+            item["qwen_answer"] = final_answer.strip().upper()
             if final_answer.strip().lower() == item.get("reference_answer", "").strip().lower():
-                item["mark_few"] = 1
+                item["mark_wo"] = 1
             else:
-                item["mark_few"] = 0
+                item["mark_wo"] = 0
 
         with open(self.output, 'w', encoding='utf-8') as file:
             json.dump(data, file, indent=4, ensure_ascii=False)  
@@ -262,6 +262,7 @@ class jsonManager:
             data = json.load(file)
 
         for item in data:
+            item["len"] = len(item["model_answer"])
             item["len_few"] = len(item["model_answer_few"])
 
         with open(self.output, 'w', encoding='utf-8') as file:
@@ -273,7 +274,7 @@ class jsonManager:
             "total", "prompt", "prompt_c", "prompt_cot", "prompt_few",
             "model_answer", "model_answer_c", "model_answer_cot", "model_answer_few",
             "mark", "mark_c", "mark_cot", "mark_few",
-            "ans", "ans_c", "ans_cot", "ans_few",
+            "ans", "ans_c", "ans_cot", "ans_few", "reference_answer",
             "len", "len_c", "len_cot", "len_few"
         ]
         # Return a new dictionary with keys ordered according to key_order
@@ -311,14 +312,13 @@ class jsonManager:
 
 #####################################################################################################
 
-in1 = '/data3/greatxue/llm_uncer/json_result/results-bookqa-gpt4/gpt4-bookqa-all--.json'
-in2 = '/data3/greatxue/llm_uncer/json_result/results-bookqa-gpt4/gpt4-bookqa-all.json'
-ou =  '/data3/greatxue/llm_uncer/json_result/results-bookqa-gpt4/gpt4-bookqa-all_.json'
+in1 = '/data3/greatxue/results+.json'
+in2 =  '/data3/greatxue/results2.json'
+ou =  '/data3/greatxue/results+.json'
 manager = jsonManager(in1, ou, in2)
-manager.len_json()
 #time.sleep(1)
 #manager.remove_json()
-
+manager.eval_json_result()
 
 '''
 in1 = '/data3/greatxue/result1.json'
