@@ -52,7 +52,7 @@ for item in dataset[split]:
                 prompt += f"{chr(65 + idx)}. {choice}\n"
 
             #prompt += f"Based on the evidence and your own knowlege, think about the question.\n"
-            prompt += f"Based on your own knowlege, think about the question.\n"
+            prompt += f"Generate the evidence first, and think about the question based on that step by step.\n"
             prompt += f"Then answer the question in the final line, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice."
             print(prompt)
 
@@ -62,11 +62,12 @@ for item in dataset[split]:
 
             result = {
                 "total": total, 
-                "prompt_wo": prompt,
-                "model_answer_wo": gpt_ans,
-                #"reference_answer": answer_key,
+                "prompt_cot": prompt,
+                "model_answer_cot": gpt_ans,
+                "reference_answer": answer_key,
                 #"mark": "",
                 #"mark_wo": ""
+                "mark_cot": ""
             }
 
             data.append(result)
@@ -81,5 +82,5 @@ for item in dataset[split]:
     if total >= MAX:
         break
 
-with open('results+++.json', 'w') as json_file:
+with open('results_openbook.json', 'w') as json_file:
     json.dump(data, json_file, indent=4)

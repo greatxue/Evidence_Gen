@@ -4,6 +4,7 @@
 
 + **Task:** Run a test on CQA to see how well GPT-4 can answer correctly, how well it generates evidence, and whether the evidence it generates helps improve the accuracy of its answers.
 + **Dataset:** https://huggingface.co/datasets/tau/commonsense_qa
++ **Reference:** https://www.notion.so/huaxiulab/Evidence-ranking-by-uncertainty-a9ff5ccc4f274adea7bccd9366f30560
 
 ### Adjustment Aug. 23
 
