@@ -227,13 +227,13 @@ class jsonManager:
             json.dump(data, file, indent=4, ensure_ascii=False)  
 
 #####################################################################################################
-'''
+
 in1 = '/data3/greatxue/results_openbook.json'
 in2 = '/data3/greatxue/llm_uncer/json_result/results-qa-gpt4/gpt4-result-commonqa.json'
 ou =  '/data3/greatxue/result1.json'
 manager = jsonManager(in1, ou, in2)
 manager.generate_json_result()
-'''
+time.sleep(5)
 
 in1 = '/data3/greatxue/result1.json'
 in2 = '/data3/greatxue/llm_uncer/json_result/results-qa-gpt4/gpt4-result-commonqa.json'

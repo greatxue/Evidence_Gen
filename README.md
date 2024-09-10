@@ -23,3 +23,7 @@
 
 + **Task:** Back to GPT-4o
 + **Task:** Employ previous dataset
+
+### Adjustment Sep. 10
+
++ **Task:** Employ CoT
