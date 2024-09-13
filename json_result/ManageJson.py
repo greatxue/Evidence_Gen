@@ -14,12 +14,9 @@ class jsonManager:
             data = json.load(file)
 
         for item in data:
-            if 'prompt_c' in item:
-                item['prompt_few'] = item.pop('prompt_c')  
-            if 'model_answer_c' in item:
-                item['model_answer_few'] = item.pop('model_answer_c')  
-            if 'mark_c' in item:
-                item['mark_few'] = item.pop('mark_c')  
+            if 'model_answer' in item:
+                item['model_answer_wo'] = item.pop('model_answer')  
+
 
 
         with open(self.output, 'w', encoding='utf-8') as file:
@@ -58,23 +55,22 @@ class jsonManager:
             # 获取 mark, mark_wo, mark_cot 的值
             mark = item.get('mark', None)
             mark_wo = item.get('mark_wo', None)
-            mark_cot = item.get('mark_cot', None)
+
             
             # 如果字段为 None，将其标记为 'missing'
             if mark is None:
                 mark = 'missing'
             if mark_wo is None:
                 mark_wo = 'missing'
-            if mark_cot is None:
-                mark_cot = 'missing'
+
             
             # 计数 (mark, mark_wo, mark_cot) 的组合
-            count_dict[(mark, mark_wo, mark_cot)] += 1
+            count_dict[(mark, mark_wo)] += 1
 
         # 打印组合计数
         print("Combination counts:")
         for combination, count in count_dict.items():
-            print(f"mark={combination[0]}, mark_wo={combination[1]}, mark_cot={combination[2]}: {count}")
+            print(f"mark={combination[0]}, mark_wo={combination[1]}: {count}")
 
 
 
@@ -218,11 +214,11 @@ class jsonManager:
             print(f"Reference Answer: '{reference_answer}'")
 
         for item in data:
-            qwen_answer_text = item.get("qwen_answer_wo", "")
+            qwen_answer_text = item.get("model_answer_wo", "")
             match = re.search(r"final answer is:\s*([A-Za-z])", qwen_answer_text)
             final_answer = match.group(1) if match else ""
 
-            item["qwen_answer"] = final_answer.strip().upper()
+            item["model_answer"] = final_answer.strip().upper()
             if final_answer.strip().lower() == item.get("reference_answer", "").strip().lower():
                 item["mark_wo"] = 1
             else:
@@ -271,11 +267,12 @@ class jsonManager:
     def reorder_keys(self, item):
         '''Reorders the keys in a dictionary based on the specified field order.'''
         key_order = [
-            "total", "prompt", "prompt_c", "prompt_cot", "prompt_few",
-            "model_answer", "model_answer_c", "model_answer_cot", "model_answer_few",
-            "mark", "mark_c", "mark_cot", "mark_few",
-            "ans", "ans_c", "ans_cot", "ans_few", "reference_answer",
-            "len", "len_c", "len_cot", "len_few"
+            "total", 
+            "prompt_wo", "prompt", "prompt_c", "prompt_cot", "prompt_few",
+            "model_answer_wo", "model_answer", "model_answer_c", "model_answer_cot", "model_answer_few",
+            "mark_wo", "mark", "mark_c", "mark_cot", "mark_few",
+            "ans_wo", "ans", "ans_c", "ans_cot", "ans_few", "reference_answer",
+            "len_wo", "len", "len_c", "len_cot", "len_few"
         ]
         # Return a new dictionary with keys ordered according to key_order
         return {k: item.get(k) for k in key_order if k in item}
@@ -312,9 +309,9 @@ class jsonManager:
 
 #####################################################################################################
 
-in1 = '/data3/greatxue/results+.json'
-in2 =  '/data3/greatxue/results2.json'
-ou =  '/data3/greatxue/results+.json'
+in1 = '/data3/greatxue/llm_uncer/json_result/results-bookqa-gpt4/gpt4-bookqa-allin.json'
+in2 =  '/data3/greatxue/llm_uncer/json_result/results-bookqa-gpt4/gpt4-bookqa-allin.json'
+ou =  '/data3/greatxue/llm_uncer/json_result/results-bookqa-gpt4/gpt4-bookqa-allin.json'
 manager = jsonManager(in1, ou, in2)
 #time.sleep(1)
 #manager.remove_json()

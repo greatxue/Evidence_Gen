@@ -2,7 +2,7 @@ from datasets import load_dataset
 from transformers import GPT2Tokenizer, GPT2LMHeadModel, Trainer, TrainingArguments
 import os 
 os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID" 
-os.environ['CUDA_VISIBLE_DEVICES'] = "1,4" 
+os.environ['CUDA_VISIBLE_DEVICES'] = "4,5" 
 dataset = load_dataset("tau/commonsense_qa")
 
 def aggregate(examples):
