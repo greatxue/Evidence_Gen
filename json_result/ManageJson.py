@@ -203,7 +203,7 @@ class jsonManager:
 
         if data:
             first_item = data[0]
-            qwen_answer_text = first_item.get("model_answer_c", "")
+            qwen_answer_text = first_item.get("qwen_answer", "")
             match = re.search(r"final answer is:\s*([A-Za-z])", qwen_answer_text)
             final_answer = match.group(1) if match else ""
 
@@ -214,15 +214,15 @@ class jsonManager:
             print(f"Reference Answer: '{reference_answer}'")
 
         for item in data:
-            qwen_answer_text = item.get("model_answer_wo", "")
+            qwen_answer_text = item.get("qwen_answer", "")
             match = re.search(r"final answer is:\s*([A-Za-z])", qwen_answer_text)
             final_answer = match.group(1) if match else ""
 
-            item["model_answer"] = final_answer.strip().upper()
+            item["qwen"] = final_answer.strip().upper()
             if final_answer.strip().lower() == item.get("reference_answer", "").strip().lower():
-                item["mark_wo"] = 1
+                item["mark"] = 1
             else:
-                item["mark_wo"] = 0
+                item["mark"] = 0
 
         with open(self.output, 'w', encoding='utf-8') as file:
             json.dump(data, file, indent=4, ensure_ascii=False)  
@@ -308,7 +308,7 @@ class jsonManager:
         print(f"Merged and reordered fields saved to {self.output}")
 
 #####################################################################################################
-
+'''
 in1 = '/data3/greatxue/llm_uncer/json_result/results-bookqa-gpt4/gpt4-bookqa-allin.json'
 in2 =  '/data3/greatxue/llm_uncer/json_result/results-bookqa-gpt4/gpt4-bookqa-allin.json'
 ou =  '/data3/greatxue/llm_uncer/json_result/results-bookqa-gpt4/gpt4-bookqa-allin.json'
@@ -317,7 +317,7 @@ manager = jsonManager(in1, ou, in2)
 #manager.remove_json()
 manager.eval_json_result()
 
-'''
+
 in1 = '/data3/greatxue/result1.json'
 in2 = '/data3/greatxue/llm_uncer/json_result/results-qa-gpt4/gpt4-result-commonqa.json'
 ou =  '/data3/greatxue/result2.json'

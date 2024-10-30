@@ -23,8 +23,8 @@ def extract_evidence(file_path):
     return evidence_list
 
 if __name__ == "__main__":
-    file_path = '/data3/greatxue/llm_uncer/cqa_tryout/gpt4-qa/evidence/evi_commonqa.txt'
-    output_file_path = '/data3/greatxue/extracted.txt'  # 输出文件路径
+    file_path = '/home/wenhao/Project/greatxue/llm_uncer/cqa_tryout/gpt4-qa/evidence/evi_bookqa.txt'
+    output_file_path = '/home/wenhao/Project/greatxue/llm_uncer/logs/extracted.txt'  # 输出文件路径
 
     evidence_sec = extract_evidence(file_path)
 

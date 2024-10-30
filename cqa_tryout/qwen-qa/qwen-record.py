@@ -16,7 +16,7 @@ total = 0
 correct = 0
 MAX = 200
 
-file_path = '/data3/greatxue/llm_uncer/cqa_tryout/gpt4-qa/evidence/evi_bookqa.txt'
+file_path = '/home/wenhao/Project/greatxue/llm_uncer/cqa_tryout/gpt4-qa/evidence/evi_bookqa.txt'
 evidence_sections = extract_evidence(file_path)
 print(f"Evidence extracted.\n====================Test Sample====================")
 print(evidence_sections[0])
@@ -49,16 +49,16 @@ for item in dataset[split]:
             choices = item['choices']['text'] 
             answer_key = item['answerKey']
             
-            #prompt = f"Evidence: \n"
-            #prompt += evidence_sections[total]
-            #prompt += f'\n'
+            prompt = f"Evidence: \n"
+            prompt += evidence_sections[total]
+            prompt += f'\n'
         
-            prompt = f"Question: {question}\nOptions:\n"
+            prompt += f"Question: {question}\nOptions:\n"
             for idx, choice in enumerate(choices):
                 prompt += f"{chr(65 + idx)}. {choice}\n"
 
-            #prompt += f"Based on the evidence and your own knowlege, think about the question.\n"
-            prompt += f"Based on your own knowledge, think about the question step by step.\n"
+            prompt += f"Based on the evidence and your own knowlege, think about the question.\n"
+            #prompt += f"Based on your own knowledge, think about the question step by step.\n"
             prompt += f"Then answer the question in the final line, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice."
             print(prompt)
 
@@ -68,9 +68,9 @@ for item in dataset[split]:
 
             result = {
                 "total": total, 
-                "prompt_wo": prompt,
-                "qwen_answer_wo": qwen_ans,
-                #"reference_answer": answer_key,
+                "prompt": prompt,
+                "qwen_answer": qwen_ans,
+                "reference_answer": answer_key,
                 #"mark": "",
                 #"mark_wo": ""
             }
@@ -90,5 +90,5 @@ for item in dataset[split]:
     if total >= MAX:
         break
 
-with open('results2.json', 'w') as json_file:
+with open('/home/wenhao/Project/greatxue/llm_uncer/logs/qwen.json', 'w') as json_file:
     json.dump(data, json_file, indent=4)

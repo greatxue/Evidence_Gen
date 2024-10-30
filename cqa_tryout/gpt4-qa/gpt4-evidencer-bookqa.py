@@ -9,7 +9,7 @@ split = 'validation'
 total = 0
 correct = 0
 MAX = 200
-evifile = "gpt_evidence.txt"
+evifile = "/home/wenhao/Project/greatxue/llm_uncer/cqa_tryout/gpt4-qa/evidence/evi_bookqa.txt"
 
 with open(evifile, "w") as f:
     for item in dataset[split]:

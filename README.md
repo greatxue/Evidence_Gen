@@ -29,3 +29,5 @@
 + **Task:** List the ans alone
 + **Task:** Employ CoT, CoT with evidence
 + **Task:** Calculate the length
+
+### Adjustment Oct. 30

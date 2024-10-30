@@ -1,9 +1,0 @@
-Combination counts:
-mark=1, mark_wo=1, mark_cot=1: 89
-mark=1, mark_wo=0, mark_cot=1: 58
-mark=0, mark_wo=0, mark_cot=0: 4
-mark=1, mark_wo=1, mark_cot=0: 11
-mark=0, mark_wo=1, mark_cot=1: 6
-mark=0, mark_wo=1, mark_cot=0: 2
-mark=0, mark_wo=0, mark_cot=1: 21
-mark=1, mark_wo=0, mark_cot=0: 9
