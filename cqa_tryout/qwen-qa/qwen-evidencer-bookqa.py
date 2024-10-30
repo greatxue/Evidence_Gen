@@ -71,7 +71,7 @@ with open(evifile, "w") as f:
             f.write(f"Options: {choices}\n")
             f.write(f"qwen Answer: {gpt_answer[:1]}\n")
             f.write(f"Correct Answer: {answer_key}\n")
-            f.write(f"Evidence: {evidence}\n\n")
+            f.write(f"Evidence==: {evidence}\n\n")
             print(f"...Evidence written.")
 
             # Check if we've reached the maximum number of questions

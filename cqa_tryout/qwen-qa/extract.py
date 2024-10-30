@@ -7,7 +7,7 @@ def extract_evidence(file_path):
     inside_evidence = False
 
     for line in lines:
-        if "Evidence" in line:
+        if "Evidence==" in line:
             inside_evidence = True
             current_evidence = [line[10:]]
         elif "Question" in line:

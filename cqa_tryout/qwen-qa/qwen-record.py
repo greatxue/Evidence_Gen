@@ -16,7 +16,7 @@ total = 0
 correct = 0
 MAX = 200
 
-file_path = '/home/wenhao/Project/greatxue/llm_uncer/cqa_tryout/gpt4-qa/evidence/evi_bookqa.txt'
+file_path = '/home/wenhao/Project/greatxue/llm_uncer/evidence/1030-evi-bookqa-qwen.txt'
 evidence_sections = extract_evidence(file_path)
 print(f"Evidence extracted.\n====================Test Sample====================")
 print(evidence_sections[0])
@@ -90,5 +90,5 @@ for item in dataset[split]:
     if total >= MAX:
         break
 
-with open('/home/wenhao/Project/greatxue/llm_uncer/logs/qwen.json', 'w') as json_file:
+with open('/home/wenhao/Project/greatxue/llm_uncer/logs/1030-qwen.json', 'w') as json_file:
     json.dump(data, json_file, indent=4)
