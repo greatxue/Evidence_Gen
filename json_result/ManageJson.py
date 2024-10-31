@@ -14,8 +14,8 @@ class jsonManager:
             data = json.load(file)
 
         for item in data:
-            if 'model_answer' in item:
-                item['model_answer_wo'] = item.pop('model_answer')  
+            if 'qwen_answer' in item:
+                item['qwen_answer_wo'] = item.pop('qwen_answer')  
 
 
 

@@ -6,13 +6,13 @@ import time
 from http import HTTPStatus
 
 # Load the OpenBookQA dataset
-dataset = load_dataset("allenai/openbookqa")
+dataset = load_dataset("tau/commonsense_qa")
 split = 'validation' 
 
 total = 0
 correct = 0
 MAX = 200
-evifile = "/home/wenhao/Project/greatxue/llm_uncer/evidence/1030-evi-bookqa-qwen.txt"
+evifile = "/home/wenhao/Project/greatxue/llm_uncer/evidence/1030-evi-commonqa-qwen.txt"
 
 def ques_qwen(ques_str):
     messages = [
@@ -33,7 +33,7 @@ def ques_qwen(ques_str):
 with open(evifile, "w") as f:
     for item in dataset[split]:
         try:
-            question = item['question_stem']
+            question = item['question']
             choices = item['choices']['text']
             answer_key = item['answerKey']
 
