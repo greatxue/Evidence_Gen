@@ -71,7 +71,7 @@ def combine_prompt(question, choices, prompt_type, num, evidence_sections):
         prompt = f"Question: {question}\nOptions:\n"
         for idx, choice in enumerate(choices):
             prompt += f"{chr(65 + idx)}. {choice}\n"
-        prompt += "Based on your own knowlege, think about the question step by step.\n"
+        prompt += "Based on your own knowledge, think about the question step by step.\n"
         prompt += "In the final sentence, answer the question in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice."
         
     elif prompt_type == "evidence":
@@ -81,7 +81,7 @@ def combine_prompt(question, choices, prompt_type, num, evidence_sections):
         prompt += f"Question: {question}\nOptions:\n"
         for idx, choice in enumerate(choices):
             prompt += f"{chr(65 + idx)}. {choice}\n"
-        prompt += "Based on your own knowledge, answer directly with the capitalized letter standing for the choice, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice."
+        prompt += "Based on the evidence, answer directly with the capitalized letter standing for the choice, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice."
     
     elif prompt_type == "evidenceCoT":
         prompt = "Evidence: \n"
@@ -90,7 +90,7 @@ def combine_prompt(question, choices, prompt_type, num, evidence_sections):
         prompt += f"Question: {question}\nOptions:\n"
         for idx, choice in enumerate(choices):
             prompt += f"{chr(65 + idx)}. {choice}\n"
-        prompt += "Based on your own knowledge, think about the question step by step.\n"
+        prompt += "Based on the evidence and your own knowledge, think about the question step by step.\n"
         prompt += "In the final sentence, answer the question in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice."
 
     else:
