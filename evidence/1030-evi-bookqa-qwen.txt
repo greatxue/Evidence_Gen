@@ -1,0 +1,80 @@
+Question 1:
+A revolving door is convenient for two direction travel, but it also serves as a security measure at a what?
+Options: ['bank', 'library', 'department store', 'mall', 'new york']
+qwen Answer: A
+Correct Answer: A
+Evidence==: To help a confused student understand how a revolving door serves as a security measure, you can provide evidence from each of the options without explicitly stating the correct answer:
+
+A. Bank:
+1. Banks often have secure entrances to protect cash and valuable information. Revolving doors allow employees and customers to pass through quickly while being monitored by security cameras.
+2. The movement is controlled, which can deter potential intruders from lingering or forcing their way in.
+
+B. Library:
+1. Libraries typically have limited access points for security reasons, like card readers or key-controlled entrances. A revolving door might be used for staff and visitors, but its main function is not about security per se.
+2. However, some libraries might have security measures in place, like surveillance systems, but the revolving door itself isn't a primary security feature.
+
+C. Department Store:
+1. Department stores often have a high volume of foot traffic and need to control entry efficiently. Revolving doors allow people to enter and exit without blocking aisles.
+2. Some stores may use revolving doors as part of their security strategy, especially in the entrance areas where they can monitor who enters and leaves the building.
+
+D. Mall:
+1. Malls are large commercial centers with multiple shops and attractions. Security is a concern, so revolving doors can help regulate access and monitor activity.
+2. Many malls have secure entrances for employees, VIPs, and security personnel, who use revolving doors to move quickly without causing delays.
+
+E. New York (City):
+1. In a bustling city like New York, revolving doors are common in public spaces like buildings and stations to facilitate smooth traffic flow and maintain security.
+2. However, the specific location would not be the deciding factor for whether a revolving door serves as a security measure; it's more about the overall design and function within the structure.
+
+By presenting these details, the student can see how a revolving door could potentially serve as a security measure in various settings, but without directly revealing the correct answer, they can start to piece together the reasoning behind the choice.
+
+Question 2:
+What do people aim to do at work?
+Options: ['complete job', 'learn from each other', 'kill animals', 'wear hats', 'talk to each other']
+qwen Answer: A
+Correct Answer: A
+Evidence==: 1. Company Policy Document: Many organizations have policies that emphasize the primary goal of employees, which often includes "to contribute to the company's success by completing tasks efficiently and effectively" (Option A). This would suggest that completing jobs is a central part of what people aim to do at work.
+
+2. Training and Development: Employers invest in training programs for their staff to enhance their skills and knowledge, indicating that learning from each other (Option B) is an important aspect of the workplace.
+
+3. Team Collaboration: Regular meetings and collaboration among coworkers are standard practices in most workplaces, supporting the idea that communication and interaction (Option E) are key objectives.
+
+4. Performance Evaluations: Performance evaluations focus on assessing employees' achievements and progress, not on killing animals (Option C), and wearing hats (Option D), which are not relevant to job performance.
+
+5. Job Satisfaction Surveys: Studies have shown that factors like job satisfaction, including a supportive work environment and opportunities for personal and professional growth, contribute to employee well-being (Option B), indirectly suggesting the importance of learning and working together.
+
+By presenting these types of evidence, a student can understand that people at work primarily aim to complete their jobs (Option A), while also engaging in learning from each other (Option B) and other activities related to their professional development and teamwork.
+
+Question 3:
+Where would you find magazines along side many other printed works?
+Options: ['doctor', 'bookstore', 'market', 'train station', 'mortuary']
+qwen Answer: B
+Correct Answer: B
+Evidence==: 1. **Bookstore**: A bookstore is a dedicated retail establishment that primarily sells books and other printed materials. Magazines are commonly found alongside books, as they are considered part of the general reading or entertainment section. So, if you're looking for magazines along with many other printed works, a bookstore would be the most suitable location.
+
+2. **Library**: Libraries also stock a wide variety of printed materials, including magazines, newspapers, and reference books. Students often visit libraries for research or leisure reading, so this is another place where you might encounter magazines.
+
+3. **Newsstand**: Newsstands, especially those in public areas like airports, train stations, and shopping centers, typically carry a selection of magazines as well as newspapers. While not all newsstands have every magazine, they can serve as a source for finding multiple printed works.
+
+4. **Coffee Shop**: Some coffee shops may have a small selection of magazines for customers to browse while waiting. Although not as comprehensive as a bookstore, they could have a few magazines available.
+
+5. **Convenience Store**: Similar to newsstands, convenience stores may carry a few magazines, but their offerings are usually limited. This could be a place to find a few magazines alongside other printed items.
+
+6. **Doctor's Office**: While doctors' offices may have reading materials like brochures, they typically do not carry a large selection of magazines for browsing. They are more focused on providing information for patients.
+
+Based on these points, you can infer that a bookstore and newsstands are the most likely places where you would find magazines alongside many other printed works. However, it's important to note that the availability of specific magazines might vary depending on the location.
+
+Question 4:
+Where are  you likely to find a hamburger?
+Options: ['fast food restaurant', 'pizza', 'ground up dead cows', 'mouth', 'cow carcus']
+qwen Answer: A
+Correct Answer: A
+Evidence==: 1. Context: Hamburger is a popular food item typically associated with convenience and speed.
+2. Fast Food Restaurants: Fast food chains like McDonald's, Burger King, and Wendy's are known for serving hamburgers as their signature menu items. They are designed for quick service and are commonly found in these establishments.
+3. Menu Descriptions: Many menus in restaurants list "hamburger" as a choice among their listings, indicating that it is a common dish served there.
+4. Restaurant Menus: Look at a real-life restaurant menu and you will likely see "Hamburger" listed under the "Appetizers" or "Entrees" section, confirming its presence in such places.
+5. Food Delivery Services: Popular food delivery apps like Uber Eats, Grubhub, and DoorDash often have a wide variety of options, including hamburgers from different restaurants, suggesting they are served in many locations.
+6. Street Vendors: Some cities have street vendors who sell quick bites, and hamburgers might be one of the items they offer, particularly in areas where food trucks or carts are common.
+7. Online Reviews: Reading reviews about eating out can reveal that people frequently order hamburgers from various establishments, reinforcing the idea that they are available in restaurants.
+
+These pieces of evidence suggest that you are likely to find a hamburger at A. fast food restaurant, without directly stating the correct answer.
+
