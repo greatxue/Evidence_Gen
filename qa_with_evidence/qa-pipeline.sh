@@ -8,7 +8,7 @@ EVIDENCE_DIR="${BASE_DIR}/evidence"
 OUTPUT_JSON_DIR="${BASE_DIR}/output/json"
 OUTPUT_MERGED_DIR="${BASE_DIR}/output/merged_json"
 EVIDENCE_FILE="${EVIDENCE_DIR}/1031-evi-bookqa-qwen.txt"
-TIMESTAMP="11030058"
+TIMESTAMP="11030128"
 DATASET_NAME="openbookqa"
 MODEL_NAME="qwen1.5-7b-chat"
 
