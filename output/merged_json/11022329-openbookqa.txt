@@ -1,0 +1,20 @@
+Individual mark counts:
+mark_direct: 147
+mark_CoT: 125
+mark_evidence: 146
+mark_evidenceCoT: 134
+
+Combination counts (e.g., '0000', '0101'):
+1111: 89
+1100: 16
+1010: 6
+0011: 8
+1011: 25
+0100: 3
+0111: 9
+0000: 28
+1110: 7
+0001: 3
+1000: 4
+0110: 1
+0010: 1
