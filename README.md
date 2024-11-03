@@ -31,3 +31,6 @@
 + **Task:** Calculate the length
 
 ### Adjustment Oct. 30
+
++ **Task:** Apply `temperature=0`
++ **Task:** Add two more baselines

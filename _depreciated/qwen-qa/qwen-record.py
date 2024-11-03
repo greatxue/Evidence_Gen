@@ -10,13 +10,14 @@ import json
 data = []
 
 dataset = load_dataset("tau/commonsense_qa")
+#dataset = load_dataset("allenai/openbookqa")
 split = 'validation' 
 
 total = 0
 correct = 0
 MAX = 200
 
-file_path = '/home/wenhao/Project/greatxue/llm_uncer/evidence/1030-evi-commonqa-qwen.txt'
+file_path = '/home/wenhao/Project/greatxue/llm_uncer/evidence/1031-evi-commonqa-qwen.txt'
 evidence_sections = extract_evidence(file_path)
 print(f"Evidence extracted.\n====================Test Sample====================")
 print(evidence_sections[0])
@@ -30,6 +31,7 @@ def ques_qwen(ques_str):
         'qwen1.5-7b-chat',
         messages=messages,
         result_format='message',  # set the result is message format.
+        temperature=0
     )
     if response.status_code == HTTPStatus.OK:
         return response
@@ -49,11 +51,11 @@ for item in dataset[split]:
             choices = item['choices']['text'] 
             answer_key = item['answerKey']
             
-            #prompt = f"Evidence: \n"
-            #prompt += evidence_sections[total]
-            #prompt += f'\n'
+            prompt = f"Evidence: \n"
+            prompt += evidence_sections[total]
+            prompt += f'\n'
         
-            prompt = f"Question: {question}\nOptions:\n"
+            prompt += f"Question: {question}\nOptions:\n"
             for idx, choice in enumerate(choices):
                 prompt += f"{chr(65 + idx)}. {choice}\n"
 
@@ -90,5 +92,5 @@ for item in dataset[split]:
     if total >= MAX:
         break
 
-with open('/home/wenhao/Project/greatxue/llm_uncer/logs/1030-commonqa-qwen-wo.json', 'w') as json_file:
+with open('/home/wenhao/Project/greatxue/llm_uncer/logs/1101-commonqa-qwen.json', 'w') as json_file:
     json.dump(data, json_file, indent=4)

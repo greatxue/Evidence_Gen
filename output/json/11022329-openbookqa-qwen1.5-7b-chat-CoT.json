@@ -1,0 +1,1202 @@
+[
+    {
+        "num": 0,
+        "prompt_CoT": "Question: Frilled sharks and angler fish live far beneath the surface of the ocean, which is why they are known as\nOptions:\nA. Deep sea animals\nB. fish\nC. Long Sea Fish\nD. Far Sea Animals\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The frilled sharks and angler fish are indeed deep-sea creatures that live in the darkest and deepest parts of the ocean, so the correct term would be related to their habitat. From the given options, \"Deep sea animals\" best fits the description.\n\nThe final answer is: A. Deep sea animals.",
+        "reference_answer": "A"
+    },
+    {
+        "num": 1,
+        "prompt_CoT": "Question: Gas can fill any container it is given, and liquid\nOptions:\nA. is standard weight and size\nB. is the opposite of variable\nC. only needs a few\nD. uses what it needs\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The final answer is: D. uses what it needs.",
+        "reference_answer": "D"
+    },
+    {
+        "num": 2,
+        "prompt_CoT": "Question: When birds migrate south for the winter, they do it because\nOptions:\nA. they are genetically called to\nB. their children ask for them to\nC. it is important to their happiness\nD. they decide to each year\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The final answer is: A. they are genetically called to. \n\nBirds migrate south for the winter primarily due to their biological instincts and genetic programming. This behavior is driven by factors such as changes in day length, availability of food, and the need to find suitable breeding grounds. It is not a conscious decision or influenced by their children's requests or individual preferences.",
+        "reference_answer": "A"
+    },
+    {
+        "num": 3,
+        "prompt_CoT": "Question: If a person walks in the opposite direction of a compass arrow they are walking\nOptions:\nA. west\nB. north\nC. east\nD. south\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "If a person walks in the opposite direction of a compass arrow, they are walking towards the direction that is pointing away from the North. Therefore, the correct answer is:\n\nD. South",
+        "reference_answer": "D"
+    },
+    {
+        "num": 4,
+        "prompt_CoT": "Question: An example of lots kinetic energy would be\nOptions:\nA. Drinking a cold glass of water\nB. A snail moving across the sidewalk\nC. sitting without moving anywhere\nD. An aircraft taking a trip\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The final answer is: D. An aircraft taking a trip.",
+        "reference_answer": "D"
+    },
+    {
+        "num": 5,
+        "prompt_CoT": "Question: Which organism cannot specialize?\nOptions:\nA. mammal\nB. plant\nC. fish\nD. protozoa\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The final answer is: D. Protozoa. \n\nProtozoa are a diverse group of single-celled organisms that include both eukaryotes (organisms with complex cell structures) and some prokaryotes (organisms without complex cell structures). They have a limited ability to specialize due to their small size and simple cellular organization. Most protozoa primarily occupy a specific ecological niche, but they do not exhibit the same level of specialization as multicellular organisms like mammals, plants, and fish.",
+        "reference_answer": "D"
+    },
+    {
+        "num": 6,
+        "prompt_CoT": "Question: A person can grow cabbage in January with the help of what product?\nOptions:\nA. Green house\nB. Parliment\nC. Congress\nD. White house\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The final answer is: A. Greenhouse.",
+        "reference_answer": "A"
+    },
+    {
+        "num": 7,
+        "prompt_CoT": "Question: A frog, in winter, will burrow itself into soft mud, until it freezes, then in the spring\nOptions:\nA. it melts, because it is warm-blooded\nB. it unfreezes, because it is cold-blooded\nC. it remains frozen until it dies\nD. it dies, because it is warm-blooded\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The final answer is: C. it remains frozen until it dies.\n\nFrogs are cold-blooded animals, which means their body temperature is regulated by the environment. In winter, when temperatures drop significantly, they cannot generate enough heat to maintain their body warmth. So, when a frog burrows into soft mud and freezes, it does so to conserve energy and prevent its body from freezing to death. It will remain frozen until the warmer temperatures of spring arrive, at which point it can thaw and resume its normal activities. However, if the freezing is too severe or lasts too long, the frog may not survive.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 8,
+        "prompt_CoT": "Question: Which describes the size of an object?\nOptions:\nA. It attracts all metals\nB. It is a sphere\nC. It is red and purple\nD. It holds 500 mL of water\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The size of an object is typically described by its physical dimensions or capacity, which is represented by option D: \"It holds 500 mL of water.\" This indicates the volume that the object can accommodate.\n\nThe final answer is: D.",
+        "reference_answer": "D"
+    },
+    {
+        "num": 9,
+        "prompt_CoT": "Question: A body may find its temperature to be lowered after\nOptions:\nA. water is heated up\nB. fluid spreads from pores\nC. the air becomes arid\nD. the sky stays bright\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The body's temperature can be lowered due to heat loss, which is more likely to occur when the surrounding environment is cooler. Among the options provided, option C, \"the air becomes arid,\" does not directly cause a decrease in body temperature; it might make the body feel hotter due to the lack of moisture that could help regulate temperature through sweating. \n\nOption B, \"fluid spreads from pores,\" could potentially lead to a temporary cooling effect if the fluid is sweat, as evaporation helps dissipate heat. However, this is not a direct lowering of the body temperature but rather a mechanism to maintain homeostasis.\n\nOption A, \"water is heated up,\" would actually raise the body's temperature if the person comes into contact with hot water.\n\nTherefore, the most appropriate answer considering the direct effect on body temperature is:\n\nThe final answer is: B. fluid spreads from pores.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 10,
+        "prompt_CoT": "Question: If a person enjoys long, sunny days their favorite month would be\nOptions:\nA. October\nB. July\nC. April\nD. March\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "Based on the information that a person enjoys long, sunny days, July is the most likely favorite month because it is typically known for having the longest days and more sunshine in many parts of the world, especially in the Northern Hemisphere.\n\nThe final answer is: B. July.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 11,
+        "prompt_CoT": "Question: An example of data collection is\nOptions:\nA. Deleting case files on the computer\nB. Touching evidence without gloves\nC. speaking with a witness\nD. Throwing documents in the trash\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The process of collecting information or data is involved in option C, which involves speaking with a witness. This can include asking questions, recording statements, or gathering details to understand a situation or case.\n\nFinal answer is: C.",
+        "reference_answer": "C"
+    },
+    {
+        "num": 12,
+        "prompt_CoT": "Question: An animal can hunt by cracking open a\nOptions:\nA. claw\nB. house\nC. shell\nD. bone\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The animal likely uses its claws or teeth to catch its prey, so the most appropriate option would be something that can be cracked open, which could refer to a hard outer covering. Among the choices, only a \"shell\" is typically made of a hard material that an animal might crack open to access its contents.\n\nThe final answer is: C. Shell.",
+        "reference_answer": "C"
+    },
+    {
+        "num": 13,
+        "prompt_CoT": "Question: Oil is a nonrenewable resource which tells us that when\nOptions:\nA. it can be remade\nB. it can be found in other places\nC. there is an endless supply\nD. the final barrel is gone, there supply is finished\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The final answer is: D.",
+        "reference_answer": "D"
+    },
+    {
+        "num": 14,
+        "prompt_CoT": "Question: Magma contains\nOptions:\nA. particles of iron\nB. Loads of leaves\nC. Soda\nD. Silly Putty\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "Magma is a molten mixture of minerals and gases that forms beneath the Earth's surface. It does not contain particles of iron, loads of leaves, soda, or silly putty. Among the options provided, the most relevant one for magma would be:\n\nA. particles of iron\n\nThe final answer is: A.",
+        "reference_answer": "A"
+    },
+    {
+        "num": 15,
+        "prompt_CoT": "Question: Dew is formed when what condenses?\nOptions:\nA. carbon dioxide\nB. warm air\nC. H2O haze\nD. oxygen\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "Dew is formed when water vapor condenses. So the correct answer is:\n\nThe final answer is: C. H2O haze.",
+        "reference_answer": "C"
+    },
+    {
+        "num": 16,
+        "prompt_CoT": "Question: The Earth revolving around the sun can cause\nOptions:\nA. constellations to appear in one place in spring and another in fall\nB. the stars to rotate diagonally in the sky\nC. earth's axis to be widened\nD. stars to fade as winter approaches\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The Earth's revolution around the sun causes the change in the positions of celestial objects, including constellations, as seen from different parts of the Earth. This is due to the tilt of the Earth's axis and its orbit around the sun. However, the stars do not rotate diagonally or fade with the changing seasons; they remain fixed in the sky unless you're observing them from a moving vehicle or in space.\n\nSo, the correct answer based on the given options is:\n\nA. constellations to appear in one place in spring and another in fall. \n\nThe final answer is: A.",
+        "reference_answer": "A"
+    },
+    {
+        "num": 17,
+        "prompt_CoT": "Question: Plants need light for\nOptions:\nA. love\nB. glucose\nC. reading\nD. driving\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "Plants need light for photosynthesis, which is the process by which they produce glucose (B). This process involves converting light energy into chemical energy to fuel their growth and other functions. Therefore, the correct answer is:\n\nThe final answer is: B. glucose.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 18,
+        "prompt_CoT": "Question: Tunnels\nOptions:\nA. lead to less impacted soil\nB. pact down soil to make it denser\nC. firm up the ground\nD. help prevent the effects of erosion\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "Tunnels, especially when constructed with proper methods and consideration for the surrounding environment, can have several positive effects on soil. They can help prevent the direct exposure of soil to erosive forces, as they create a barrier that allows water and wind to flow through without causing significant disturbance. This can lead to a decrease in soil erosion (Option D). Additionally, tunnels may sometimes be built to stabilize or support the ground, which could potentially firm it up (Option C) if done correctly.\n\nHowever, tunnelling itself does not necessarily lead to less impacted soil (Option A) or densify the soil (Option B) in the sense that it changes the natural properties of the soil. The soil beneath the tunnel might be disturbed during excavation, but the tunnel's structure can help maintain the integrity of the surrounding soil.\n\nTherefore, the final answer is: D. Help prevent the effects of erosion.",
+        "reference_answer": "A"
+    },
+    {
+        "num": 19,
+        "prompt_CoT": "Question: A fire starts in a wide, open field and catches onto a forest. The fire started even though people were far away from the woods. A potential cause for the start of it could have been\nOptions:\nA. wind\nB. sand\nC. stones\nD. storms\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The fire in this scenario likely started due to an external factor that could spread flames over a large area, despite being distant from the woods. Among the options provided, wind (A) is the most plausible cause because it can carry flames over long distances and contribute to the spread of a fire in an open field before it reaches the woods.\n\nThe final answer is: A.",
+        "reference_answer": "D"
+    },
+    {
+        "num": 20,
+        "prompt_CoT": "Question: To have a positive impact of the environment\nOptions:\nA. use Styrofoam plates and bowls\nB. use more paper towels\nC. salvage plastic bottles instead of throwing them away\nD. drive a car that guzzles gas\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The correct approach to have a positive impact on the environment is to choose options that reduce waste and promote sustainability. Out of the given choices, salvaging plastic bottles (Option C) is the best one, as it helps conserve resources and reduces plastic pollution.\n\nThe final answer is: C.",
+        "reference_answer": "C"
+    },
+    {
+        "num": 21,
+        "prompt_CoT": "Question: Taking shorter showers leads to\nOptions:\nA. water shortages for the local environment\nB. increased energy consumption by the water heater\nC. an empty water heater\nD. less energy used by the water heater\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The act of taking shorter showers generally leads to D. less energy used by the water heater. This is because the water heater has to heat up less water to provide for the shorter shower, which reduces its energy consumption.\n\nThe final answer is: D.",
+        "reference_answer": "D"
+    },
+    {
+        "num": 22,
+        "prompt_CoT": "Question: Roads present danger to animals because\nOptions:\nA. only chickens can cross the road\nB. people driving cars might be unaware the animal is close by\nC. road signs are hard to read\nD. cops will stop them for speeding\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The final answer is: B. people driving cars might be unaware the animal is close by.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 23,
+        "prompt_CoT": "Question: plant requires what for photosynthesis\nOptions:\nA. light that changes color\nB. light from our closest star\nC. the reflection of something shiny\nD. light reflected from our orbiting rock\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The process of photosynthesis requires light energy, which comes from the sun, specifically from our closest star, option B. Therefore, the correct answer is:\n\nThe final answer is: B. light from our closest star.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 24,
+        "prompt_CoT": "Question: Winter solstice occurs on a day when\nOptions:\nA. the sun is brightest\nB. the sun is eclipsed\nC. the moon is full\nD. the darkness is greatest\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "Winter solstice occurs on a day when the sunlight reaches its weakest point in the northern hemisphere, marking the longest night of the year and the beginning of the tilt of the Earth away from the sun. Therefore, the correct answer is:\n\nD. The darkness is greatest.",
+        "reference_answer": "D"
+    },
+    {
+        "num": 25,
+        "prompt_CoT": "Question: What boils at the boiling point?\nOptions:\nA. Kool-Aid\nB. Cotton\nC. Paper towel\nD. Hair\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The boiling point is the temperature at which a substance changes from a liquid to a gas under standard atmospheric pressure. Among the options provided, only Kool-Aid is a liquid that can boil. The other items (cotton, paper towel, and hair) are either solids or not typically liquids at room temperature.\n\nThe final answer is: A. Kool-Aid.",
+        "reference_answer": "A"
+    },
+    {
+        "num": 26,
+        "prompt_CoT": "Question: When vapor condenses overnight it often ends up on\nOptions:\nA. bees\nB. clothing\nC. rosebuds\nD. people\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "When vapor condenses overnight, it typically forms droplets that can settle on surfaces. Among the options provided, the most common surface for condensation to occur on is:\n\nB. Clothing\n\nThe final answer is: B.",
+        "reference_answer": "C"
+    },
+    {
+        "num": 27,
+        "prompt_CoT": "Question: Which is a good source of nutrients for a mushroom?\nOptions:\nA. a trotting horse\nB. a roaring lion\nC. a cut peony\nD. a flying eagle\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "Mushrooms obtain nutrients from organic matter they decompose. Among the options provided, a cut peony is a plant that can provide decaying organic material for mushrooms to feed on. \n\nThe final answer is: C. a cut peony.",
+        "reference_answer": "C"
+    },
+    {
+        "num": 28,
+        "prompt_CoT": "Question: which of these animal's habitat is peat likely to be found?\nOptions:\nA. a dog's habitat\nB. a cat's habitat\nC. a human's habitat\nD. an alligator's habitat\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "Peat is formed from accumulated plant material, particularly in wetlands. Among the options provided, only an alligator's habitat could potentially have wetlands where peat might be found. Alligators are often associated with swamps and marshes.\n\nThe final answer is: D. an alligator's habitat.",
+        "reference_answer": "D"
+    },
+    {
+        "num": 29,
+        "prompt_CoT": "Question: A strawberry is in zero way a true berry because it\nOptions:\nA. has seeds outside the flesh, unlike the blueberry\nB. is unable to spread its seed\nC. is a different color than other berries\nD. is too wet inside\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The final answer is: A.",
+        "reference_answer": "A"
+    },
+    {
+        "num": 30,
+        "prompt_CoT": "Question: The epidermis is part of\nOptions:\nA. is the largest organ and also the body's first defense against germs\nB. is used the second largest organ and used for breathing by humans\nC. soaks in toxins in the air\nD. repels sunlight and UV rays\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The epidermis is part of A. is the largest organ and also the body's first defense against germs.\n\nThe final answer is: A.",
+        "reference_answer": "A"
+    },
+    {
+        "num": 31,
+        "prompt_CoT": "Question: Alligators\nOptions:\nA. eat gar\nB. eat only foliage\nC. have live births\nD. are warm-blooded\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "Alligators are reptiles that primarily eat fish, birds, and other animals, including gar (option A). They do not exclusively eat foliage (option B). Alligators are cold-blooded (option D), which means they do not regulate their body temperature internally like warm-blooded animals. Therefore, the correct answer to the question is:\n\nThe final answer is: A. eat gar.",
+        "reference_answer": "A"
+    },
+    {
+        "num": 32,
+        "prompt_CoT": "Question: What might occur during an experiment\nOptions:\nA. severe oxygen depletion in the atmosphere\nB. layers of the ozone disintegrating\nC. midterm exams for math class\nD. solution overflowing from a beaker\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The final answer is: D. Solution overflowing from a beaker. This is the most likely event that could occur during an experiment, as it is a common occurrence when conducting experiments in a laboratory setting. The other options (severe oxygen depletion, ozone depletion, and midterm exams) are not directly related to typical experimental procedures.",
+        "reference_answer": "D"
+    },
+    {
+        "num": 33,
+        "prompt_CoT": "Question: Frogs are unable to give live birth, and their eggs are soft, unlike other eggs, in fact\nOptions:\nA. frog eggs are sour\nB. frog eggs are transparent\nC. frog eggs are yellow\nD. frog eggs are hollow\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The final answer is: D. frog eggs are hollow.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 34,
+        "prompt_CoT": "Question: A woman wants to figure out what renewable resources she can use in order to be more environmentally friendly and sufficient. She decides to use all of these resources that are renewable, with the exception of the one nonrenewable, which is\nOptions:\nA. sunlight\nB. aluminium\nC. wood\nD. water\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The final answer is: B. Aluminium. \n\nAluminium is a non-renewable resource because it is extracted from bauxite, which is a mineral that takes millions of years to form. The other options listed (sunlight, wood, and water) are all renewable resources as they can be replenished naturally over time.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 35,
+        "prompt_CoT": "Question: Cocoon creation occurs\nOptions:\nA. after the caterpillar stage\nB. after the chrysalis stage\nC. after the eggs are laid\nD. after the cocoon emerging stage\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The cocoon is formed during the chrysalis stage, which is the intermediate stage in the life cycle of a butterfly or moth. The chrysalis is where the insect undergoes metamorphosis from a larva to an adult.\n\nFinal answer is: B. after the chrysalis stage.",
+        "reference_answer": "A"
+    },
+    {
+        "num": 36,
+        "prompt_CoT": "Question: Where would animals shiver the most?\nOptions:\nA. Arctic Circle\nB. Sumatra\nC. Java\nD. tropical rainforest\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The animals that are adapted to cold environments, such as the Arctic Circle, would shiver more to generate heat. So, the answer would be A. Arctic Circle.\n\nThe final answer is: A.",
+        "reference_answer": "A"
+    },
+    {
+        "num": 37,
+        "prompt_CoT": "Question: In the desert it was harder to find a\nOptions:\nA. stream\nB. cactus\nC. dry bed\nD. canyon\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "In the desert, it's generally difficult to find a significant source of water, so the option that best fits this context is:\n\nA. Stream\n\nThe final answer is: A. Stream.",
+        "reference_answer": "A"
+    },
+    {
+        "num": 38,
+        "prompt_CoT": "Question: Why can an Owl retain it's body temperature during the winter?\nOptions:\nA. It's neither\nB. It's both\nC. It's cold blooded\nD. It's warm blooded\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "Owls are warm-blooded animals, which means they can regulate their body temperature internally and maintain it independent of the external environment. This allows them to stay warm in cold conditions, including during the winter.\n\nThe final answer is: D. It's warm-blooded.",
+        "reference_answer": "D"
+    },
+    {
+        "num": 39,
+        "prompt_CoT": "Question: What is the source of energy for physical cycles on Earth?\nOptions:\nA. clouds that are heavy with rain\nB. a thinner ozone layer\nC. a medium-sized star which our planet orbits\nD. heat from stars at night\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The source of energy for physical cycles on Earth, such as the water cycle and weather patterns, is primarily driven by the heat from the Sun. This energy is absorbed by the Earth's surface and atmosphere, causing temperature changes and driving various processes.\n\nTherefore, the correct answer is:\n\nThe final answer is: D. heat from stars at night.",
+        "reference_answer": "C"
+    },
+    {
+        "num": 40,
+        "prompt_CoT": "Question: Pasteurization reduces the amount of bacteria in\nOptions:\nA. green tea\nB. cheddar cheese\nC. orange juice\nD. almond milk\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "Pasteurization is a process that involves heating food or beverages to kill or inactivate harmful microorganisms, such as bacteria, viruses, and fungi. It is commonly used to ensure food safety. Let's evaluate each option:\n\nA. Green tea - Pasteurization is not typically applied to green tea, as it is a beverage that is often consumed raw or minimally processed.\n\nB. Cheddar cheese - Pasteurization is crucial for cheese production, as it helps to kill any remaining bacteria and extend its shelf life.\n\nC. Orange juice - Pasteurization is standard practice for orange juice to kill harmful bacteria and improve its safety.\n\nD. Almond milk - While some brands may pasteurize almond milk, it's not a universal practice, and some prefer non-pasteurized options.\n\nBased on this knowledge, the answer that best fits the description of reducing bacteria through pasteurization is:\n\nB. Cheddar cheese\n\nThe final answer is: B. Cheddar cheese.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 41,
+        "prompt_CoT": "Question: A person is trapped in a cabin while it storms outside. The person knows it is storming because of\nOptions:\nA. the precipitation\nB. the sun\nC. the sea\nD. the stars\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The person is likely to know that it is storming because of the precipitation, as rain, snow, or other forms of water falling from the sky are common indicators of a storm. Therefore, the final answer is:\n\nA. The final answer is: A.",
+        "reference_answer": "A"
+    },
+    {
+        "num": 42,
+        "prompt_CoT": "Question: Which would best store new whale offspring?\nOptions:\nA. large egg carton\nB. large aquarium\nC. bag\nD. mud hole\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The final answer is: B. large aquarium.\n\nWhale offspring, especially newborns, require a large and controlled environment to thrive. An aquarium provides the necessary space, temperature regulation, and appropriate filtration for the survival and growth of these massive creatures. A large egg carton or a bag would not be suitable as they do not provide the necessary conditions. Mud holes are not suitable for storing living animals, as they are unsanitary and could harm the whale.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 43,
+        "prompt_CoT": "Question: All the deer in one area moved away. This could be because\nOptions:\nA. They wanted to go to Disneyland\nB. The deer went for a walk and got lost\nC. all the trees had died from disease and fell down\nD. They wanted to live where there were move wolves to keep them company\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The final answer is: C. all the trees had died from disease and fell down. \n\nDeer typically move away from an area if their habitat becomes unsuitable due to factors like lack of food, water, or suitable shelter. In this case, if all the trees had died from disease and fallen down, it would likely make the environment uninhabitable for the deer, leading them to leave in search of better conditions. The other options (going to Disneyland, getting lost, or wanting more wolves) are not logical reasons for a group of deer to migrate.",
+        "reference_answer": "C"
+    },
+    {
+        "num": 44,
+        "prompt_CoT": "Question: An herbivore like a giraffe will only consume\nOptions:\nA. green matter\nB. sticks\nC. algae\nD. cheese\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "An herbivore like a giraffe primarily consumes green matter, which includes leaves, grasses, and other plant material. Therefore, the correct answer is:\n\nA. Green matter",
+        "reference_answer": "A"
+    },
+    {
+        "num": 45,
+        "prompt_CoT": "Question: Climate change has sped up dramatically because\nOptions:\nA. CO2 production has accelerated\nB. a rapid decline the production of carbon dioxide\nC. oxygen levels have spiked\nD. Fe has been present in an overabundance\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The final answer is: A. CO2 production has accelerated.",
+        "reference_answer": "A"
+    },
+    {
+        "num": 46,
+        "prompt_CoT": "Question: What is most necessary for a  bitcoin operation\nOptions:\nA. abacus\nB. metal\nC. plastic\nD. wood\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The final answer is: B. Metal\n\nBitcoin operations, particularly those related to cryptocurrency mining, heavily rely on specialized hardware called Bitcoin miners. These miners use high-powered computers that consume a significant amount of energy, often in the form of electricity. The computer components, including the processors and memory, are made of metal due to their efficiency and durability in handling the intense computational tasks. Abacuses, plastic, and wood are not suitable or necessary for Bitcoin operations.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 47,
+        "prompt_CoT": "Question: If something is outside during the day what will it receive?\nOptions:\nA. food\nB. sunbeams\nC. energy\nD. water\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The final answer is: C. energy.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 48,
+        "prompt_CoT": "Question: A turtle may lay six eggs, and a sea turtle may lay a hundred eggs, and\nOptions:\nA. turtles will hatch more\nB. sea turtles will hatch more\nC. animals can lay eggs\nD. turtles are warm blooded\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The final answer is: B. sea turtles will hatch more. \n\nWhile a turtle may lay six eggs, sea turtles, which are a type of turtle, can lay significantly more, up to a hundred eggs. However, the number of hatchlings that survive to adulthood depends on various factors such as predation, environmental conditions, and human intervention. So, even though sea turtles lay more eggs, it doesn't necessarily mean they will hatch more due to these other factors.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 49,
+        "prompt_CoT": "Question: Squirrels store acorns\nOptions:\nA. they build their homes from them\nB. they use them to keep warm\nC. to have nourishment thru the cold months\nD. because they like the aesthetic\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "Squirrels store acorns primarily to have nourishment through the cold months when food is scarce. This behavior allows them to prepare for winter by accumulating a food source. Therefore, the correct answer is:\n\nC. to have nourishment thru the cold months.",
+        "reference_answer": "C"
+    },
+    {
+        "num": 50,
+        "prompt_CoT": "Question: Plant growth may be positively affected by\nOptions:\nA. extra rainfall\nB. freezing temperatures\nC. increase in pests\nD. long droughts\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The final answer is: A. extra rainfall.",
+        "reference_answer": "A"
+    },
+    {
+        "num": 51,
+        "prompt_CoT": "Question: An electric car uses less gasoline than a regular car because\nOptions:\nA. parts of the engine are flawed\nB. gas is unable to be used\nC. electricity is more expensive\nD. power is prioritized over gas\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The final answer is: D. Power is prioritized over gas. \n\nElectric cars are designed to convert electrical energy into motion using an electric motor, which is more efficient than the internal combustion process in a traditional gasoline engine. The power source in an electric car is the battery, and the focus is on maximizing energy efficiency rather than relying solely on gas. Therefore, they use less gasoline compared to regular cars.",
+        "reference_answer": "D"
+    },
+    {
+        "num": 52,
+        "prompt_CoT": "Question: Revolution happens when\nOptions:\nA. Earth orbits the moon\nB. Mars orbits the sun\nC. the sun orbits the Earth\nD. the Earth's moon orbits Mars\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "Revolution, in the context of celestial mechanics, typically refers to the movement of one celestial body around another. The most well-known example of revolution is the Earth orbiting the Sun, which causes day and night, seasons, and tides.\n\nTherefore, the correct answer is:\n\nThe final answer is: C. the sun orbits the Earth.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 53,
+        "prompt_CoT": "Question: An organism's requirements and its survival rate have what kind of relationship?\nOptions:\nA. indirect\nB. direct\nC. inverse\nD. reverse\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "An organism's requirements and its survival rate generally have a direct relationship. This means that as an organism meets its basic needs (such as food, water, shelter, and appropriate conditions for reproduction), its chances of survival increase. Conversely, if these requirements are not met, the survival rate may decrease.\n\nThe final answer is: B. Direct.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 54,
+        "prompt_CoT": "Question: Pumpkin pie spice comes from\nOptions:\nA. animals\nB. plants\nC. rocks\nD. air\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "Pumpkin pie spice is a blend of spices commonly used in pumpkin pie recipes. It typically includes cinnamon, nutmeg, ginger, and sometimes cloves or allspice. These ingredients are derived from plants. Therefore, the correct answer is:\n\nB. Plants",
+        "reference_answer": "B"
+    },
+    {
+        "num": 55,
+        "prompt_CoT": "Question: Were the situation to be that all zebra were sterile,\nOptions:\nA. zebra would be endangered\nB. zebra would be overpopulated\nC. zebra would have babies\nD. zebra would die out\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "If all zebras were sterile, it means they would not be able to reproduce and produce offspring. This would lead to a decline in their population over time. Therefore, the correct answer would be:\n\nD. Zebra would die out.\n\nThe final answer is: D.",
+        "reference_answer": "D"
+    },
+    {
+        "num": 56,
+        "prompt_CoT": "Question: An example of a seasonal change that a furry animal might adopt could be similar to:\nOptions:\nA. A pumpkin growing seeds internally\nB. A store setting up their Christmas displays\nC. A man looking for breakfast after many hours without food\nD. humans pulling out their heavy outerwear\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The final answer is: D. humans pulling out their heavy outerwear. \n\nFurry animals, like many others, adapt to seasonal changes in their environment. In the fall, as temperatures drop, they might start to wear thicker fur or thicker coats to stay warm, which is similar to humans pulling out their heavy outerwear. Options A (pumpkin seeds) and B (Christmas displays) are not directly related to animal behavior, and option C (a man looking for breakfast) is not a seasonal change but a basic human need.",
+        "reference_answer": "D"
+    },
+    {
+        "num": 57,
+        "prompt_CoT": "Question: What could be used as an electrical conductor\nOptions:\nA. A penny\nB. Shoe laces\nC. Wood\nD. A button\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The final answer is: C. Wood. Wood is a common electrical conductor due to its ability to conduct electricity when properly prepared and connected. Other options like a penny (made of metal), shoe laces (usually made of rubber or plastic), and a button (usually made of metal or plastic) are not good conductors unless they are metal and exposed.",
+        "reference_answer": "A"
+    },
+    {
+        "num": 58,
+        "prompt_CoT": "Question: How does ice wedging cause rocks to crack?\nOptions:\nA. releasing gas\nB. melting down\nC. being cold\nD. growth in openings\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "Ice wedging is a process that occurs when water seeps into cracks in rocks and then freezes. As the water expands when it freezes (due to its increase in volume), it exerts pressure on the surrounding rock. This pressure causes the cracks to widen and deepen over time, ultimately leading to the rock breaking apart. So, the correct answer is:\n\nThe final answer is: D. Growth in openings.",
+        "reference_answer": "D"
+    },
+    {
+        "num": 59,
+        "prompt_CoT": "Question: Fossils are formed when what happens?\nOptions:\nA. layers of leaves and pebbles form a pile\nB. layers of sand are washed up on a beach\nC. dirt builds up in the outdoors\nD. various types of dirt accumulate over something eventually\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "Fossils are formed when the process that preserves the remains or traces of organisms, such as bones, shells, or plant parts, become trapped in sediment over time and undergo mineralization. This process typically occurs in option D, where \"various types of dirt accumulate over something eventually,\" leading to the formation of sedimentary rocks.\n\nThe final answer is: D.",
+        "reference_answer": "D"
+    },
+    {
+        "num": 60,
+        "prompt_CoT": "Question: When going in the basement, it's better to have a laser than a\nOptions:\nA. flashlight\nB. light bulb\nC. radio\nD. TV\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "When going in the basement, having a laser is not practical or useful for general illumination purposes. A laser is a focused beam of light that can be used for specific tasks like navigating in dark environments, but it's not something you would typically carry around for everyday use. \n\nOut of the given options, a flashlight (A) is the most appropriate choice for general lighting when going in the basement, as it provides a bright and portable source of light. \n\nThe final answer is: A. flashlight.",
+        "reference_answer": "C"
+    },
+    {
+        "num": 61,
+        "prompt_CoT": "Question: Some areas are known for experiencing all four seasons, and winter is one of those seasons. During said season, one may partake in activities such as\nOptions:\nA. swimming\nB. leaf peeping\nC. sledding\nD. surfing\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The final answer is: C. Sledding. Winter is typically associated with cold temperatures, snow, and frozen ground, which make activities like sledding popular. Swimming, leaf peeping, and surfing are more common during warmer seasons like summer and fall, respectively.",
+        "reference_answer": "C"
+    },
+    {
+        "num": 62,
+        "prompt_CoT": "Question: What can show that loss of resources has a negative impact on the organisms in an area?\nOptions:\nA. lakes dry up and fish species are less varied\nB. when prey is overhunted, predators die\nC. deer need plenty of space to live\nD. sharks need to eat a lot of fish in order to survive\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The final answer is: A. lakes dry up and fish species are less varied.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 63,
+        "prompt_CoT": "Question: What vehicle would you use to travel on the majority of the surface of the planet on which we live?\nOptions:\nA. Bike\nB. Boat\nC. Train\nD. Car\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The final answer is: D. Car. Cars are versatile and can travel on roads, highways, and even some dirt or off-road surfaces, making them suitable for covering a significant portion of the planet's surface for transportation. Bikes, boats, and trains have more limited capabilities in terms of the terrain they can traverse.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 64,
+        "prompt_CoT": "Question: A bear's fur and duck's feathers both help the animal survive by\nOptions:\nA. providing water\nB. providing food\nC. providing warmth\nD. providing oxygen\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The fur of a bear and the feathers of a duck both serve as insulating materials, helping to keep the animals warm in cold environments. Therefore, the correct answer is:\n\nC. Providing warmth\n\nThe final answer is: C.",
+        "reference_answer": "C"
+    },
+    {
+        "num": 65,
+        "prompt_CoT": "Question: When would the sun set later?\nOptions:\nA. Christmas\nB. Presidents day\nC. Independence Day\nD. Halloween\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The sun sets later during the winter months due to the tilt of the Earth in its orbit. Among the options provided, Christmas (December 25th) falls in the winter, while Presidents Day (third Monday in February), Independence Day (July 4th), and Halloween (October 31st) are not specifically winter months. However, Christmas is closer to the winter solstice, which is the day with the shortest daylight hours.\n\nThe final answer is: A. Christmas.",
+        "reference_answer": "C"
+    },
+    {
+        "num": 66,
+        "prompt_CoT": "Question: If a species population increases in the birth rate has\nOptions:\nA. ceased\nB. boomed\nC. stalled\nD. fallen\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "An increase in the birth rate typically indicates a growth in the species population, as more individuals are being born than can potentially survive to reproduce. Therefore, the correct answer would be:\n\nB. Boomed",
+        "reference_answer": "B"
+    },
+    {
+        "num": 67,
+        "prompt_CoT": "Question: What's an example of the idea that if one mineral can scratch another mineral then that other mineral is softer than that one mineral?\nOptions:\nA. diamonds can be smashed by rocks\nB. diamond cuts into glass\nC. steel is harder than stone\nD. diamonds are harder than diamonds\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The final answer is: B. diamond cuts into glass.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 68,
+        "prompt_CoT": "Question: What is a source of energy?\nOptions:\nA. bricks\nB. grease\nC. cars\nD. dirt\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "A source of energy is something that can be harnessed to perform work or generate power. Among the options provided, only \"B. grease\" and \"D. dirt\" are not typically considered sources of energy in the context of technology or modern machinery. Bricks and cars are man-made objects and not sources of energy themselves.\n\nThe final answer is: B. Grease (this is an incorrect option since it's not a source of energy)",
+        "reference_answer": "B"
+    },
+    {
+        "num": 69,
+        "prompt_CoT": "Question: If a farmland up the hill gets rainfall, what could happen to lower lands?\nOptions:\nA. all of these\nB. they could get fertilizer washed to them\nC. they could experience unfavorable chemical change in their lands\nD. they could have their lands poisoned\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "If a farmland up the hill gets rainfall, it's likely that some of that water would flow downhill towards lower lands. This water could carry nutrients, such as nitrogen and phosphorus, which can be beneficial as fertilizer (Option B). However, if the water is contaminated with pollutants or contains excessive amounts of nutrients, it could lead to an unfavorable chemical change in the lower lands (Option C) or even cause soil pollution if it's not managed properly (Option D).\n\nThe final answer is: A. all of these. The rainwater could potentially wash fertilizer to lower lands, experience unfavorable chemical changes, or even poison the land if there are contaminants present.",
+        "reference_answer": "A"
+    },
+    {
+        "num": 70,
+        "prompt_CoT": "Question: In order for a journal to be produced, it first requires\nOptions:\nA. matter which is typically written on\nB. an incredible amount of fame\nC. enough money to buy a house\nD. lucky text written on trees\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The final answer is: A. matter which is typically written on.",
+        "reference_answer": "A"
+    },
+    {
+        "num": 71,
+        "prompt_CoT": "Question: What is an example of a raw material being something that comes directly from a source?\nOptions:\nA. cats from a shelter\nB. birds from a nest\nC. manure from a field\nD. salt water from the ocean\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "An example of a raw material that comes directly from a source is C. manure from a field. Raw materials are typically unprocessed or minimally processed substances used in manufacturing or production processes. Manure, which is the byproduct of animal waste, can be used as a natural fertilizer when it's collected directly from a field or farm.\n\nThe final answer is: C.",
+        "reference_answer": "D"
+    },
+    {
+        "num": 72,
+        "prompt_CoT": "Question: A source of sugar in an ecosystem is\nOptions:\nA. air\nB. soil\nC. tree\nD. bird\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The final answer is: C. Tree. \n\n Sugars are produced by plants through photosynthesis, primarily in their leaves. Trees are the primary producers in an ecosystem, converting sunlight, water, and carbon dioxide into glucose (sugar) and oxygen. This sugar is then released into the surrounding environment through their leaves or fruits, which can be consumed by other organisms in the food chain. While soil may contain sugars from decaying plant matter, air does not contain significant amounts of sugar, and birds are consumers rather than sources.",
+        "reference_answer": "C"
+    },
+    {
+        "num": 73,
+        "prompt_CoT": "Question: A mark of adulthood common in most species is\nOptions:\nA. paying bills\nB. reproduction\nC. fighting\nD. death\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The final answer is: B. reproduction. Reproduction is a key characteristic of adulthood in many species, as it involves the ability to produce offspring and continue the genetic lineage. While tasks like paying bills and fighting may be associated with adult responsibilities, they are not unique to adulthood across all species. Death is not a mark of adulthood but a natural part of life for all living organisms.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 74,
+        "prompt_CoT": "Question: Bill decided the wolf was a predator after he saw it eat the\nOptions:\nA. apple\nB. grass\nC. bunny\nD. pie\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The wolf is a predator by nature, which means it primarily feeds on other animals. Among the options given, the most typical prey for a wolf would be a bunny (C). Therefore, the correct answer is:\n\nThe final answer is: C. bunny.",
+        "reference_answer": "C"
+    },
+    {
+        "num": 75,
+        "prompt_CoT": "Question: Layers of the earth include all but\nOptions:\nA. mantle\nB. center\nC. crust\nD. inner core\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The Earth's layers, from the outermost to the innermost, are typically described as follows:\n1. Crust - The topmost layer, which is the thin, solid, and relatively thin surface that we live on.\n2. Mantle - This layer is beneath the crust and is divided into two parts: the upper mantle and the lower mantle. It is partially molten and responsible for plate tectonics.\n3. Inner Core - The innermost layer, which is solid and composed mainly of iron and nickel. It is surrounded by the liquid outer core.\n4. Center - This term does not specifically refer to a layer in the Earth's structure; it could be a general reference to the Earth's center, which includes both the inner core and the core-mantle boundary.\n\nFrom the options provided, \"center\" is not a specific layer. Therefore, the correct answer is:\nThe final answer is: B. Center.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 76,
+        "prompt_CoT": "Question: What core ingredient of red pasta sauce comes from a flower?\nOptions:\nA. Tomato\nB. Bell Pepper\nC. Oregano\nD. Onion\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The final answer is: A. Tomato.",
+        "reference_answer": "A"
+    },
+    {
+        "num": 77,
+        "prompt_CoT": "Question: If something were to be melted, it would be heated above its melting point, like\nOptions:\nA. putting peas in a soup\nB. putting jello in warm water\nC. putting ice in the freezer\nD. cooking up cookie dough\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The process of melting involves increasing the temperature of a substance until its solid phase changes into a liquid phase. Among the options provided:\n\nA. Peas in a soup: This is not melting, as peas are already in a liquid state (soup).\nB. Putting jello in warm water: Jello is a solid at room temperature and will melt when heated to its boiling point or when mixed with hot liquid, which is what warm water does.\nC. Putting ice in the freezer: This is actually freezing, not melting, as the temperature is decreasing to below the freezing point.\nD. Cooking up cookie dough: Cookie dough typically contains sugar, butter, and flour, which will melt when heated to the right temperature for baking, but this is not the same as melting a pure solid.\n\nThe final answer is: B. Putting jello in warm water.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 78,
+        "prompt_CoT": "Question: carbon dioxide plays the same role in plants that oxygen plays in animals\nOptions:\nA. this is accurate\nB. all of these\nC. maybe true\nD. this is untrue\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The process of photosynthesis in plants involves the absorption of carbon dioxide (CO2) and the release of oxygen (O2) as a byproduct. This is similar to how animals, during respiration, inhale oxygen and exhale carbon dioxide. Therefore, the statement \"carbon dioxide plays the same role in plants that oxygen plays in animals\" is essentially accurate.\n\nThe final answer is: A. this is accurate.",
+        "reference_answer": "A"
+    },
+    {
+        "num": 79,
+        "prompt_CoT": "Question: As far as plants go, considering their growth, it is unlikely that they would do well in\nOptions:\nA. a large patio setting\nB. a humid, open greenhouse\nC. a damp patch of earth\nD. a basement without windows\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "Plants generally require sunlight, air, and proper moisture to grow well. Let's evaluate each option:\n\nA. A large patio setting: If the patio is well-shaded and has adequate drainage, it could be suitable for some plants, especially those that can tolerate partial shade.\n\nB. A humid, open greenhouse: Greenhouses are designed to provide high humidity and plenty of light, making them ideal for many plant species.\n\nC. A damp patch of earth: This description suggests a suitable environment for plants, as they need water to grow.\n\nD. A basement without windows: Basements are typically dark and lack natural light, which is essential for most plants. They may not do well without artificial lighting.\n\nBased on this analysis, the option that is unlikely for plants to do well is D. The final answer is: D.",
+        "reference_answer": "D"
+    },
+    {
+        "num": 80,
+        "prompt_CoT": "Question: What is likely to be the most direct result of offshore oil leaking?\nOptions:\nA. oil pollutes cities\nB. oil harms ocean life\nC. oil ruins farmland\nD. oil harms forests\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The most direct result of offshore oil leaking is B. oil harms ocean life. When oil spills into the ocean, it can contaminate marine ecosystems, harm marine organisms, and disrupt the food chain. While it can also indirectly affect other options like cities (if they rely on the coast for resources or tourism), farmland (if contaminated water reaches them), or forests (if it spills onto land), the immediate impact is on the ocean and its inhabitants.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 81,
+        "prompt_CoT": "Question: An individual can conserve by\nOptions:\nA. recycling and using gasoline\nB. recycling and using natural gas\nC. recycling and using solar\nD. recycling and using coal\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The correct answer that conserves resources and helps reduce environmental impact is:\n\nB. Recycling and using natural gas\n\nRecycling helps to conserve materials and energy, while using natural gas is a cleaner alternative to gasoline or coal as it produces fewer greenhouse gases. Using solar power, on the other hand, is a renewable energy source that also conserves resources but is not a direct action like recycling or using a specific fuel. Therefore, the final answer is B.",
+        "reference_answer": "C"
+    },
+    {
+        "num": 82,
+        "prompt_CoT": "Question: Which is the slowest to move through water?\nOptions:\nA. swan\nB. duck\nC. robin\nD. goose\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The final answer is: C. Robin. \n\nRobins are generally small birds and have a streamlined body shape that allows them to move through water with less efficiency compared to larger waterfowl like ducks, geese, and swans. They do not have the same adaptations for swimming as these birds, so they would be the slowest to move through water among the options given.",
+        "reference_answer": "C"
+    },
+    {
+        "num": 83,
+        "prompt_CoT": "Question: Bats have many quirks, with the exception of\nOptions:\nA. using echolocation\nB. laying eggs\nC. hanging upside down\nD. eating bugs\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "Bats use echolocation to navigate and find food, they hang upside down from trees or caves, and some species do eat bugs as part of their diet. However, bats do not lay eggs like birds or reptiles. So, the exception to the quirks is:\n\nThe final answer is: B.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 84,
+        "prompt_CoT": "Question: Organic food is currently considered best for people because\nOptions:\nA. they avoid using bug killers when grown\nB. they have more vitamins\nC. they use pesticide when growing\nD. they are higher in fiber\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The final answer is: A. \n\nOrganic food is generally considered better for people because it avoids the use of synthetic pesticides and bug killers during the growing process. This is a key principle of organic agriculture, which focuses on maintaining soil health and biodiversity while minimizing environmental impact. While some people believe that organic produce may have more vitamins or be higher in fiber, these claims are not universally true and can vary depending on the specific crop and its growing conditions. The absence of chemical pesticides is often seen as a primary advantage for those concerned with health and environmental sustainability.",
+        "reference_answer": "A"
+    },
+    {
+        "num": 85,
+        "prompt_CoT": "Question: A horse eats some hay, an apple and a sugar cube, then peacefully roams a field after eating while digesting the meal. During this time\nOptions:\nA. the horse throws up\nB. the food is deconstructed\nC. the horse is hungry\nD. the food is poisoned\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The horse eats the hay, apple, and sugar cube, which are all normal parts of a horse's diet. After eating, the horse typically begins the process of digestion, where the food is broken down into smaller molecules to be absorbed by the body. This includes mixing with saliva in the mouth, churning in the stomach, and breaking down further in the intestines.\n\nDuring this time, the horse does not throw up (Option A), as vomiting is usually a response to trying to expel undigested or toxic material. The food is not deconstructed in the sense that it's physically broken down into simpler components, but rather chemically through enzymes in the digestive system (Option B). The horse is not necessarily hungry immediately after eating, as it can feel satisfied from the meal (Option C).\n\nSince there is no information provided to suggest the food is poisoned (Option D), the most appropriate answer based on the given context is:\n\nThe final answer is: B. the food is deconstructed.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 86,
+        "prompt_CoT": "Question: Who would be healthier?\nOptions:\nA. a night owl\nB. an party animal\nC. a heavy sleeper\nD. a workaholic\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The final answer is: C. A heavy sleeper.\n\nWhile it's difficult to make blanket statements about health based solely on lifestyle choices, we can analyze each option:\n\nA. Night owl: Some people are naturally more active at night and may have better sleep quality, but being a night owl doesn't necessarily mean they are healthier. Poor sleep can have negative effects on overall health.\n\nB. Party animal: Excessive alcohol consumption and lack of sleep can lead to health problems like liver damage, high blood pressure, and weakened immune system. This lifestyle is generally not considered healthy.\n\nC. Heavy sleeper: A person who sleeps heavily might have better sleep quality, which is generally associated with better health. Adequate sleep is crucial for physical and mental well-being.\n\nD. Workaholic: Constantly working without adequate rest can lead to burnout, stress, and various health issues such as cardiovascular disease and mental health problems. This lifestyle is not healthy.\n\nBased on these considerations, a heavy sleeper would likely be healthier due to their potentially better sleep habits.",
+        "reference_answer": "C"
+    },
+    {
+        "num": 87,
+        "prompt_CoT": "Question: When you get farther from water, the water vapor in the air will ______.\nOptions:\nA. increase\nB. decrease\nC. condense\nD. form clouds\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "When you get farther from water, the amount of water vapor in the air decreases because there is less moisture available to evaporate from the surface and become airborne. As the concentration of water vapor decreases, it is less likely to condense into clouds or form droplets.\n\nThe final answer is: B. Decrease.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 88,
+        "prompt_CoT": "Question: What is a good example of camouflage?\nOptions:\nA. when a creature adjusts the shape and color of its body to appear as something else\nB. when a rabbit hides in a patch of grass\nC. when a cat presses its body flat to the ground to hide\nD. when a fish swims with a large group of fish to hide itself\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "A good example of camouflage is when a creature adjusts the shape and color of its body to appear as something else, which is option A. This is because true camouflage involves blending in with the surroundings to avoid detection by predators or prey. In the given options, only A directly describes this type of adaptation. \n\nThe final answer is: A.",
+        "reference_answer": "A"
+    },
+    {
+        "num": 89,
+        "prompt_CoT": "Question: plants are the source of\nOptions:\nA. turkeys\nB. tomatoes\nC. cows\nD. chickens\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "Plants are not the source of animals like turkeys, cows, or chickens. They are a source of food for these animals, as well as other organisms. Tomatoes, on the other hand, are a type of plant. Therefore, the correct answer to the question, considering the options given, would be:\n\nThe final answer is: B. tomatoes.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 90,
+        "prompt_CoT": "Question: As they are immobile, what is an example of how animal life helps the reproduction cycle of plants?\nOptions:\nA. squirrels dropping seeds\nB. birds building nests\nC. human lumber industry\nD. bugs eating leaves\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The final answer is: A. Squirrels dropping seeds. \n\nSquirrels help the reproduction cycle of plants by dispersing seeds. When they eat nuts or fruits, the seeds pass through their digestive system and are later excreted as they move around in their burrows or search for new places to live. This helps the seeds to be spread away from the parent plant, increasing the chances of new trees or plants growing in different locations. The other options do not directly contribute to plant reproduction in this context.",
+        "reference_answer": "A"
+    },
+    {
+        "num": 91,
+        "prompt_CoT": "Question: Living things can all\nOptions:\nA. reproduce asexually\nB. create a progeny\nC. produce spores\nD. find mates\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "Living things can all reproduce sexually or asexually, depending on their species and life cycle. Some can create offspring through spores, while others find mates to reproduce. However, not all living things necessarily exhibit all these behaviors.\n\nThe most inclusive option that covers all living things would be:\n\nB. Create a progeny\n\nThe final answer is: B.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 92,
+        "prompt_CoT": "Question: Stopped means lack of what?\nOptions:\nA. warmth\nB. velocity\nC. height\nD. plants\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The stopped means a lack of velocity.\n\nThe final answer is: B. velocity.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 93,
+        "prompt_CoT": "Question: Where did Puppigerus live?\nOptions:\nA. bog\nB. ocean\nC. land\nD. marsh\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "Puppigerus is a type of fossilized insect that lived during the Carboniferous period, which was a time when most land animals lived on land. Therefore, the correct answer is:\n\nThe final answer is: C. land.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 94,
+        "prompt_CoT": "Question: The circulatory system brings oxygen to the body from where?\nOptions:\nA. The chest\nB. The brain\nC. The feet\nD. The stomach\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The circulatory system brings oxygen to the body from:\n\nA. The lungs\n\nThe final answer is: A.",
+        "reference_answer": "A"
+    },
+    {
+        "num": 95,
+        "prompt_CoT": "Question: A renewable resource is used to produce\nOptions:\nA. petroleum\nB. plastic rulers\nC. notebook paper\nD. Styrofoam plates\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "A renewable resource is a natural resource that can be replenished over time, unlike non-renewable resources like fossil fuels. Among the options provided, only C. notebook paper can be considered a renewable resource. Paper is typically made from wood, which is a renewable resource if managed sustainably.\n\nThe final answer is: C. Notebook paper.",
+        "reference_answer": "C"
+    },
+    {
+        "num": 96,
+        "prompt_CoT": "Question: Which relationship involves inheritance?\nOptions:\nA. teacher-student\nB. mother-daughter\nC. grandmother-grandfather\nD. friends\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The relationship that involves inheritance is B. mother-daughter, as biological inheritance plays a role in determining traits and characteristics from one generation to the next within this specific context. Inheritance is not a direct factor in the relationships of teachers-students, friends, or grandparents and grandchildren.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 97,
+        "prompt_CoT": "Question: A source of heat at the resort is the\nOptions:\nA. jacuzzi\nB. pool\nC. chair\nD. umbrella\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The source of heat at a resort is typically a place where water is heated and used for relaxation or swimming, such as a hot tub or a pool. Among the options provided, the most relevant one would be:\n\nA. Jacuzzi\n\nSo, the final answer is: A. Jacuzzi.",
+        "reference_answer": "A"
+    },
+    {
+        "num": 98,
+        "prompt_CoT": "Question: A car engine usually uses combustion to convert this into a motion and heat.\nOptions:\nA. animal products\nB. plant materials\nC. oil products\nD. solar energy\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The car engine converts oil products into motion and heat through combustion. This is because oil, specifically gasoline or diesel, is the primary fuel used in internal combustion engines.\n\nThe final answer is: C. oil products.",
+        "reference_answer": "C"
+    },
+    {
+        "num": 99,
+        "prompt_CoT": "Question: When turned on, which product cannot convert electrical energy into light energy?\nOptions:\nA. chandelier\nB. charger\nC. floor lamp\nD. Christmas tree lights\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "Based on my knowledge, a charger is not designed to convert electrical energy into light energy when turned on. It is an electronic device that provides power to charge other devices. \n\nThe final answer is: B. charger.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 100,
+        "prompt_CoT": "Question: A pelican is hungry, so decides to try to catch some fish. In order to do this, the pelican will\nOptions:\nA. use the back of its head\nB. use the bottom of its stomach\nC. use the front of its face\nD. use the back of its tail\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The pelican uses its beak to catch fish, which is located at the front of its face. So, the correct answer is:\n\nC. use the front of its face.",
+        "reference_answer": "C"
+    },
+    {
+        "num": 101,
+        "prompt_CoT": "Question: A magnetic effect could pull two rocks together if they're\nOptions:\nA. lacking magnetic properties and far apart\nB. shaped similarly and touching\nC. lacking magnetic properties and touching\nD. both magnetic and at any distance\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The magnetic force between two objects, such as rocks, is typically due to their magnetic properties. If they are lacking magnetic properties, there would be no force to pull them together. Therefore, the correct scenario is when they are lacking magnetic properties and touching (Option C).\n\nThe final answer is: C. lacking magnetic properties and touching.",
+        "reference_answer": "D"
+    },
+    {
+        "num": 102,
+        "prompt_CoT": "Question: Refraction can easily be witnessed in\nOptions:\nA. concrete walls\nB. fake diamonds\nC. Christmas ornaments\nD. a tree\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "Refraction occurs when light passes through a medium with a different refractive index, causing it to change direction. Among the options provided, only glass or\u6c34\u6676 (like fake diamonds) have a significant refractive index that can cause refraction.\n\nFinal answer is: B. fake diamonds",
+        "reference_answer": "B"
+    },
+    {
+        "num": 103,
+        "prompt_CoT": "Question: A man is trying to describe a single vat of juice he has. He needs the best way to tell his friend about the object, so he says\nOptions:\nA. 20 meters of juice\nB. 20 vats of juice\nC. 20 ounces of juice\nD. 20 feet of juice\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The description of a single vat of juice should convey the quantity and not the size or unit. In this case, option A measures juice in meters, which is not suitable for describing a liquid volume in a vat. Option B refers to multiple vats, which is not what the man wants to communicate. Option C mentions ounces, which is a unit for volume but doesn't provide the quantity. Option D uses \"feet,\" which is again an inappropriate unit for juice.\n\nThe best way to describe a single vat of juice would be to mention the volume in a standard unit, such as liters or gallons. Since we don't have that information, the closest choice would be to express it in terms of a known unit that can be easily converted. Assuming a typical vat size, we might choose a unit like \"20 liters\" or \"64 fluid ounces.\"\n\nHowever, since the options provided do not include these units, the best answer given the available choices would be:\n\nThe final answer is: C. 20 ounces of juice. (This is the smallest unit that could potentially represent a vat of juice, but it's not precise or accurate without knowing the actual volume.)",
+        "reference_answer": "C"
+    },
+    {
+        "num": 104,
+        "prompt_CoT": "Question: plant life is completely dependent on what?\nOptions:\nA. buying some good food\nB. creating self sustenance food\nC. food given to it\nD. food at the store\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The final answer is: B. creating self-sustenance food.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 105,
+        "prompt_CoT": "Question: To prevent illness\nOptions:\nA. properly heat hamburgers and steaks\nB. thaw chicken on uncovered counter tops\nC. eat raw cookie dough\nD. hamburger meat should stay pink\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The correct way to prevent illness when handling food is to choose options that ensure food safety. Out of the given options:\n\nA. Properly heat hamburgers and steaks is important to kill any harmful bacteria that may be present.\nB. Thawing chicken on uncovered countertops exposes it to bacteria and increases the risk of food poisoning.\nC. Eating raw cookie dough can contain harmful bacteria like E. coli, which can cause illness.\nD. Hamburger meat should not be left pink, as it indicates that the internal temperature has not reached a safe level to kill harmful bacteria.\n\nTherefore, the option that promotes illness prevention is B. Thawing chicken on uncovered countertops.\n\nThe final answer is: B.",
+        "reference_answer": "A"
+    },
+    {
+        "num": 106,
+        "prompt_CoT": "Question: An island can sprout up from seemingly suddenly because\nOptions:\nA. underwater volcanoes are invisible\nB. underwater volcanoes are hidden\nC. lava is hot enough to burn\nD. volcanoes have a lot of magma\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The process by which an island can sprout up suddenly from the ocean floor is primarily due to the presence of underwater volcanoes. These volcanoes can erupt and release lava, which cools and solidifies to form new land. The lava's high temperature and the fact that it's often covered by water until it reaches the surface make it invisible or hidden until it breaks through. Therefore, the correct answer is:\n\nThe final answer is: B. underwater volcanoes are hidden.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 107,
+        "prompt_CoT": "Question: When water freezes, that water\nOptions:\nA. heats up by at least 10 degrees\nB. undergoes a change opposite to compressor\nC. takes up less space\nD. breaks into little pieces\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "When water freezes, it undergoes a phase change from a liquid to a solid, and during this process, it expands rather than contracting (\u9009\u9879C is incorrect). This expansion can cause the water to break any containers it's in if the pressure isn't relieved. However, it doesn't heat up by at least 10 degrees (optionA) or undergo a process opposite to a compressor (optionB), as those are not true properties of freezing water.\n\nThe final answer is: D. breaks into little pieces.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 108,
+        "prompt_CoT": "Question: Where might you find the substance used to make the shiny metallic foil paper used in cooking?\nOptions:\nA. Clouds\nB. Rocks\nC. Wood\nD. Leaves\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The substance used to make shiny metallic foil paper, typically aluminum, is not naturally occurring in any of the options provided. It is produced through industrial processes. Therefore, the correct answer would be a man-made source.\n\nThe final answer is: D.\u53f6\u5b50 (This is a joke as leaves are not used to make metallic foil paper; the correct answer is not among the options given)",
+        "reference_answer": "B"
+    },
+    {
+        "num": 109,
+        "prompt_CoT": "Question: What increases the number of pollinators a flower will attract?\nOptions:\nA. The amount of petals\nB. The amount of of fragrance the flower has\nC. The height of the stem\nD. The amount of leaves on the stem\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The final answer is: B. The amount of fragrance the flower has. \n\nFlowers that produce a strong and pleasant fragrance tend to attract more pollinators, such as bees and butterflies, as the scent guides them towards the nectar source. Petals, stem height, and leaves do not directly influence pollination; petals may determine the flower's appearance but not its attractiveness to pollinators, and leaves primarily serve as structural support and photosynthesis.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 110,
+        "prompt_CoT": "Question: You can get Vitamin D from\nOptions:\nA. vegetable oil\nB. greek yogurt\nC. gumdrops\nD. bottled water\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "Vitamin D is primarily obtained from sunlight, as our skin produces it when exposed to UV rays. However, some food sources can also contribute to vitamin D intake. Among the options provided:\n\nA. Vegetable oil - This is not a significant source of vitamin D.\nB. Greek yogurt - Some fortified Greek yogurt can contain vitamin D, but it's not the primary source.\nC. Gumdrops - These are typically not fortified with vitamin D and have little nutritional value.\nD. Bottled water - Water doesn't contain vitamin D.\n\nThe final answer is: B. Greek yogurt.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 111,
+        "prompt_CoT": "Question: Chloroplasts exist in plants and can be located by knowing where\nOptions:\nA. how many petals most plants have\nB. food is stored in plants\nC. the greenest part of a plant is\nD. if a plant has a thick stem\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "Chloroplasts are responsible for photosynthesis, which gives plants their green color. Therefore, the greenest part of a plant is where you would typically find chloroplasts.\n\nFinal answer is: C. the greenest part of a plant is.",
+        "reference_answer": "C"
+    },
+    {
+        "num": 112,
+        "prompt_CoT": "Question: Sunlight transfers heat energy to\nOptions:\nA. the star from which scorpions get their name\nB. the planet named after the Roman god of sea\nC. the largest star in the galaxy\nD. the hottest star in the galaxy\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "Sunlight transfers heat energy to the planet named after the Roman god of sea.\n\nThe final answer is: B. Earth.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 113,
+        "prompt_CoT": "Question: Humans swim in the liquid form of\nOptions:\nA. steam\nB. air\nC. oxygen\nD. carbon\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The final answer is: C. oxygen.",
+        "reference_answer": "A"
+    },
+    {
+        "num": 114,
+        "prompt_CoT": "Question: What can keep you moisturized other than water?\nOptions:\nA. Crackers\nB. Sour Cream\nC. cucumbers\nD. Cheese\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The final answer is: B. Sour Cream. Sour cream contains lactic acid and other ingredients that can help retain moisture in the skin when applied topically. While it's not a direct replacement for water, it can be a useful moisturizer, especially for dry or sensitive skin. The other options (crackers, cucumbers, and cheese) do not have moisturizing properties.",
+        "reference_answer": "C"
+    },
+    {
+        "num": 115,
+        "prompt_CoT": "Question: Which of these items can a human move by pedal power?\nOptions:\nA. unicycle\nB. canoe\nC. car\nD. sled\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The final answer is: A. Unicycle. \n\nA unicycle can be pedal-powered as the rider uses their legs to pedal the rear wheel and maintain balance. Canoes and sleds are typically pulled using oars or a motor, not pedal power. Cars are powered by an engine and do not have a direct connection to pedals for human propulsion.",
+        "reference_answer": "A"
+    },
+    {
+        "num": 116,
+        "prompt_CoT": "Question: It takes the Earth one year to go around the sun. It takes the moon how long to make one revolution around our planet?\nOptions:\nA. 2 months\nB. 30 days\nC. 2 years\nD. a decade\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The moon takes about 27.3 days to complete one orbit around the Earth. Therefore, the correct answer is not among the options provided. The final answer is: N/A.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 117,
+        "prompt_CoT": "Question: Birds with more angular beaks\nOptions:\nA. will hate any birds with rounded beaks\nB. may chow down on different grub than birds with rounded beaks\nC. will eat the exact same diet as all other birds\nD. may have more trouble eating than other birds\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "Based on my knowledge, birds with more angular beaks are typically adapted to eat specific types of food that require more force or manipulation, such as hard seeds or insects. This could include things like finches or parrots. Birds with rounded beaks, on the other hand, are often better suited for softer foods like fruits or nectar.\n\nTherefore, the correct answer is:\n\nB. may chow down on different grub than birds with rounded beaks.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 118,
+        "prompt_CoT": "Question: What might be the natural habitat of a small creature known for making a noise by scraping limbs together?\nOptions:\nA. Among Birches\nB. Amid the snow\nC. In a barn\nD. In the ocean\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The natural habitat of a small creature that makes a noise by scraping limbs together is most likely A. Among Birches, as this behavior is common in many small arboreal animals like squirrels and chipmunks who use their claws to create chirping sounds while moving through tree branches. They are not typically found in snow (option B), a barn (option C), or the ocean (option D).",
+        "reference_answer": "A"
+    },
+    {
+        "num": 119,
+        "prompt_CoT": "Question: Human planet that is orbited by what?\nOptions:\nA. stars\nB. moon\nC. the ocean\nD. sun\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The human planet, Earth, is orbited by option D. the Sun. \n\nThe final answer is: D.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 120,
+        "prompt_CoT": "Question: A change in the Earth is\nOptions:\nA. a person's hair growing\nB. a wooded area appearing on land that was once part of the ocean\nC. a wooded area existing next to an ocean\nD. the moon moving around the Earth\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "A change in the Earth refers to a long-term or significant alteration in its physical, geological, or environmental features. Among the options provided, only B and D represent such changes:\n\n- B. A wooded area appearing on land that was once part of the ocean: This could be due to natural processes like coastal erosion, land reclamation, or even human activities like reforestation after deforestation.\n\n- D. The moon moving around the Earth: This is a continuous and well-documented astronomical change that affects tides and has influenced the Earth's environment over millions of years.\n\nTherefore, the final answer is: **D.** The moon moving around the Earth.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 121,
+        "prompt_CoT": "Question: Some vapor is condensing now because it has less\nOptions:\nA. gas\nB. heat\nC. water\nD. steam\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The process of condensation occurs when a substance changes from its gaseous state to a liquid state due to a decrease in temperature or pressure, or an increase in humidity. In this case, if vapor is condensing, it means it is transitioning from a gas back to a liquid. Therefore, the factor that is less in this scenario is the amount of the substance in its gaseous form.\n\nThe final answer is: A. Gas.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 122,
+        "prompt_CoT": "Question: Herbivores contribute to the same type of plants they eat when:\nOptions:\nA. they drink\nB. they eat  animals\nC. they trample them\nD. they die\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "Herbivores contribute to the same type of plants they eat when:\nC. they trample them\n\nWhen herbivores, such as cows or deer, trample plants, they can damage or uproot them, which allows the plant species to regenerate and contribute to the same type of vegetation in the long term. This process is known as \"herbivory\" and can help maintain plant diversity by preventing overgrowth and allowing other species to thrive. The other options do not directly contribute to the plants they eat in this context.",
+        "reference_answer": "D"
+    },
+    {
+        "num": 123,
+        "prompt_CoT": "Question: What converts electrical energy into light energy in a light bulb?\nOptions:\nA. the light switch\nB. the glass bulb\nC. the metal filament\nD. none\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The device that converts electrical energy into light energy in a light bulb is the metal filament. \n\nThe final answer is: C.",
+        "reference_answer": "C"
+    },
+    {
+        "num": 124,
+        "prompt_CoT": "Question: A person wants to turn on their fan to cool down their room. In order to do this, they will have to\nOptions:\nA. plug it in\nB. spin a wire\nC. make some noise\nD. turn it off\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The person needs to plug in the fan to turn it on and start circulating air to cool down the room. So the correct answer is:\n\nA. plug it in.",
+        "reference_answer": "A"
+    },
+    {
+        "num": 125,
+        "prompt_CoT": "Question: A river can disappear over a period of time?\nOptions:\nA. this is uncertain\nB. this is sure\nC. all of these\nD. maybe\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The process of a river disappearing over time can indeed occur due to various factors such as natural erosion, land development, climate change, or human intervention like dam construction. This is a real and observable phenomenon in certain circumstances. Therefore, based on the given options, the most appropriate answer would be:\n\nB. this is sure\n\nThe final answer is: B.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 126,
+        "prompt_CoT": "Question: A temperature in the negatives during the night got slightly less negative during the day, which means it got more\nOptions:\nA. cold\nB. positive\nC. negative\nD. unpredictable\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The temperature going from negatives to slightly less negative indicates a decrease in absolute coldness. Therefore, it became less cold, not more. So the correct answer is:\n\nA. Cold.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 127,
+        "prompt_CoT": "Question: Corn is eaten by\nOptions:\nA. homo sapiens and frogs\nB. people and jungle monkeys\nC. homo sapiens and deer\nD. deer and Bengal tigers\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "Corn is primarily a crop that is cultivated and consumed by humans, particularly in option B (people and jungle monkeys). While some animals might eat corn if it's left behind or available, it's not a natural food source for them. Therefore, the final answer is:\n\nB. People and jungle monkeys",
+        "reference_answer": "C"
+    },
+    {
+        "num": 128,
+        "prompt_CoT": "Question: What is natural gas?\nOptions:\nA. a way to gain some warmth by combustion\nB. warming up by sunlight\nC. slowly heating to a boiling point\nD. burning a high fever\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "Natural gas is A. a way to gain some warmth by combustion. It is a fossil fuel that is primarily composed of methane and is commonly used as a source of energy for heating homes, cooking, and electricity generation through processes like combustion in appliances or power plants.",
+        "reference_answer": "A"
+    },
+    {
+        "num": 129,
+        "prompt_CoT": "Question: Decomposition\nOptions:\nA. can make dead organisms rise anew like a phoenix\nB. is a process completed by predators\nC. can act as a fertilizer for wild flowers\nD. is extremely detrimental to the surrounding flora\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "Decomposition is a natural process that breaks down dead organisms and organic matter into simpler substances, which can then be recycled by the environment. It plays a crucial role in nutrient cycling and supports the growth of plants. Among the options provided:\n\nA. can make dead organisms rise anew like a phoenix - This is a metaphorical statement and not a scientific fact about decomposition.\n\nB. is a process completed by predators - Predators do contribute to decomposition through their consumption of dead organisms, but they are not the sole agents.\n\nC. can act as a fertilizer for wild flowers - This is correct. Decomposition products, such as nutrients from decaying plant material, are essential for the growth of wildflowers and other plants.\n\nD. is extremely detrimental to the surrounding flora - This is incorrect. While decomposition can initially cause temporary disturbance, it is necessary for maintaining soil health and supporting plant life.\n\nThe final answer is: C.",
+        "reference_answer": "C"
+    },
+    {
+        "num": 130,
+        "prompt_CoT": "Question: Sunlight\nOptions:\nA. makes car steering wheels hard to handle in the summer\nB. means your pets need sweaters when outdoors\nC. causes ice to refreeze\nD. cools down the water in local ponds\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "Sunlight does not directly cause any of the effects listed in the options. However, it can have some indirect impacts:\n\nA. Sunlight can make car steering wheels hot due to the heat it generates, but this is not specific to the summer and is more related to the temperature of the steering wheel surface.\n\nB. Pets do not typically need sweaters when outdoors as they can regulate their body temperature through fur or other mechanisms.\n\nC. Sunlight does not cause ice to refreeze; in fact, it can help melt ice if the temperature is above freezing.\n\nD. Sunlight can cool down water in local ponds by evaporating some of it, which can lower the water temperature if the evaporation is significant.\n\nThe final answer is: D. Cools down the water in local ponds.",
+        "reference_answer": "A"
+    },
+    {
+        "num": 131,
+        "prompt_CoT": "Question: Science fact: a cavern is formed by carbonic acid in groundwater seeping through rock and dissolving\nOptions:\nA. sedimentary rock which is  composed mainly of skeletal fragments of marine organisms such as coral, forams and molluscs,\nB. metamorphic rocks that are formed under the surface of the earth from the metamorphosis,\nC. igneous rocks which are formed when magma  cools and hardens or\nD. artist who play the music genre called rock and roll.\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The final answer is: A. Sedimentary rock. \n\nCaverns are formed primarily through the process of dissolution, which occurs when carbonic acid in groundwater reacts with minerals in rocks. Sedimentary rocks, being composed of mineral deposits accumulated over time from the accumulation of organic materials and shells of marine organisms like coral, forams, and mollusks, are more susceptible to chemical weathering and dissolution due to their high mineral content. Metamorphic and igneous rocks, on the other hand, do not undergo dissolution as easily. Option D, referring to an artist, has no relevance to the formation of caverns.",
+        "reference_answer": "A"
+    },
+    {
+        "num": 132,
+        "prompt_CoT": "Question: Deer entered the city\nOptions:\nA. to look for people\nB. less food in the wilderness\nC. because coyotes chased them\nD. they have become confused\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "Deer entering the city could be due to various reasons, but among the options provided, the most plausible one is:\n\nB. less food in the wilderness\n\nThis is because deer might venture into urban areas in search of food when their natural habitat has been depleted or threatened by human activities or environmental changes.\n\nThe final answer is: B. less food in the wilderness.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 133,
+        "prompt_CoT": "Question: the hourly totals of sunshine are directly connect to\nOptions:\nA. tides\nB. seasons\nC. altitude\nD. weather\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The hourly totals of sunshine are directly connected to D. weather.\n\nThe final answer is: D.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 134,
+        "prompt_CoT": "Question: Remora fish\nOptions:\nA. attach themselves to boats like barnacles\nB. act as a support system during a shark's reproduction cycle\nC. are exclusively kelp and seaweed eaters\nD. act as a clean up crew for a shark's crumbs\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The final answer is: A.",
+        "reference_answer": "D"
+    },
+    {
+        "num": 135,
+        "prompt_CoT": "Question: A plant root growing into rock cracks is an example of what?\nOptions:\nA. boiling\nB. warm weather\nC. evaporation\nD. abrasion\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The plant root growing into rock cracks is an example of physical force overcoming the surface of the rock, causing it to break or wear away. This process is known as abrasion. \n\nThe final answer is: D. Abrasion.",
+        "reference_answer": "D"
+    },
+    {
+        "num": 136,
+        "prompt_CoT": "Question: What does the earth orbit that causes the seasons to change?\nOptions:\nA. plasma star\nB. venus\nC. mercury\nD. pluto\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The Earth orbits around a plasma star called the Sun, which is the correct option for causing the seasons to change. \n\nThe final answer is: A.",
+        "reference_answer": "A"
+    },
+    {
+        "num": 137,
+        "prompt_CoT": "Question: There are metals which will always point north such as\nOptions:\nA. Fe\nB. nickel\nC. gold\nD. silver\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "None of the options listed (Fe, nickel, gold, or silver) are known to naturally align with the Earth's magnetic field and always point north. The Earth's magnetic north pole does not correspond to the geographic north pole for any of these elements. Therefore, there is no \"correct\" answer among the given choices.\n\nThe final answer is: N/A.",
+        "reference_answer": "A"
+    },
+    {
+        "num": 138,
+        "prompt_CoT": "Question: A white environment is likely to be found\nOptions:\nA. in a forest\nB. on a mountain\nC. in a desert\nD. in the ocean\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The final answer is: B. on a mountain. \n\nWhite environments are typically associated with snow or areas that have a high albedo, reflecting sunlight. Mountains often have snow cover during winter due to their high altitude and cooler temperatures, making option B the most likely correct. In contrast, forests (option A) are usually green, deserts (option C) are typically sandy and brown, and the ocean (option D) can have various colors depending on factors like depth and tides but is not generally described as \"white.\"",
+        "reference_answer": "B"
+    },
+    {
+        "num": 139,
+        "prompt_CoT": "Question: One step in creating an alternative fuel is\nOptions:\nA. coal miners looking for coal\nB. gold being sifted from dirt\nC. growing crops of corn\nD. drilling for fossil fuels\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The process of creating an alternative fuel, such as biofuels like ethanol or biodiesel, typically involves converting organic matter into a usable energy source. Among the options provided, the step that aligns with this process is:\n\nC. Growing crops of corn\n\nThis is because one common source of biofuels is corn, which can be converted into ethanol through processes like fermentation. \n\nThe final answer is: C.",
+        "reference_answer": "C"
+    },
+    {
+        "num": 140,
+        "prompt_CoT": "Question: So many environments receive large amounts of rain, though an exception is\nOptions:\nA. the Sahara\nB. the great plains\nC. the rain-forest\nD. Seattle\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The Sahara desert is known for its arid climate and receives very little rain, making it an exception among the given options. Therefore, the final answer is:\n\nA. The Sahara",
+        "reference_answer": "A"
+    },
+    {
+        "num": 141,
+        "prompt_CoT": "Question: Taking a fingernail and pressing it to salt will show\nOptions:\nA. it is dry\nB. it is wet\nC. it is malleable\nD. it is salty\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The process of pressing a fingernail onto salt does not inherently change the properties of the nail or indicate its wetness. Fingernails are naturally dry and not malleable when they are in their natural state. However, if there is any moisture on the nail due to\u6d17\u624b or contact with water, pressing it onto salt might slightly dampen it. But this would not be a reliable indicator of the nail's wetness.\n\nAs for being salty, the nail would not become salty by this action. Salt is a solid and cannot be absorbed by the nail.\n\nTherefore, the most accurate answer based on the given options is:\n\nThe final answer is: A. it is dry.",
+        "reference_answer": "C"
+    },
+    {
+        "num": 142,
+        "prompt_CoT": "Question: why would a mouse run away from a cat?\nOptions:\nA. to get the cat some milk\nB. to avoid becoming lunch\nC. to avoid paying its debt\nD. all of these\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The final answer is: B. to avoid becoming lunch. Mice naturally run away from cats because they perceive them as predators and their primary instinct is to escape to avoid being eaten. The other options (getting milk and avoiding paying a debt) are not relevant to the interaction between a mouse and a cat in this context.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 143,
+        "prompt_CoT": "Question: A golden eagle will hunt using its talons to collect\nOptions:\nA. groupers\nB. berries\nC. bears\nD. humans\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The golden eagle primarily hunts medium-sized mammals, such as deer and squirrels, not fish like groupers (option A), berries (option B), or large animals like bears (option C). While they have been known to attack humans in defense of their young, it's not a typical hunting behavior (option D).\n\nThe final answer is: C. Bears.",
+        "reference_answer": "A"
+    },
+    {
+        "num": 144,
+        "prompt_CoT": "Question: which of these would most likely reject a really nice burger?\nOptions:\nA. a hungry student who loves burgers\nB. a woman visiting a fast food joint\nC. a teacher on his lunch break\nD. a potted plant in the office\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The final answer is: D. A potted plant in the office.",
+        "reference_answer": "D"
+    },
+    {
+        "num": 145,
+        "prompt_CoT": "Question: The Grand Canyon was formed by the Colorado river by what?\nOptions:\nA. horses pulling carts directing the water\nB. the passage of time\nC. humans making great efforts\nD. the addition of dams\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The Grand Canyon was formed by the Colorado river through the process of erosion over a long period of time, which is option B.\n\nThe final answer is: B.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 146,
+        "prompt_CoT": "Question: Earth rotating on its axis\nOptions:\nA. causes stars to die out\nB. causes the moon to loss gravitational pull\nC. causes Orion to seemingly change position in the sky\nD. causes the Sun to rotate\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The Earth's rotation on its axis causes various phenomena, but it doesn't directly cause any of the options provided to occur. Here's a brief explanation:\n\n- A. Stars do not die out due to the Earth's rotation; this is a natural process related to stellar evolution over billions of years.\n- B. The Moon's gravitational pull does not change because its orbit and the Earth's rotation are interconnected and have been stable for billions of years.\n- C. Orion's apparent position in the sky changes due to the Earth's rotation, which is part of the daily motion called diurnal motion. However, this is a continuous cycle and not a \"change\" as described in the question.\n- D. The Sun does not rotate on its axis; it rotates around the center of the solar system, causing the Sun's surface to appear to move in an east-to-west direction, but this is a result of its rotation, not the Earth's rotation.\n\nThe final answer is: C. Orion to seemingly change position in the sky.",
+        "reference_answer": "C"
+    },
+    {
+        "num": 147,
+        "prompt_CoT": "Question: The next moon phase after a solar eclipse is\nOptions:\nA. first quarter\nB. full moon\nC. third quarter\nD. super moon\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The moon completes one orbit around the Earth in about 29.5 days, and during a solar eclipse, the moon blocks the sun from view as it lies between the Earth and the Sun. After an eclipse, the moon's position in its orbit moves towards the Earth again.\n\nA full moon occurs when the moon is on the opposite side of the Earth from the Sun, while a new moon happens when the Earth is between the Sun and the moon, blocking our view. Since an eclipse occurs during a new moon, the next phase would be a full moon, which is the opposite side of the cycle.\n\nTherefore, the correct answer is:\n\nThe final answer is: B. full moon.",
+        "reference_answer": "A"
+    },
+    {
+        "num": 148,
+        "prompt_CoT": "Question: If someone is dying of thirst, they can hydrate by\nOptions:\nA. drink acid\nB. visiting a valley\nC. find snow\nD. catching rain\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The final answer is: D. catching rain.",
+        "reference_answer": "D"
+    },
+    {
+        "num": 149,
+        "prompt_CoT": "Question: Magnets may be attracted to\nOptions:\nA. clay pots\nB. roofing nails\nC. paper plates\nD. plastic cutlery\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "Magnets are attracted to ferromagnetic materials, which have a strong magnetic field and can be attracted to magnets. From the given options, only roofing nails are typically made of iron or steel, which are ferromagnetic. Therefore, the final answer is:\n\nThe final answer is: B. roofing nails.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 150,
+        "prompt_CoT": "Question: Of the following household items, which is recyclable?\nOptions:\nA. cooking oil\nB. banana peel\nC. paint\nD. soda can\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The final answer is: D. Soda can. \n\nCooking oil and paint are not typically recyclable as they are not made of materials that can be easily processed for reuse. Banana peels may be composted but not recycled as they contain food waste. On the other hand, aluminum cans like soda cans are usually recyclable because they can be melted down and reused.",
+        "reference_answer": "D"
+    },
+    {
+        "num": 151,
+        "prompt_CoT": "Question: If a lot of people have forgotten about a product, the amount of money made by the person selling it will be\nOptions:\nA. much higher\nB. unchanged\nC. rising slowly\nD. lower than before\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "If a lot of people have forgotten about a product, it means that demand for the product is likely decreased. When demand decreases, the amount of money made by the seller will generally decrease as well, as there are fewer sales to generate revenue. Therefore, the correct answer would be:\n\nD. Lower than before",
+        "reference_answer": "D"
+    },
+    {
+        "num": 152,
+        "prompt_CoT": "Question: What can you find in a forest\nOptions:\nA. A car\nB. Hogwarts\nC. A unicorn\nD. remedies\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The final answer is: C. A unicorn. Unicorns are often associated with folklore and mythical creatures that can be found in fantasy settings like Harry Potter's Hogwarts (option B), but they are not typically found in real forests. Cars (option A) and remedies (option D) are not natural occurrences in a forest environment.",
+        "reference_answer": "D"
+    },
+    {
+        "num": 153,
+        "prompt_CoT": "Question: Animals without teeth sometimes eat\nOptions:\nA. seeds\nB. bears\nC. humans\nD. whales\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "Animals without teeth, such as some reptiles and birds, primarily consume soft or liquid foods that don't require much chewing. Therefore, they might eat seeds that are soft enough to swallow whole. \n\nThe final answer is: A. Seeds.",
+        "reference_answer": "A"
+    },
+    {
+        "num": 154,
+        "prompt_CoT": "Question: What creates a valley?\nOptions:\nA. feet\nB. rock\nC. water\nD. sand\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The process that creates a valley is primarily due to the erosive action of water over time. Water flows downhill and can carve through softer rocks, eroding the land and forming valleys. So, the correct answer is:\n\nC. Water\n\nThe final answer is: C.",
+        "reference_answer": "C"
+    },
+    {
+        "num": 155,
+        "prompt_CoT": "Question: What is the largest organ of the human body?\nOptions:\nA. kidneys\nB. the heart\nC. epidermis\nD. liver\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The largest organ of the human body is the liver.\n\nThe final answer is: D.",
+        "reference_answer": "C"
+    },
+    {
+        "num": 156,
+        "prompt_CoT": "Question: What eats other organisms?\nOptions:\nA. trees\nB. ingestors\nC. blood\nD. water\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The final answer is: B. Ingestors.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 157,
+        "prompt_CoT": "Question: What becomes smoother through weathering?\nOptions:\nA. rainbow\nB. water\nC. cat\nD. pumice\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "Weathering is a natural process that breaks down rocks and minerals into smaller pieces by physical and chemical means. It does not affect living things like cats or change non-physical substances like rainbows. However, it can transform the surface of rocks, making them smoother over time.\n\nOut of the options provided, only pumice is a type of rock that can become smoother due to weathering. Pumice forms when lava cools rapidly and creates air pockets, giving it a porous and rough texture. Weathering can wear these air pockets away, resulting in a smoother surface.\n\nSo, the final answer is: D. Pumice.",
+        "reference_answer": "D"
+    },
+    {
+        "num": 158,
+        "prompt_CoT": "Question: The element that heats toast is an example of:\nOptions:\nA. a semi-conductor?\nB. a thermal insulator\nC. a poor conductor\nD. a thermal conductor\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The element that heats toast is an example of a good conductor because it efficiently transfers heat from the heating element to the bread, causing it to toast. So, the correct answer is:\n\nD. A. thermal conductor",
+        "reference_answer": "D"
+    },
+    {
+        "num": 159,
+        "prompt_CoT": "Question: Ice can fall down as\nOptions:\nA. sleet and hail\nB. ice cubes\nC. rain\nD. glaciers\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "Ice can fall down as A. sleet and hail.\n\nThe final answer is: A.",
+        "reference_answer": "A"
+    },
+    {
+        "num": 160,
+        "prompt_CoT": "Question: nest sitting is left up to the\nOptions:\nA. daddy\nB. the embryo's creator\nC. strangers\nD. male siblings\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "Nest sitting, or incubation, is primarily a behavior carried out by the female bird in many species as she keeps the eggs warm and protects them until they hatch. So, the correct answer would be the one that represents the parent responsible for this task.\n\nThe final answer is: A. Daddy.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 161,
+        "prompt_CoT": "Question: The insect's cocoon being created occurs during the\nOptions:\nA. adult stage in a life cycle\nB. egg formation in a life cycle\nC. stage when wings first start to form\nD. final stage in a life cycle\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The insect's cocoon being created marks the final stage in a life cycle before the insect undergoes metamorphosis and emerges as an adult. Therefore, the correct answer is:\n\nD. final stage in a life cycle.",
+        "reference_answer": "C"
+    },
+    {
+        "num": 162,
+        "prompt_CoT": "Question: Rocks sometimes contain what?\nOptions:\nA. element Al\nB. books\nC. wind\nD. fire\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "Rocks can sometimes contain elements, including aluminum (which has the chemical symbol Al). So the correct answer would be A. element Al.\n\nThe final answer is: A.",
+        "reference_answer": "A"
+    },
+    {
+        "num": 163,
+        "prompt_CoT": "Question: What happens to a cat's fur in the summer?\nOptions:\nA. The fur becomes darker\nB. The fur becomes more dense\nC. It becomes less dense\nD. It stays the same density\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "In the summer, a cat's fur typically becomes less dense as it sheds its thick, heavy undercoat to reveal a lighter, thinner coat for better heat regulation. This process is called \"summer shedding\" or \"blowing the fur.\" So, the correct answer is:\n\nC. It becomes less dense.",
+        "reference_answer": "C"
+    },
+    {
+        "num": 164,
+        "prompt_CoT": "Question: After evaporation water becomes\nOptions:\nA. ocean\nB. snow\nC. groundwater\nD. ice caps\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The process of evaporation involves the conversion of liquid water into water vapor, which then rises into the atmosphere and may condense back into various forms like clouds or rain. However, none of the options provided directly result from evaporation.\n\nIf we consider the options given:\n\nA. Ocean - This is the final destination for much of the water that evaporates from land sources, but it's not what happens to the water during evaporation itself.\nB. Snow - Snow formation typically occurs when water vapor freezes at very low temperatures, not directly from evaporation.\nC. Groundwater - Some water from evaporation can infiltrate the ground and become groundwater, but this is a later stage after evaporation.\nD. Ice caps - These form from accumulated snow and ice over time, not from evaporation alone.\n\nNone of these choices represent the direct result of evaporation. The correct answer would be the one that represents the initial state before evaporation, which is:\n\nThe final answer is: A. Water.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 165,
+        "prompt_CoT": "Question: A magnet will stick to which of the following?\nOptions:\nA. indium\nB. diamond\nC. wood\nD. hydrochloric acid\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "A magnet will stick to iron-based materials due to their magnetic properties. Among the options provided, only A. indium and C. wood are not typically magnetic. Indium is a soft, low-magnetic metal, while wood is an insulator and does not have magnetic properties. Diamond, being a non-magnetic carbon crystal, will not attract a magnet either. Hydrochloric acid is a chemical compound and not a physical material, so it doesn't have magnetic properties.\n\nThe final answer is: A. Indium.",
+        "reference_answer": "A"
+    },
+    {
+        "num": 166,
+        "prompt_CoT": "Question: Hypothermia will set in under which conditions:\nOptions:\nA. while exposed to harsh winds in a polar region\nB. while stranded deep in a swap\nC. while swimming in tropical seas.\nD. while exposed to direct sunlight on a tropical island\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "Hypothermia occurs when the body's core temperature drops below its normal range, which is typically around 98.6\u00b0F (37\u00b0C). The conditions that can lead to hypothermia are those that cause heat loss faster than the body can generate heat.\n\nA. While exposed to harsh winds in a polar region: This is a likely scenario because cold winds can increase heat loss through convection and radiation, making it easier for the body to lose warmth.\nB. While stranded deep in a swamp: Although the cold water can be a factor, swamps can also be mucky and provide poor insulation, increasing heat loss.\nC. While swimming in tropical seas: If a person is not properly dressed or protected from the water, they can still experience hypothermia due to the cooling effect of the water and the lack of insulation.\nD. While exposed to direct sunlight on a tropical island: Direct sunlight does not cause hypothermia; it can lead to heat exhaustion or sunburn but not hypothermia unless the person is in water or an environment with low insulation.\n\nBased on this analysis, the condition that is most likely to cause hypothermia is:\n\nThe final answer is: A. while exposed to harsh winds in a polar region.",
+        "reference_answer": "A"
+    },
+    {
+        "num": 167,
+        "prompt_CoT": "Question: A black wall reflects little light, a pink wall reflects pink light a while wall\nOptions:\nA. bounces little light\nB. bounces all light\nC. bounces blue light\nD. bounces red light\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "A black wall reflects little light because it absorbs most colors and reflects only a small portion, mainly in the infrared range. Pink light is a specific color within the visible spectrum, and since a black wall doesn't absorb or reflect pink light specifically, it would still reflect very little of it.\n\nTherefore, the answer is:\nThe final answer is: A. bounces little light.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 168,
+        "prompt_CoT": "Question: Rocks may be rounded by\nOptions:\nA. photosynthesis\nB. audio feedback\nC. hydro-erosion\nD. Cloudy conditions\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "Rocks may be rounded by C. hydro-erosion.\n\nHydro-erosion is the process by which water, wind, or ice wears down and shapes rocks over time. This can result in rounded shapes, especially when the force of the natural agent is constant and acts on a large surface area, causing the rock to smooth out. The other options (photosynthesis, audio feedback, and cloudy conditions) are not related to geological processes that shape rocks.",
+        "reference_answer": "C"
+    },
+    {
+        "num": 169,
+        "prompt_CoT": "Question: What do octopuses release to blind predators?\nOptions:\nA. meat\nB. water\nC. dark pigment\nD. plants\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "Octopuses have a defense mechanism called ink production. When threatened, they release a cloud of black ink to confuse and disorient their predators, making it difficult for them to see. Therefore, the correct answer is:\n\nC. Dark pigment",
+        "reference_answer": "C"
+    },
+    {
+        "num": 170,
+        "prompt_CoT": "Question: Which decreases visibility while driving?\nOptions:\nA. opening the sunroof\nB. spraying windshield fluid\nC. adjusting side mirrors.\nD. turning on headlights\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The decrease in visibility while driving would be due to something that obstructs the driver's view. Out of the options provided, A. opening the sunroof and C. adjusting side mirrors, both can potentially reduce visibility by allowing external elements to enter the cabin or blocking part of the field of view. However, adjusting side mirrors is usually necessary for better visibility, not a hindrance.\n\nOn the other hand, B. spraying windshield fluid is typically done to clean the windshield, which should improve visibility, and D. turning on headlights is necessary for seeing the road ahead at night and increasing visibility.\n\nTherefore, the option that decreases visibility while driving is:\n\nThe final answer is: A. Opening the sunroof.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 171,
+        "prompt_CoT": "Question: What contains moons?\nOptions:\nA. ships\nB. space mass\nC. people\nD. plants\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The final answer is: B. space mass",
+        "reference_answer": "B"
+    },
+    {
+        "num": 172,
+        "prompt_CoT": "Question: What would be used to measure the substance which historically the Dutch and other farmers used to power the blades on the structure which moves water from low to highlands?\nOptions:\nA. anemometer\nB. magnetometer\nC. manometer\nD. thermometer\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The substance that Dutch and other farmers used to power the blades on a structure that moves water from low to highlands is likely water, as it's a common mechanism for water pumps. Among the options provided, only a device that measures water level or pressure would be relevant. A manometer is such a device.\n\nThe final answer is: C. manometer.",
+        "reference_answer": "A"
+    },
+    {
+        "num": 173,
+        "prompt_CoT": "Question: What is it called when h20 falls from a fluffy object to land on the top of cloth suspended on a rod?\nOptions:\nA. mechanization\nB. evaporation\nC. precipitation\nD. transpiration\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The final answer is: C. Precipitation.",
+        "reference_answer": "C"
+    },
+    {
+        "num": 174,
+        "prompt_CoT": "Question: What animal can live without oxygen\nOptions:\nA. shark\nB. Loriciferans\nC. platypus\nD. Turtle\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "Loriciferans, also known as sea cucumbers, are a type of marine animal that can live without oxygen. They obtain their oxygen through their water vascular system and can survive in oxygen-deprived environments.\n\nThe final answer is: B. Loriciferans.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 175,
+        "prompt_CoT": "Question: An inherited characteristic present in a baby is\nOptions:\nA. number of ears\nB. birth date\nC. birth weight\nD. number of siblings\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The final answer is: A. Number of ears. \n\nInherited characteristics refer to traits or features that are passed down from parents to offspring through genes. Among the options provided, only the number of ears is a physical trait that can be inherited. Birth date, birth weight, and number of siblings are not inherent traits but rather determined by factors such as conception, pregnancy, and family planning.",
+        "reference_answer": "A"
+    },
+    {
+        "num": 176,
+        "prompt_CoT": "Question: if your shoe changes form at a certain heat level, what can that be described as?\nOptions:\nA. none of these\nB. the liquid content of the shoe\nC. the melting range of that item\nD. the visual design of the shoe\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The given question describes a material property of a shoe that changes shape when heated to a specific point. This behavior is not related to the liquid content, the visual design, or the melting range of an item. It's a characteristic of a thermoplastic or a similar material that can undergo reshaping when heated.\n\nTherefore, the answer is:\nThe final answer is: C. the melting range of that item.",
+        "reference_answer": "C"
+    },
+    {
+        "num": 177,
+        "prompt_CoT": "Question: Which would be the product of a solid that was brought above its melting point?\nOptions:\nA. water turning into ice\nB. iron turning to rust\nC. tadpoles turning into frogs\nD. glacier turning into water\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The process of a solid being brought above its melting point typically results in the solid transitioning into a liquid. Therefore, the correct answer would be the one where a solid changes into a liquid.\n\nOut of the options provided:\n\nA. Water turning into ice is the reverse of this process - it's when ice melts at or below its melting point.\nB. Iron turning to rust is a chemical reaction that occurs at room temperature and doesn't involve melting.\nC. Tadpoles turning into frogs is a biological transformation that doesn't involve melting either.\nD. Glacier turning into water is the correct scenario, as glaciers are large masses of ice that melt when warmed above their freezing point.\n\nThe final answer is: D. Glacier turning into water.",
+        "reference_answer": "D"
+    },
+    {
+        "num": 178,
+        "prompt_CoT": "Question: A beaver is going to experience a long winter in the upcoming months. The beaver knows that the weather is changing, so it begins to eat more and more food, knowing that it can survive meager months by being\nOptions:\nA. overweight\nB. weighted\nC. underweight\nD. starved\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The beaver needs to store energy for the long winter, so it eats more to build up fat reserves. This extra weight helps it survive without much food during the cold months. Therefore, the correct answer is:\n\nA. Overweight",
+        "reference_answer": "A"
+    },
+    {
+        "num": 179,
+        "prompt_CoT": "Question: Lighting a candle will cause the candle to\nOptions:\nA. combust\nB. petrify\nC. float\nD. yell\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The process of lighting a candle involves igniting the wick, which in turn reacts with the candle's fuel (usually wax) and oxygen in the air, producing heat and light. This chemical reaction is called combustion. Therefore, the correct answer is:\n\nA. Combust",
+        "reference_answer": "A"
+    },
+    {
+        "num": 180,
+        "prompt_CoT": "Question: Vaccines\nOptions:\nA. are only necessary for immuno-comprised people\nB. help prevent outbreaks of once dormant diseases\nC. provide little protection against diseases\nD. are unimportant and under researched\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The final answer is: B.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 181,
+        "prompt_CoT": "Question: Jim wanted baby chickens so he gathered eggs and used a\nOptions:\nA. lamp\nB. ice cube\nC. refrigerator\nD. snow\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "Jim would not use a lamp, ice cube, refrigerator, or snow to gather eggs or incubate them to get baby chickens. The most common method for hatching eggs is using a incubator, which is a device specifically designed for this purpose. Therefore, the correct answer is not among the provided options.\n\nThe final answer is: N/A.",
+        "reference_answer": "A"
+    },
+    {
+        "num": 182,
+        "prompt_CoT": "Question: Nerves are used to feel what on the skin?\nOptions:\nA. creativity\nB. stares\nC. emotions\nD. coldness\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "Nerves are used to feel various sensations on the skin, including coldness, pain, pressure, texture, and certain emotions. Out of the given options, \"coldness\" is the most directly related sensation that nerves can detect. \n\nThe final answer is: D. coldness.",
+        "reference_answer": "D"
+    },
+    {
+        "num": 183,
+        "prompt_CoT": "Question: Substances may be combined by the pouring of one into another, for example when\nOptions:\nA. filling up a tub\nB. putting a lemon in water\nC. adding grenadine to soda\nD. putting food in a bowl\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The process of combining substances by pouring one into another typically involves mixing them together. Among the options provided:\n\nA. Filling up a tub - This is a general action and not a specific combination of substances.\nB. Putting a lemon in water - This is a clear example of combining substances as lemon juice is poured into water.\nC. Adding grenadine to soda - This is also a combination of substances, where grenadine is added to soda to create a mixed drink.\nD. Putting food in a bowl - This could be a general action but doesn't necessarily involve combining substances.\n\nThe most specific and common example of combining substances by pouring is B. Putting a lemon in water.\n\nThe final answer is: B.",
+        "reference_answer": "C"
+    },
+    {
+        "num": 184,
+        "prompt_CoT": "Question: Viewing stars is made easier by\nOptions:\nA. technology that uses electromagnetic induction\nB. technology that collects electromagnetic radiation\nC. technology that picks up sound in space\nD. technology that transforms kinetic energy\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The answer to the question regarding viewing stars is related to technology that can capture and process light from distant celestial objects. Stars emit light, which is a form of electromagnetic radiation. Therefore, the technology that collects this radiation would aid in star observation.\n\nThe correct option is:\n\nB. technology that collects electromagnetic radiation",
+        "reference_answer": "B"
+    },
+    {
+        "num": 185,
+        "prompt_CoT": "Question: Sugar may increase the sweetness of a dish such as in\nOptions:\nA. lasagna\nB. corn\nC. fettuccine\nD. churros\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The sweetness of sugar can be enhanced in dishes that typically have a rich or creamy texture, which could absorb the sweetness. Among the options provided, D. churros is the one that is most commonly associated with being sweetened and fried, making it a good candidate for having sugar added to increase its sweetness.\n\nThe final answer is: D. Churros.",
+        "reference_answer": "D"
+    },
+    {
+        "num": 186,
+        "prompt_CoT": "Question: A person could get in trouble for doing what in a protected environment?\nOptions:\nA. volunteering\nB. hunting\nC. studying the environment\nD. working\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "Hunting in a protected environment would typically be considered illegal and could result in getting in trouble. Therefore, the answer is:\n\nThe final answer is: B. Hunting.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 187,
+        "prompt_CoT": "Question: A winter storm is ravaging a city, so weather advisories are put out to the public. However, a man still need to get to work on time, so he takes his car on the highway. While driving, he discovers\nOptions:\nA. the roads are clear\nB. it is difficult to see\nC. the car is very hot\nD. the streets are empty\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "Based on the context of a winter storm and the man needing to drive to work, option B \"it is difficult to see\" makes the most sense. Winter storms can cause reduced visibility due to snow, ice, or fog, which could pose a danger to the driver.\n\nThe final answer is: B.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 188,
+        "prompt_CoT": "Question: The southern and northern hemisphere's seasons are opposite each other, so when the northern hemisphere is having it's longest day, it's the southern hemisphere's\nOptions:\nA. winter solstice\nB. fall equinox\nC. summer solstice\nD. spring equinox\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The final answer is: A. winter solstice.",
+        "reference_answer": "A"
+    },
+    {
+        "num": 189,
+        "prompt_CoT": "Question: What does photosynthesis require\nOptions:\nA. a daffodil to absorb rays of Sol\nB. a torrential amount of rainfall\nC. a bee to pollinate the bud\nD. a tree to absorb argon\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "Photosynthesis requires light, carbon dioxide, and water to produce glucose and oxygen. From the given options, the process directly relates to option A:\n\nA. a daffodil to absorb rays of sunlight\n\nThe final answer is: A.",
+        "reference_answer": "A"
+    },
+    {
+        "num": 190,
+        "prompt_CoT": "Question: which of these would disturb a standing body of water?\nOptions:\nA. a boat setting sail\nB. an insect flying hundred feet above\nC. a rock tossed in\nD. A and B above\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "A standing body of water would be disturbed by a boat setting sail because the boat's movement creates waves and disrupts the stillness of the water. An insect flying hundred feet above might cause a disturbance if it were to land on the water surface, but it wouldn't cause a significant disturbance like a boat does. A rock tossed in would also disturb the water significantly.\n\nTherefore, the final answer is: C. A rock tossed in.",
+        "reference_answer": "D"
+    },
+    {
+        "num": 191,
+        "prompt_CoT": "Question: There are twenty-four new seasons in\nOptions:\nA. six years\nB. four years\nC. five years\nD. two years\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The number of years it takes for Earth to complete one orbit around the sun and return to the same position in relation to the sun is approximately 365.25 days. This period is known as a sidereal year. However, television shows and many other annual events typically follow a calendar year, which has 365 days or 366 in a leap year.\n\nIf we consider a leap year, which has an extra day (February 29), it would take 24 seasons to account for 366 days. Since there are no 24-hour increments within a leap year, this means that each season would be slightly longer than 15.25 days (366/24).\n\nTherefore, the closest option that represents a division of a year into 24 seasons would be:\n\nB. Four years\n\nThe final answer is: B. Four years.",
+        "reference_answer": "A"
+    },
+    {
+        "num": 192,
+        "prompt_CoT": "Question: We are trying to use air as sources of energy because there is an infinite amount of it, same with water. These are two examples of\nOptions:\nA. Coal sources\nB. Fossil Fuels\nC. Limited resources\nD. Renewable resources\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The final answer is: D. Renewable resources.",
+        "reference_answer": "D"
+    },
+    {
+        "num": 193,
+        "prompt_CoT": "Question: Which is recyclable\nOptions:\nA. fiberglass\nB. soda can\nC. Styrofoam food container\nD. motor oil\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The final answer is: B. soda can. \n\nSoda cans are typically made of aluminum, which is a recyclable material. Fiberglass, Styrofoam, and motor oil are not easily recyclable or may not be accepted by most recycling programs due to their composition and environmental impact.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 194,
+        "prompt_CoT": "Question: If two blocks have unequal mass, which will speed up the most with a common force applied\nOptions:\nA. neither move\nB. The heavier\nC. equal\nD. The lighter\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "When a common force is applied to two blocks of unequal mass, the lighter block will accelerate more than the heavier block due to Newton's second law of motion, which states that acceleration is proportional to the force and inversely proportional to mass (F = ma). The heavier block will experience a greater force to accelerate at the same rate, but its greater mass will cause it to accelerate less.\n\nTherefore, the final answer is: D. The lighter.",
+        "reference_answer": "D"
+    },
+    {
+        "num": 195,
+        "prompt_CoT": "Question: Sea turtles share space with\nOptions:\nA. geckos\nB. catfish\nC. sea weed\nD. river otters\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "Sea turtles primarily inhabit marine environments, so they do not share space with land animals like geckos (which are reptiles often found on surfaces), catfish (which live in freshwater), or river otters (which are freshwater mammals). They can coexist with sea plants like sea weed, as it forms part of their natural habitat.\n\nThe final answer is: C. Sea weed.",
+        "reference_answer": "C"
+    },
+    {
+        "num": 196,
+        "prompt_CoT": "Question: More sunlight will be absorbed by\nOptions:\nA. a rose with tiny leaves\nB. a daisy with thin, short leaves\nC. a peony with wide, smooth leaves\nD. a daffodil with curled leaves\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The final answer is: C. A peony with wide, smooth leaves.\n\nSunlight absorption is generally related to leaf surface area and the ability to capture and convert light into energy (photosynthesis). Leaves with more surface area per unit volume tend to absorb more sunlight. In this case, peony leaves are wider and smoother compared to the other options:\n\n- A rose with tiny leaves might have fewer surface area per leaf, so it might absorb less sunlight.\n- A daisy with thin, short leaves might also have less surface area, but their small size could make it less significant than the difference between peony and the other options.\n- A daffodil with curled leaves might have some surface area, but the curls might reduce the overall surface area and thus absorb less sunlight than a flat leaf like a peony's.\n\nTherefore, a peony with wide, smooth leaves would absorb more sunlight than the others.",
+        "reference_answer": "C"
+    },
+    {
+        "num": 197,
+        "prompt_CoT": "Question: Some fish species, when hunting, will lurk in the shallowest portions of water and actually leave the water in order to capture prey. These fish are able to hunt in this fashion after years of\nOptions:\nA. training in a school\nB. adapting to their needs\nC. adapting to new music\nD. wishing for it to work\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The final answer is: B. adapting to their needs.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 198,
+        "prompt_CoT": "Question: if a person had one of these, they could live permanently under water\nOptions:\nA. a very long nose\nB. two hands and two legs\nC. a very big mouth\nD. a gill for extracting gases\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "The final answer is: D. a gill for extracting gases.",
+        "reference_answer": "D"
+    },
+    {
+        "num": 199,
+        "prompt_CoT": "Question: Storms lead to\nOptions:\nA. an increase in water temperature\nB. an uptick in local ponds fish supply\nC. an increase in issues from drought conditions\nD. an uptick in local ponds water level\nBased on your own knowlege, think about the question.\nThen answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_CoT": "Storms can lead to an uptick in local ponds water level (option D) due to heavy rainfall that fills them. However, they do not directly cause an increase in water temperature (option A), affect fish supply in local ponds (option B), or contribute to drought conditions (option C). So, the final answer is:\n\nThe final answer is: D.",
+        "reference_answer": "D"
+    }
+]
