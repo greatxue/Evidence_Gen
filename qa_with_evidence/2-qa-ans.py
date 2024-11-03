@@ -71,8 +71,8 @@ def combine_prompt(question, choices, prompt_type, num, evidence_sections):
         prompt = f"Question: {question}\nOptions:\n"
         for idx, choice in enumerate(choices):
             prompt += f"{chr(65 + idx)}. {choice}\n"
-        prompt += "Based on your own knowlege, think about the question.\n"
-        prompt += "Then answer the single-choice question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice."
+        prompt += "Based on your own knowlege, think about the question step by step.\n"
+        prompt += "In the final sentence, answer the question in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice."
         
     elif prompt_type == "evidence":
         prompt = "Evidence: \n"
@@ -91,7 +91,7 @@ def combine_prompt(question, choices, prompt_type, num, evidence_sections):
         for idx, choice in enumerate(choices):
             prompt += f"{chr(65 + idx)}. {choice}\n"
         prompt += "Based on your own knowledge, think about the question step by step.\n"
-        prompt += "Then answer the question in the final line, in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice."
+        prompt += "In the final sentence, answer the question in the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice."
 
     else:
         raise ValueError(f"Invalid prompt type {prompt_type} specified.")
