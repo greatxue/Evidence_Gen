@@ -7,17 +7,18 @@ BASE_DIR="/home/wenhao/Project/greatxue/llm_uncer"
 EVIDENCE_DIR="${BASE_DIR}/evidence"
 OUTPUT_JSON_DIR="${BASE_DIR}/output/json"
 OUTPUT_MERGED_DIR="${BASE_DIR}/output/merged_json"
-EVIDENCE_FILE="${EVIDENCE_DIR}/1031-evi-bookqa-qwen.txt"
-TIMESTAMP="11030128"
+EVIDENCE_FILE="${EVIDENCE_DIR}/${TIMESTAMP}-${DATASET_NAME}-${MODEL_NAME}.txt"
+TIMESTAMP="11031953"
 DATASET_NAME="openbookqa"
 MODEL_NAME="qwen1.5-7b-chat"
 
 cd "${BASE_DIR}/qa_with_evidence"
 
-# Step 1: Generate the model evidence (Update your TODO script path as needed)
-# python3 1-qa-evidencer.py --dataset_name "$DATASET_NAME" \
-#     --model "$MODEL_NAME" \
-#     --output_path "${EVIDENCE_FILE}"
+# Step 1: Generate the model evidence
+python3 1-qa-evidencer.py --dataset_name "$DATASET_NAME" \
+    --model_name "$MODEL_NAME" \
+    --output_path "${EVIDENCE_FILE}" \
+    --max_questions 490
 
 # Step 2: Query the model for the output JSON
 for PROMPT_TYPE in "direct" "CoT" "evidenceCoT" "evidence"
@@ -27,7 +28,8 @@ do
         --model "$MODEL_NAME" \
         --evidence_path "$EVIDENCE_FILE" \
         --prompt_type "$PROMPT_TYPE" \
-        --output_path "$OUTPUT_FILE"
+        --output_path "$OUTPUT_FILE" \
+        --max_questions 490
 done
 
 # Step 3: Combine the JSON results and retrieve the choices
