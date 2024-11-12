@@ -7,8 +7,8 @@ BASE_DIR="/home/wenhao/Project/greatxue/llm_uncer"
 EVIDENCE_DIR="${BASE_DIR}/evidence"
 OUTPUT_JSON_DIR="${BASE_DIR}/output/json"
 OUTPUT_MERGED_DIR="${BASE_DIR}/output/merged_json"
-EVIDENCE_FILE="${EVIDENCE_DIR}/${TIMESTAMP}-${DATASET_NAME}-${MODEL_NAME}.txt"
-TIMESTAMP="11031953"
+EVIDENCE_FILE="/home/wenhao/Project/greatxue/llm_uncer/evidence/1031-evi-bookqa-qwen.txt"
+TIMESTAMP="11121553"
 DATASET_NAME="openbookqa"
 MODEL_NAME="qwen1.5-7b-chat"
 
@@ -21,7 +21,7 @@ python3 1-qa-evidencer.py --dataset_name "$DATASET_NAME" \
     --max_questions 490
 
 # Step 2: Query the model for the output JSON
-for PROMPT_TYPE in "direct" "CoT" "evidenceCoT" "evidence"
+for PROMPT_TYPE in "direct" "CoT" "evidenceCoT" "evidence" "evidenceCoT_" "evidence_"
 do
     OUTPUT_FILE="${OUTPUT_JSON_DIR}/${TIMESTAMP}-${DATASET_NAME}-${MODEL_NAME}-${PROMPT_TYPE}.json"
     python3 2-qa-ans.py --dataset_name "$DATASET_NAME" \
@@ -29,7 +29,7 @@ do
         --evidence_path "$EVIDENCE_FILE" \
         --prompt_type "$PROMPT_TYPE" \
         --output_path "$OUTPUT_FILE" \
-        --max_questions 490
+        --max_questions 100
 done
 
 # Step 3: Combine the JSON results and retrieve the choices
