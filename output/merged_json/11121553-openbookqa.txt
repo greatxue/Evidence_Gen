@@ -1,0 +1,39 @@
+Individual mark counts:
+mark_direct: 78
+mark_CoT: 54
+mark_evidence: 76
+mark_evidenceCoT: 77
+
+Pairwise combination counts:
+
+mark_CoT:
+  mark_CoT_mark_evidenceCoT_00: 18
+  mark_CoT_mark_evidenceCoT_01: 28
+  mark_CoT_mark_evidenceCoT_10: 5
+  mark_CoT_mark_evidenceCoT_11: 49
+  
+  mark_CoT_mark_evidence_00: 19
+  mark_CoT_mark_evidence_01: 27
+  mark_CoT_mark_evidence_10: 5
+  mark_CoT_mark_evidence_11: 49
+
+mark_direct:
+  mark_direct_mark_CoT_00: 16
+  mark_direct_mark_CoT_01: 6
+  mark_direct_mark_CoT_10: 30
+  mark_direct_mark_CoT_11: 48
+  
+  mark_direct_mark_evidenceCoT_00: 12
+  mark_direct_mark_evidenceCoT_01: 10
+  mark_direct_mark_evidenceCoT_10: 11
+  mark_direct_mark_evidenceCoT_11: 67
+  
+  mark_direct_mark_evidence_00: 13
+  mark_direct_mark_evidence_01: 9
+  mark_direct_mark_evidence_10: 11
+  mark_direct_mark_evidence_11: 67
+
+mark_evidence:
+  mark_evidence_mark_evidenceCoT_00: 23
+  mark_evidence_mark_evidenceCoT_01: 1
+  mark_evidence_mark_evidenceCoT_11: 76
