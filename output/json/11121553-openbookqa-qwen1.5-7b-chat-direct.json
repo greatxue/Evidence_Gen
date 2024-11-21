@@ -1,0 +1,602 @@
+[
+    {
+        "num": 0,
+        "prompt_direct": "Question: Frilled sharks and angler fish live far beneath the surface of the ocean, which is why they are known as\nOptions:\nA. Deep sea animals\nB. fish\nC. Long Sea Fish\nD. Far Sea Animals\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: A. Deep sea animals.",
+        "reference_answer": "A"
+    },
+    {
+        "num": 1,
+        "prompt_direct": "Question: Gas can fill any container it is given, and liquid\nOptions:\nA. is standard weight and size\nB. is the opposite of variable\nC. only needs a few\nD. uses what it needs\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: D. uses what it needs.",
+        "reference_answer": "D"
+    },
+    {
+        "num": 2,
+        "prompt_direct": "Question: When birds migrate south for the winter, they do it because\nOptions:\nA. they are genetically called to\nB. their children ask for them to\nC. it is important to their happiness\nD. they decide to each year\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: A. they are genetically called to.",
+        "reference_answer": "A"
+    },
+    {
+        "num": 3,
+        "prompt_direct": "Question: If a person walks in the opposite direction of a compass arrow they are walking\nOptions:\nA. west\nB. north\nC. east\nD. south\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: D. South.",
+        "reference_answer": "D"
+    },
+    {
+        "num": 4,
+        "prompt_direct": "Question: An example of lots kinetic energy would be\nOptions:\nA. Drinking a cold glass of water\nB. A snail moving across the sidewalk\nC. sitting without moving anywhere\nD. An aircraft taking a trip\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: D. An aircraft taking a trip.",
+        "reference_answer": "D"
+    },
+    {
+        "num": 5,
+        "prompt_direct": "Question: Which organism cannot specialize?\nOptions:\nA. mammal\nB. plant\nC. fish\nD. protozoa\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: D. Protozoa.",
+        "reference_answer": "D"
+    },
+    {
+        "num": 6,
+        "prompt_direct": "Question: A person can grow cabbage in January with the help of what product?\nOptions:\nA. Green house\nB. Parliment\nC. Congress\nD. White house\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: A. greenhouse.",
+        "reference_answer": "A"
+    },
+    {
+        "num": 7,
+        "prompt_direct": "Question: A frog, in winter, will burrow itself into soft mud, until it freezes, then in the spring\nOptions:\nA. it melts, because it is warm-blooded\nB. it unfreezes, because it is cold-blooded\nC. it remains frozen until it dies\nD. it dies, because it is warm-blooded\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: C. it remains frozen until it dies.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 8,
+        "prompt_direct": "Question: Which describes the size of an object?\nOptions:\nA. It attracts all metals\nB. It is a sphere\nC. It is red and purple\nD. It holds 500 mL of water\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: D. It holds 500 mL of water.",
+        "reference_answer": "D"
+    },
+    {
+        "num": 9,
+        "prompt_direct": "Question: A body may find its temperature to be lowered after\nOptions:\nA. water is heated up\nB. fluid spreads from pores\nC. the air becomes arid\nD. the sky stays bright\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: B. Fluid spreads from pores.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 10,
+        "prompt_direct": "Question: If a person enjoys long, sunny days their favorite month would be\nOptions:\nA. October\nB. July\nC. April\nD. March\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: B. July.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 11,
+        "prompt_direct": "Question: An example of data collection is\nOptions:\nA. Deleting case files on the computer\nB. Touching evidence without gloves\nC. speaking with a witness\nD. Throwing documents in the trash\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: C. Speaking with a witness.",
+        "reference_answer": "C"
+    },
+    {
+        "num": 12,
+        "prompt_direct": "Question: An animal can hunt by cracking open a\nOptions:\nA. claw\nB. house\nC. shell\nD. bone\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: D. Bone.",
+        "reference_answer": "C"
+    },
+    {
+        "num": 13,
+        "prompt_direct": "Question: Oil is a nonrenewable resource which tells us that when\nOptions:\nA. it can be remade\nB. it can be found in other places\nC. there is an endless supply\nD. the final barrel is gone, there supply is finished\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: D.",
+        "reference_answer": "D"
+    },
+    {
+        "num": 14,
+        "prompt_direct": "Question: Magma contains\nOptions:\nA. particles of iron\nB. Loads of leaves\nC. Soda\nD. Silly Putty\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: A. Particles of iron.",
+        "reference_answer": "A"
+    },
+    {
+        "num": 15,
+        "prompt_direct": "Question: Dew is formed when what condenses?\nOptions:\nA. carbon dioxide\nB. warm air\nC. H2O haze\nD. oxygen\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: B. Warm air.",
+        "reference_answer": "C"
+    },
+    {
+        "num": 16,
+        "prompt_direct": "Question: The Earth revolving around the sun can cause\nOptions:\nA. constellations to appear in one place in spring and another in fall\nB. the stars to rotate diagonally in the sky\nC. earth's axis to be widened\nD. stars to fade as winter approaches\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: A. constellations to appear in one place in spring and another in fall.",
+        "reference_answer": "A"
+    },
+    {
+        "num": 17,
+        "prompt_direct": "Question: Plants need light for\nOptions:\nA. love\nB. glucose\nC. reading\nD. driving\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: B. Glucose.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 18,
+        "prompt_direct": "Question: Tunnels\nOptions:\nA. lead to less impacted soil\nB. pact down soil to make it denser\nC. firm up the ground\nD. help prevent the effects of erosion\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: D. Help prevent the effects of erosion.",
+        "reference_answer": "A"
+    },
+    {
+        "num": 19,
+        "prompt_direct": "Question: A fire starts in a wide, open field and catches onto a forest. The fire started even though people were far away from the woods. A potential cause for the start of it could have been\nOptions:\nA. wind\nB. sand\nC. stones\nD. storms\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: A. Wind.",
+        "reference_answer": "D"
+    },
+    {
+        "num": 20,
+        "prompt_direct": "Question: To have a positive impact of the environment\nOptions:\nA. use Styrofoam plates and bowls\nB. use more paper towels\nC. salvage plastic bottles instead of throwing them away\nD. drive a car that guzzles gas\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: C. Salvage plastic bottles instead of throwing them away.",
+        "reference_answer": "C"
+    },
+    {
+        "num": 21,
+        "prompt_direct": "Question: Taking shorter showers leads to\nOptions:\nA. water shortages for the local environment\nB. increased energy consumption by the water heater\nC. an empty water heater\nD. less energy used by the water heater\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: D. less energy used by the water heater.",
+        "reference_answer": "D"
+    },
+    {
+        "num": 22,
+        "prompt_direct": "Question: Roads present danger to animals because\nOptions:\nA. only chickens can cross the road\nB. people driving cars might be unaware the animal is close by\nC. road signs are hard to read\nD. cops will stop them for speeding\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: B. people driving cars might be unaware the animal is close by.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 23,
+        "prompt_direct": "Question: plant requires what for photosynthesis\nOptions:\nA. light that changes color\nB. light from our closest star\nC. the reflection of something shiny\nD. light reflected from our orbiting rock\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: B. light from our closest star.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 24,
+        "prompt_direct": "Question: Winter solstice occurs on a day when\nOptions:\nA. the sun is brightest\nB. the sun is eclipsed\nC. the moon is full\nD. the darkness is greatest\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: D. The darkness is greatest.",
+        "reference_answer": "D"
+    },
+    {
+        "num": 25,
+        "prompt_direct": "Question: What boils at the boiling point?\nOptions:\nA. Kool-Aid\nB. Cotton\nC. Paper towel\nD. Hair\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: A. Kool-Aid",
+        "reference_answer": "A"
+    },
+    {
+        "num": 26,
+        "prompt_direct": "Question: When vapor condenses overnight it often ends up on\nOptions:\nA. bees\nB. clothing\nC. rosebuds\nD. people\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: B. Clothing.",
+        "reference_answer": "C"
+    },
+    {
+        "num": 27,
+        "prompt_direct": "Question: Which is a good source of nutrients for a mushroom?\nOptions:\nA. a trotting horse\nB. a roaring lion\nC. a cut peony\nD. a flying eagle\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: C. a cut peony.",
+        "reference_answer": "C"
+    },
+    {
+        "num": 28,
+        "prompt_direct": "Question: which of these animal's habitat is peat likely to be found?\nOptions:\nA. a dog's habitat\nB. a cat's habitat\nC. a human's habitat\nD. an alligator's habitat\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: D. An Alligator's Habitat.",
+        "reference_answer": "D"
+    },
+    {
+        "num": 29,
+        "prompt_direct": "Question: A strawberry is in zero way a true berry because it\nOptions:\nA. has seeds outside the flesh, unlike the blueberry\nB. is unable to spread its seed\nC. is a different color than other berries\nD. is too wet inside\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: A.",
+        "reference_answer": "A"
+    },
+    {
+        "num": 30,
+        "prompt_direct": "Question: The epidermis is part of\nOptions:\nA. is the largest organ and also the body's first defense against germs\nB. is used the second largest organ and used for breathing by humans\nC. soaks in toxins in the air\nD. repels sunlight and UV rays\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: A. The epidermis is part of the largest organ and also the body's first defense against germs.",
+        "reference_answer": "A"
+    },
+    {
+        "num": 31,
+        "prompt_direct": "Question: Alligators\nOptions:\nA. eat gar\nB. eat only foliage\nC. have live births\nD. are warm-blooded\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: C. have live births.",
+        "reference_answer": "A"
+    },
+    {
+        "num": 32,
+        "prompt_direct": "Question: What might occur during an experiment\nOptions:\nA. severe oxygen depletion in the atmosphere\nB. layers of the ozone disintegrating\nC. midterm exams for math class\nD. solution overflowing from a beaker\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "D. Solution overflowing from a beaker",
+        "reference_answer": "D"
+    },
+    {
+        "num": 33,
+        "prompt_direct": "Question: Frogs are unable to give live birth, and their eggs are soft, unlike other eggs, in fact\nOptions:\nA. frog eggs are sour\nB. frog eggs are transparent\nC. frog eggs are yellow\nD. frog eggs are hollow\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: D. frog eggs are hollow.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 34,
+        "prompt_direct": "Question: A woman wants to figure out what renewable resources she can use in order to be more environmentally friendly and sufficient. She decides to use all of these resources that are renewable, with the exception of the one nonrenewable, which is\nOptions:\nA. sunlight\nB. aluminium\nC. wood\nD. water\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: B. Aluminium.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 35,
+        "prompt_direct": "Question: Cocoon creation occurs\nOptions:\nA. after the caterpillar stage\nB. after the chrysalis stage\nC. after the eggs are laid\nD. after the cocoon emerging stage\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: B. after the chrysalis stage.",
+        "reference_answer": "A"
+    },
+    {
+        "num": 36,
+        "prompt_direct": "Question: Where would animals shiver the most?\nOptions:\nA. Arctic Circle\nB. Sumatra\nC. Java\nD. tropical rainforest\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: A. Arctic Circle.",
+        "reference_answer": "A"
+    },
+    {
+        "num": 37,
+        "prompt_direct": "Question: In the desert it was harder to find a\nOptions:\nA. stream\nB. cactus\nC. dry bed\nD. canyon\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: A. Stream.",
+        "reference_answer": "A"
+    },
+    {
+        "num": 38,
+        "prompt_direct": "Question: Why can an Owl retain it's body temperature during the winter?\nOptions:\nA. It's neither\nB. It's both\nC. It's cold blooded\nD. It's warm blooded\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: D. It's warm-blooded.",
+        "reference_answer": "D"
+    },
+    {
+        "num": 39,
+        "prompt_direct": "Question: What is the source of energy for physical cycles on Earth?\nOptions:\nA. clouds that are heavy with rain\nB. a thinner ozone layer\nC. a medium-sized star which our planet orbits\nD. heat from stars at night\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: D. Heat from stars at night.",
+        "reference_answer": "C"
+    },
+    {
+        "num": 40,
+        "prompt_direct": "Question: Pasteurization reduces the amount of bacteria in\nOptions:\nA. green tea\nB. cheddar cheese\nC. orange juice\nD. almond milk\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: B. Cheddar cheese.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 41,
+        "prompt_direct": "Question: A person is trapped in a cabin while it storms outside. The person knows it is storming because of\nOptions:\nA. the precipitation\nB. the sun\nC. the sea\nD. the stars\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: A. The precipitation.",
+        "reference_answer": "A"
+    },
+    {
+        "num": 42,
+        "prompt_direct": "Question: Which would best store new whale offspring?\nOptions:\nA. large egg carton\nB. large aquarium\nC. bag\nD. mud hole\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: B. Large aquarium.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 43,
+        "prompt_direct": "Question: All the deer in one area moved away. This could be because\nOptions:\nA. They wanted to go to Disneyland\nB. The deer went for a walk and got lost\nC. all the trees had died from disease and fell down\nD. They wanted to live where there were move wolves to keep them company\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: C. All the trees had died from disease and fell down.",
+        "reference_answer": "C"
+    },
+    {
+        "num": 44,
+        "prompt_direct": "Question: An herbivore like a giraffe will only consume\nOptions:\nA. green matter\nB. sticks\nC. algae\nD. cheese\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: A. Green matter.",
+        "reference_answer": "A"
+    },
+    {
+        "num": 45,
+        "prompt_direct": "Question: Climate change has sped up dramatically because\nOptions:\nA. CO2 production has accelerated\nB. a rapid decline the production of carbon dioxide\nC. oxygen levels have spiked\nD. Fe has been present in an overabundance\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: A. CO2 production has accelerated.",
+        "reference_answer": "A"
+    },
+    {
+        "num": 46,
+        "prompt_direct": "Question: What is most necessary for a  bitcoin operation\nOptions:\nA. abacus\nB. metal\nC. plastic\nD. wood\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: B. Metal",
+        "reference_answer": "B"
+    },
+    {
+        "num": 47,
+        "prompt_direct": "Question: If something is outside during the day what will it receive?\nOptions:\nA. food\nB. sunbeams\nC. energy\nD. water\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: C. Energy.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 48,
+        "prompt_direct": "Question: A turtle may lay six eggs, and a sea turtle may lay a hundred eggs, and\nOptions:\nA. turtles will hatch more\nB. sea turtles will hatch more\nC. animals can lay eggs\nD. turtles are warm blooded\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: B. sea turtles will hatch more.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 49,
+        "prompt_direct": "Question: Squirrels store acorns\nOptions:\nA. they build their homes from them\nB. they use them to keep warm\nC. to have nourishment thru the cold months\nD. because they like the aesthetic\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: C. To have nourishment thru the cold months.",
+        "reference_answer": "C"
+    },
+    {
+        "num": 50,
+        "prompt_direct": "Question: Plant growth may be positively affected by\nOptions:\nA. extra rainfall\nB. freezing temperatures\nC. increase in pests\nD. long droughts\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: A. Extra rainfall.",
+        "reference_answer": "A"
+    },
+    {
+        "num": 51,
+        "prompt_direct": "Question: An electric car uses less gasoline than a regular car because\nOptions:\nA. parts of the engine are flawed\nB. gas is unable to be used\nC. electricity is more expensive\nD. power is prioritized over gas\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: D. Power is prioritized over gas.",
+        "reference_answer": "D"
+    },
+    {
+        "num": 52,
+        "prompt_direct": "Question: Revolution happens when\nOptions:\nA. Earth orbits the moon\nB. Mars orbits the sun\nC. the sun orbits the Earth\nD. the Earth's moon orbits Mars\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: A. Earth orbits the moon.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 53,
+        "prompt_direct": "Question: An organism's requirements and its survival rate have what kind of relationship?\nOptions:\nA. indirect\nB. direct\nC. inverse\nD. reverse\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: B. Direct. \n\nAn organism's requirements and its survival rate generally have a direct relationship. This means that as an organism meets its basic needs (such as food, water, shelter, and appropriate conditions for its specific habitat), its chances of survival increase. Conversely, if these requirements are not met, the survival rate may decrease.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 54,
+        "prompt_direct": "Question: Pumpkin pie spice comes from\nOptions:\nA. animals\nB. plants\nC. rocks\nD. air\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: B. Plants.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 55,
+        "prompt_direct": "Question: Were the situation to be that all zebra were sterile,\nOptions:\nA. zebra would be endangered\nB. zebra would be overpopulated\nC. zebra would have babies\nD. zebra would die out\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: D. zebra would die out.",
+        "reference_answer": "D"
+    },
+    {
+        "num": 56,
+        "prompt_direct": "Question: An example of a seasonal change that a furry animal might adopt could be similar to:\nOptions:\nA. A pumpkin growing seeds internally\nB. A store setting up their Christmas displays\nC. A man looking for breakfast after many hours without food\nD. humans pulling out their heavy outerwear\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: D. Humans pulling out their heavy outerwear.",
+        "reference_answer": "D"
+    },
+    {
+        "num": 57,
+        "prompt_direct": "Question: What could be used as an electrical conductor\nOptions:\nA. A penny\nB. Shoe laces\nC. Wood\nD. A button\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: C. Wood.",
+        "reference_answer": "A"
+    },
+    {
+        "num": 58,
+        "prompt_direct": "Question: How does ice wedging cause rocks to crack?\nOptions:\nA. releasing gas\nB. melting down\nC. being cold\nD. growth in openings\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: D. Growth in openings. \n\nIce wedging is a form of mechanical weathering that occurs when water seeps into cracks in rocks and freezes. As the water expands when it freezes (a process called freezing thawing), it exerts pressure on the rock, causing the cracks to widen and eventually split. This process is particularly effective in areas with repeated cycles of freezing and thawing, such as at the base of slopes or in areas with cold temperatures. The growth in the openings due to this expansion and contraction leads to the eventual breakdown of the rock.",
+        "reference_answer": "D"
+    },
+    {
+        "num": 59,
+        "prompt_direct": "Question: Fossils are formed when what happens?\nOptions:\nA. layers of leaves and pebbles form a pile\nB. layers of sand are washed up on a beach\nC. dirt builds up in the outdoors\nD. various types of dirt accumulate over something eventually\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: D. Various types of dirt accumulate over something eventually.",
+        "reference_answer": "D"
+    },
+    {
+        "num": 60,
+        "prompt_direct": "Question: When going in the basement, it's better to have a laser than a\nOptions:\nA. flashlight\nB. light bulb\nC. radio\nD. TV\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: A. flashlight.",
+        "reference_answer": "C"
+    },
+    {
+        "num": 61,
+        "prompt_direct": "Question: Some areas are known for experiencing all four seasons, and winter is one of those seasons. During said season, one may partake in activities such as\nOptions:\nA. swimming\nB. leaf peeping\nC. sledding\nD. surfing\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: C. Sledding.",
+        "reference_answer": "C"
+    },
+    {
+        "num": 62,
+        "prompt_direct": "Question: What can show that loss of resources has a negative impact on the organisms in an area?\nOptions:\nA. lakes dry up and fish species are less varied\nB. when prey is overhunted, predators die\nC. deer need plenty of space to live\nD. sharks need to eat a lot of fish in order to survive\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: A. lakes dry up and fish species are less varied.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 63,
+        "prompt_direct": "Question: What vehicle would you use to travel on the majority of the surface of the planet on which we live?\nOptions:\nA. Bike\nB. Boat\nC. Train\nD. Car\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: D. Car.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 64,
+        "prompt_direct": "Question: A bear's fur and duck's feathers both help the animal survive by\nOptions:\nA. providing water\nB. providing food\nC. providing warmth\nD. providing oxygen\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: C. Providing warmth.",
+        "reference_answer": "C"
+    },
+    {
+        "num": 65,
+        "prompt_direct": "Question: When would the sun set later?\nOptions:\nA. Christmas\nB. Presidents day\nC. Independence Day\nD. Halloween\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: D. Halloween.",
+        "reference_answer": "C"
+    },
+    {
+        "num": 66,
+        "prompt_direct": "Question: If a species population increases in the birth rate has\nOptions:\nA. ceased\nB. boomed\nC. stalled\nD. fallen\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: B. Boomed.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 67,
+        "prompt_direct": "Question: What's an example of the idea that if one mineral can scratch another mineral then that other mineral is softer than that one mineral?\nOptions:\nA. diamonds can be smashed by rocks\nB. diamond cuts into glass\nC. steel is harder than stone\nD. diamonds are harder than diamonds\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: B. diamond cuts into glass.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 68,
+        "prompt_direct": "Question: What is a source of energy?\nOptions:\nA. bricks\nB. grease\nC. cars\nD. dirt\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: B. Grease.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 69,
+        "prompt_direct": "Question: If a farmland up the hill gets rainfall, what could happen to lower lands?\nOptions:\nA. all of these\nB. they could get fertilizer washed to them\nC. they could experience unfavorable chemical change in their lands\nD. they could have their lands poisoned\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: A. All of these. \n\nRainfall on a farmland up the hill can lead to several consequences for lower lands, including:\n\n1. Fertilizer washed to them: When rainwater carries nutrients from the higher land, it can wash them down and enrich the soil in lower areas.\n2. Unfavorable chemical changes: The runoff may contain acids or other substances from the upper land, which could alter the pH levels and cause chemical changes in the lower lands.\n3. Land poisoning: In extreme cases, if the water is contaminated with harmful chemicals or pollutants, it could lead to poisoning of the lower lands.\n\nSo, all of these options (A, B, C, and D) could potentially happen due to rainfall on a farmland up the hill.",
+        "reference_answer": "A"
+    },
+    {
+        "num": 70,
+        "prompt_direct": "Question: In order for a journal to be produced, it first requires\nOptions:\nA. matter which is typically written on\nB. an incredible amount of fame\nC. enough money to buy a house\nD. lucky text written on trees\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: A. matter which is typically written on.",
+        "reference_answer": "A"
+    },
+    {
+        "num": 71,
+        "prompt_direct": "Question: What is an example of a raw material being something that comes directly from a source?\nOptions:\nA. cats from a shelter\nB. birds from a nest\nC. manure from a field\nD. salt water from the ocean\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: D. Salt water from the ocean.",
+        "reference_answer": "D"
+    },
+    {
+        "num": 72,
+        "prompt_direct": "Question: A source of sugar in an ecosystem is\nOptions:\nA. air\nB. soil\nC. tree\nD. bird\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: C. Tree.",
+        "reference_answer": "C"
+    },
+    {
+        "num": 73,
+        "prompt_direct": "Question: A mark of adulthood common in most species is\nOptions:\nA. paying bills\nB. reproduction\nC. fighting\nD. death\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: B. Reproduction.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 74,
+        "prompt_direct": "Question: Bill decided the wolf was a predator after he saw it eat the\nOptions:\nA. apple\nB. grass\nC. bunny\nD. pie\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: C. Bunny.",
+        "reference_answer": "C"
+    },
+    {
+        "num": 75,
+        "prompt_direct": "Question: Layers of the earth include all but\nOptions:\nA. mantle\nB. center\nC. crust\nD. inner core\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: B. Center.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 76,
+        "prompt_direct": "Question: What core ingredient of red pasta sauce comes from a flower?\nOptions:\nA. Tomato\nB. Bell Pepper\nC. Oregano\nD. Onion\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: A. Tomato.",
+        "reference_answer": "A"
+    },
+    {
+        "num": 77,
+        "prompt_direct": "Question: If something were to be melted, it would be heated above its melting point, like\nOptions:\nA. putting peas in a soup\nB. putting jello in warm water\nC. putting ice in the freezer\nD. cooking up cookie dough\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: D. Cooking up cookie dough.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 78,
+        "prompt_direct": "Question: carbon dioxide plays the same role in plants that oxygen plays in animals\nOptions:\nA. this is accurate\nB. all of these\nC. maybe true\nD. this is untrue\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: A. This is accurate.",
+        "reference_answer": "A"
+    },
+    {
+        "num": 79,
+        "prompt_direct": "Question: As far as plants go, considering their growth, it is unlikely that they would do well in\nOptions:\nA. a large patio setting\nB. a humid, open greenhouse\nC. a damp patch of earth\nD. a basement without windows\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: D. A basement without windows.",
+        "reference_answer": "D"
+    },
+    {
+        "num": 80,
+        "prompt_direct": "Question: What is likely to be the most direct result of offshore oil leaking?\nOptions:\nA. oil pollutes cities\nB. oil harms ocean life\nC. oil ruins farmland\nD. oil harms forests\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: B. oil harms ocean life.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 81,
+        "prompt_direct": "Question: An individual can conserve by\nOptions:\nA. recycling and using gasoline\nB. recycling and using natural gas\nC. recycling and using solar\nD. recycling and using coal\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: C. Recycling and using solar.",
+        "reference_answer": "C"
+    },
+    {
+        "num": 82,
+        "prompt_direct": "Question: Which is the slowest to move through water?\nOptions:\nA. swan\nB. duck\nC. robin\nD. goose\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: C. Robin.",
+        "reference_answer": "C"
+    },
+    {
+        "num": 83,
+        "prompt_direct": "Question: Bats have many quirks, with the exception of\nOptions:\nA. using echolocation\nB. laying eggs\nC. hanging upside down\nD. eating bugs\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: B.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 84,
+        "prompt_direct": "Question: Organic food is currently considered best for people because\nOptions:\nA. they avoid using bug killers when grown\nB. they have more vitamins\nC. they use pesticide when growing\nD. they are higher in fiber\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: A. They avoid using bug killers when grown.",
+        "reference_answer": "A"
+    },
+    {
+        "num": 85,
+        "prompt_direct": "Question: A horse eats some hay, an apple and a sugar cube, then peacefully roams a field after eating while digesting the meal. During this time\nOptions:\nA. the horse throws up\nB. the food is deconstructed\nC. the horse is hungry\nD. the food is poisoned\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: B. The food is deconstructed.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 86,
+        "prompt_direct": "Question: Who would be healthier?\nOptions:\nA. a night owl\nB. an party animal\nC. a heavy sleeper\nD. a workaholic\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: C. A heavy sleeper.",
+        "reference_answer": "C"
+    },
+    {
+        "num": 87,
+        "prompt_direct": "Question: When you get farther from water, the water vapor in the air will ______.\nOptions:\nA. increase\nB. decrease\nC. condense\nD. form clouds\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: B. Decrease",
+        "reference_answer": "B"
+    },
+    {
+        "num": 88,
+        "prompt_direct": "Question: What is a good example of camouflage?\nOptions:\nA. when a creature adjusts the shape and color of its body to appear as something else\nB. when a rabbit hides in a patch of grass\nC. when a cat presses its body flat to the ground to hide\nD. when a fish swims with a large group of fish to hide itself\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "A. When a creature adjusts the shape and color of its body to appear as something else.",
+        "reference_answer": "A"
+    },
+    {
+        "num": 89,
+        "prompt_direct": "Question: plants are the source of\nOptions:\nA. turkeys\nB. tomatoes\nC. cows\nD. chickens\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: B. Tomatoes.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 90,
+        "prompt_direct": "Question: As they are immobile, what is an example of how animal life helps the reproduction cycle of plants?\nOptions:\nA. squirrels dropping seeds\nB. birds building nests\nC. human lumber industry\nD. bugs eating leaves\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: A. Squirrels dropping seeds.",
+        "reference_answer": "A"
+    },
+    {
+        "num": 91,
+        "prompt_direct": "Question: Living things can all\nOptions:\nA. reproduce asexually\nB. create a progeny\nC. produce spores\nD. find mates\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: B. Create a progeny.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 92,
+        "prompt_direct": "Question: Stopped means lack of what?\nOptions:\nA. warmth\nB. velocity\nC. height\nD. plants\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: B. Velocity.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 93,
+        "prompt_direct": "Question: Where did Puppigerus live?\nOptions:\nA. bog\nB. ocean\nC. land\nD. marsh\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: C. land.",
+        "reference_answer": "B"
+    },
+    {
+        "num": 94,
+        "prompt_direct": "Question: The circulatory system brings oxygen to the body from where?\nOptions:\nA. The chest\nB. The brain\nC. The feet\nD. The stomach\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: A. The chest.",
+        "reference_answer": "A"
+    },
+    {
+        "num": 95,
+        "prompt_direct": "Question: A renewable resource is used to produce\nOptions:\nA. petroleum\nB. plastic rulers\nC. notebook paper\nD. Styrofoam plates\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: C. Notebook paper.",
+        "reference_answer": "C"
+    },
+    {
+        "num": 96,
+        "prompt_direct": "Question: Which relationship involves inheritance?\nOptions:\nA. teacher-student\nB. mother-daughter\nC. grandmother-grandfather\nD. friends\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: B. Mother-daughter",
+        "reference_answer": "B"
+    },
+    {
+        "num": 97,
+        "prompt_direct": "Question: A source of heat at the resort is the\nOptions:\nA. jacuzzi\nB. pool\nC. chair\nD. umbrella\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: B. Pool.",
+        "reference_answer": "A"
+    },
+    {
+        "num": 98,
+        "prompt_direct": "Question: A car engine usually uses combustion to convert this into a motion and heat.\nOptions:\nA. animal products\nB. plant materials\nC. oil products\nD. solar energy\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: C. Oil products.",
+        "reference_answer": "C"
+    },
+    {
+        "num": 99,
+        "prompt_direct": "Question: When turned on, which product cannot convert electrical energy into light energy?\nOptions:\nA. chandelier\nB. charger\nC. floor lamp\nD. Christmas tree lights\nAnswer directly with the capitalized letter standing for the choice, with the format 'The final answer is: X.', where X is the UNIQUE capitalized letter standing for the choice.",
+        "ans_direct": "The final answer is: B. Charger.",
+        "reference_answer": "B"
+    }
+]

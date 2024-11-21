@@ -72,29 +72,27 @@ def main(args):
                 break           
             try:
                 problem = row['problem']
+                correct_answer = row['answer']
 
-                # 构建解答 Prompt
                 answer_prompt = f"Please provide a detailed answer for the following problem:\n{problem}"
-                answer = query_model(args.model_name, answer_prompt)
+                qwen_answer = query_model(args.model_name, answer_prompt)
 
-                if answer is None:
+                if qwen_answer is None:
                     print(f"Failed to get a response for problem {total + 1}. Skipping.")
                     continue
 
-                # 构建证据 Prompt
-                evidence_prompt = (
-                    "Now, provide an explanation or reasoning for the answer above. "
-                    "The explanation should be helpful and clear, without directly repeating the answer."
-                )
+                evidence_prompt = "Generate evidence to help a confusing student to answer this question\n"
+                evidence_prompt += "Do not mention the correct answer directly in your evidence directly, or you are actually telling them the answer."
+                evidence_prompt += f"Question: {problem}"
                 evidence = query_model(args.model_name, evidence_prompt)
 
-                # 写入文件
-                f.write(f"Problem {total + 1}:\n")
+                f.write(f"Question {total}:\n")
                 f.write(f"{problem}\n")
-                f.write(f"Answer:\n{answer.strip()}\n")
-                f.write(f"Explanation:\n{evidence.strip() if evidence else 'N/A'}\n")
-                f.write("\n" + "="*50 + "\n\n")
-
+                f.write(f"qwen Answer: {qwen_answer}\n")
+                f.write(f"Correct Answer: {correct_answer}\n")
+                f.write(f"Evidence==: {evidence}\n\n")
+                
+                print("...Evidence written.")
                 print(f"Processed problem {total + 1}.")
                 total += 1
 
@@ -104,10 +102,10 @@ def main(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--dataset_name", type=str, required="allenai/openbookqa")
+    parser.add_argument("--dataset_name", type=str, default="allenai/openbookqa")
     parser.add_argument("--model_name", type=str, default="qwen1.5-7b-chat")
     parser.add_argument("--output_path", type=str, default="evidence.txt")
-    parser.add_argument("--max_questions", type=int, default=200)
+    parser.add_argument("--max_questions", type=int, default=100)
 
     args = parser.parse_args()
     main(args)
